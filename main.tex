@@ -1,0 +1,32 @@
+\documentclass[11pt]{report}
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage[a4paper, total={7in, 10.5in}]{geometry}
+\usepackage{mathpazo} % Palatino font
+\usepackage{graphicx}
+\usepackage{sectsty}
+\usepackage[pagestyles]{titlesec}
+\titleformat{\chapter}[display]{\normalfont\bfseries\centering}{}{0pt}{\Huge}
+\newpagestyle{mystyle}
+{\sethead[\thepage][][\chaptertitle]{}{}{\thepage}}
+\pagestyle{mystyle}
+
+% \allsectionsfont{\centering}
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+\input{front.tex}
+\pagenumbering{roman}
+\input{abstract.tex}
+\tableofcontents
+\cleardoublepage
+\pagenumbering{arabic}
+\input{introduction.tex}
+\input{literature.tex}
+\input{objective.tex}
+\input{scope.tex}
+\input{method.tex}
+\input{techno.tex}
+\input{conclusion.tex}
+\end{document}
