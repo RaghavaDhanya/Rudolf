@@ -7,7 +7,15 @@
 \usepackage{graphicx}
 \usepackage{sectsty}
 \usepackage[pagestyles]{titlesec}
-\titleformat{\chapter}[display]{\normalfont\bfseries\centering}{}{0pt}{\Huge}
+% \titleformat{\chapter}{\bfseries\centering}{}{0pt}{\Huge}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}
+  {}
+  {0pt}
+  {\filcenter\Huge}
+\titlespacing*{\chapter}{0pt}{40pt}{40pt}
+\titleformat*{\section}{\Large\bfseries}
+\titleformat*{\subsection}{\large\bfseries}
 \newpagestyle{mystyle}
 {\sethead[\thepage][][\chaptertitle]{}{}{\thepage}}
 \pagestyle{mystyle}
@@ -16,17 +24,24 @@
 
 \begin{document}
 %----------------------------------------------------------------------------------------
-\input{front.tex}
+\input{sections/front.tex}
 \pagenumbering{roman}
-\input{abstract.tex}
+\input{sections/abstract.tex}
 \tableofcontents
-\cleardoublepage
+\clearpage
 \pagenumbering{arabic}
-\input{introduction.tex}
-\input{literature.tex}
-\input{objective.tex}
-\input{scope.tex}
-\input{method.tex}
-\input{techno.tex}
-\input{conclusion.tex}
+\input{sections/introduction.tex}
+\par
+\input{sections/literature.tex}
+\par
+\input{sections/objective.tex}
+\par
+\input{sections/scope.tex}
+\par
+\input{sections/method.tex}
+\par
+\input{sections/techno.tex}
+\par
+\input{sections/conclusion.tex}
+\par
 \end{document}
