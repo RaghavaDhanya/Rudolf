@@ -6,6 +6,9 @@
 \usepackage{mathpazo} % Palatino font
 \usepackage{graphicx}
 \usepackage{sectsty}
+\usepackage{epigraph}
+\usepackage{indentfirst}
+\usepackage{float}
 \usepackage[pagestyles]{titlesec}
 % \titleformat{\chapter}{\bfseries\centering}{}{0pt}{\Huge}
 \titleformat{\chapter}[display]
@@ -16,6 +19,8 @@
 \titlespacing*{\chapter}{0pt}{40pt}{40pt}
 \titleformat*{\section}{\Large\bfseries}
 \titleformat*{\subsection}{\large\bfseries}
+\setlength\epigraphwidth{.8\textwidth}
+\setlength\epigraphrule{1pt}
 \newpagestyle{mystyle}
 {\sethead[\thepage][][\chaptertitle]{}{}{\thepage}}
 \pagestyle{mystyle}
