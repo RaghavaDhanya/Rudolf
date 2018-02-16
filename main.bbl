@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{wgan}
 Martin Arjovsky, Soumith Chintala, and L{\'e}on Bottou.
@@ -45,11 +45,38 @@ Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
   editors, {\em Advances in Neural Information Processing Systems 25}, pages
   1097--1105. Curran Associates, Inc., 2012.
 
+\bibitem{copgan}
+Ming-Yu Liu and Oncel Tuzel.
+\newblock Coupled generative adversarial networks.
+\newblock In D.~D. Lee, M.~Sugiyama, U.~V. Luxburg, I.~Guyon, and R.~Garnett,
+  editors, {\em Advances in Neural Information Processing Systems 29}, pages
+  469--477. Curran Associates, Inc., 2016.
+
+\bibitem{congan}
+Mehdi Mirza and Simon Osindero.
+\newblock Conditional generative adversarial nets.
+\newblock {\em CoRR}, abs/1411.1784, 2014.
+
+\bibitem{vardivmin}
+Sebastian Nowozin, Botond Cseke, and Ryota Tomioka.
+\newblock f-gan: Training generative neural samplers using variational
+  divergence minimization.
+\newblock In D.~D. Lee, M.~Sugiyama, U.~V. Luxburg, I.~Guyon, and R.~Garnett,
+  editors, {\em Advances in Neural Information Processing Systems 29}, pages
+  271--279. Curran Associates, Inc., 2016.
+
 \bibitem{dcgan}
 Alec Radford, Luke Metz, and Soumith Chintala.
 \newblock Unsupervised representation learning with deep convolutional
   generative adversarial networks.
 \newblock {\em CoRR}, abs/1511.06434, 2015.
+
+\bibitem{capsnet}
+Sara Sabour, Nicholas Frosst, and Geoffrey~E Hinton.
+\newblock Dynamic routing between capsules.
+\newblock In I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach, R.~Fergus,
+  S.~Vishwanathan, and R.~Garnett, editors, {\em Advances in Neural Information
+  Processing Systems 30}, pages 3856--3866. Curran Associates, Inc., 2017.
 
 \bibitem{improvedgan}
 Tim Salimans, Ian Goodfellow, Wojciech Zaremba, Vicki Cheung, Alec Radford,
