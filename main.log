@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.11)  16 FEB 2018 15:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.11)  16 FEB 2018 19:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -683,7 +683,7 @@ Chapter 5.
 File: images/methodology.png Graphic file (type png)
 
 <use images/methodology.png>
-Package pdftex.def Info: images/methodology.png used on input line 3.
+Package pdftex.def Info: images/methodology.png used on input line 4.
 (pdftex.def)             Requested size: 505.89pt x 284.55911pt.
 ) (./sections/techno.tex [7
 
@@ -710,7 +710,7 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 ve/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (13 pages, 1103888 bytes).
+Output written on main.pdf (13 pages, 1108075 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream

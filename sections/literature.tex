@@ -1,5 +1,5 @@
 \chapter{Literature Survey}\label{ch:literature_survey}
-\epigraph{\textit{\Large “Adversarial training is the coolest thing since sliced bread”}}{\textit{ \large Yann LeCun,\\ Director of AI Research at Facebook \\and Professor at NYU}}
+\epigraph{\textit{\Large “Adversarial training is the coolest thing since sliced bread”}}{\textit{ \large Yann LeCun,\\ Director of AI Research at Facebook and Professor at NYU}}
 GANs were first introduced by Ian Goodfellow et al. in 2014[1] in Neural Information Processing Systems 2014 (NIPS 2014). The paper proposes a completely new framework for estimating generative models via an adversarial process. In this process two models are simultaneously trained. According to [1] the network has a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G. This framework corresponds to a minimax two-player game. There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples. This original work by Ian Goodfellow uses fully connected neural networks in the generator and the discriminator.\par\bigskip
 \begin{figure}[H]
 \centering\includegraphics[width=.7\textwidth]{images/vanilaGAN.jpg}
