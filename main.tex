@@ -10,6 +10,8 @@
 \usepackage{indentfirst}
 \usepackage{float}
 \usepackage[pagestyles]{titlesec}
+\usepackage[nottoc,notlof,notlot]{tocbibind} 
+\renewcommand\bibname{References}
 % \titleformat{\chapter}{\bfseries\centering}{}{0pt}{\Huge}
 \titleformat{\chapter}[display]
   {\normalfont\huge\bfseries}
@@ -50,5 +52,8 @@
 \input{sections/techno.tex}
 \par
 \input{sections/conclusion.tex}
+\par\clearpage
+\bibliography{ref}{}
+\bibliographystyle{plain}
 \par
 \end{document}
