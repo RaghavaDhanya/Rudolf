@@ -1,0 +1,64 @@
+\documentclass[11pt]{report}
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage[a4paper, total={7in, 10.5in}]{geometry}
+\usepackage{mathpazo} % Palatino font
+\usepackage{graphicx}
+\usepackage{sectsty}
+\usepackage{lipsum} 
+\usepackage{pgfgantt}
+% \usepackage{indentfirst}
+\usepackage{float}
+\usepackage{framed}
+\usepackage[pagestyles]{titlesec}
+\renewcommand\bibname{References}
+% \titleformat{\chapter}{\bfseries\centering}{}{0pt}{\Huge}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}
+  {}
+  {0pt}
+  {\filcenter\Huge\scshape}
+\titlespacing*{\chapter}{0pt}{40pt}{40pt}
+\titleformat*{\section}{\Large\bfseries}
+\titleformat*{\subsection}{\large\bfseries}
+% \newpagestyle{mystyle}
+% {\sethead[\thepage][][\chaptertitle]{}{}{\thepage}}
+% \pagestyle{mystyle}
+\pagestyle{plain}
+\setlength{\FrameSep}{10pt}
+\setlength{\FrameRule}{1pt}
+\newcommand{\HRule}{\rule{\linewidth}{1pt}\bigskip\par}
+% \allsectionsfont{\centering}
+
+\begin{document}
+\begin{center}
+\textbf{\LARGE\textsc{Department of Computer Science and Engineering}}\bigskip\\
+\textbf{\Large{VIII Semester Project}}\bigskip\\
+\textbf{\huge\textsc{Monthly Progress Report - I}}\bigskip\\
+\end{center}
+\begin{framed}
+\noindent \large{Batch No. }\hspace{64pt}\textbf{\large{35}}\medskip\\
+\large{Title of the project: }\hspace{17pt}\textbf{\large\textsc{Picture Regeneration using Generative Models}}\medskip\\
+\noindent\begin{tabular}{@{}l@{\hspace{31pt}}l r }
+\large{Team members: }  & {\large \textbf{Abhijith C.}}       & \large \textbf{1MV14CS004} \\
+                        & {\large \textbf{Raghava G. Dhanya}} & \large \textbf{1MV14CS077} \\
+                        & {\large \textbf{Shashank S.}}       & \large \textbf{1MV14CS131}
+\end{tabular}\\[15pt]  
+\noindent \large{Name of the Guide }\hspace{13pt}\textbf{\large{Sushila Shidnal}}\medskip\\
+\noindent \large{Duration }\hspace{66pt}\textbf{\large{From sometime to sometime}}\medskip\\
+\HRule
+\noindent \textbf{\Large{Details of work carried out:}}\\
+\indent\lipsum[5-10]\par\bigskip
+\noindent \textbf{\Large{Time-line details:}}\\
+\indent\lipsum[2-4]\par\bigskip
+\noindent\HRule
+\vspace{50px}
+
+\centering
+\textbf{Head of Department}
+\vspace{50px}
+\flushleft\textbf{Project Guide}\hfill\textbf{Project Coordinator}
+\end{framed}
+
+\end{document}
