@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.16)  14 MAR 2018 15:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.16)  14 MAR 2018 19:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -752,52 +752,66 @@ File: pgfcalendar.code.tex 2007/07/23 v3.0.1a (rcs-revision 1.11)
 \gtt@calendar@startofweek=\count124
 \gtt@left@slot=\count125
 \gtt@right@slot=\count126
-) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks30
+\AP@partial=\box39
+\AP@footins=\box40
+)
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen160
+\WF@size=\dimen161
+\c@WF@wrappedlines=\count127
+\WF@box=\box41
+\WF@everypar=\toks31
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count127
-\float@exts=\toks30
-\float@box=\box39
-\@float@everytoks=\toks31
-\@floatcapt=\box40
+\c@float@type=\count128
+\float@exts=\toks32
+\float@box=\box42
+\@float@everytoks=\toks33
+\@floatcapt=\box43
 )
 (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip43
-\fb@frw=\dimen160
-\fb@frh=\dimen161
-\FrameRule=\dimen162
-\FrameSep=\dimen163
+\fb@frw=\dimen162
+\fb@frh=\dimen163
+\FrameRule=\dimen164
+\FrameSep=\dimen165
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/15 v2.10.1 Sectioning titles
-\ttl@box=\box41
+\ttl@box=\box44
 \beforetitleunit=\skip44
 \aftertitleunit=\skip45
-\ttl@plus=\dimen164
-\ttl@minus=\dimen165
-\ttl@toksa=\toks32
-\titlewidth=\dimen166
-\titlewidthlast=\dimen167
-\titlewidthfirst=\dimen168
+\ttl@plus=\dimen166
+\ttl@minus=\dimen167
+\ttl@toksa=\toks34
+\titlewidth=\dimen168
+\titlewidthlast=\dimen169
+\titlewidthfirst=\dimen170
 
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/ttlps.def
 File: ttlps.def 2016/03/15
 )) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
@@ -811,14 +825,14 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(45.80893pt, 505.89pt, 45.80894pt)
-* v-part:(T,H,B)=(34.48474pt, 758.83499pt, 51.72711pt)
+* v-part:(T,H,B)=(48.93872pt, 722.7pt, 73.40813pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=505.89pt
-* \textheight=758.83499pt
+* \textheight=722.7pt
 * \oddsidemargin=-26.46106pt
 * \evensidemargin=-26.46106pt
-* \topmargin=-74.78525pt
+* \topmargin=-60.33127pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -836,20 +850,20 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\big@size=\dimen169
+\big@size=\dimen171
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count128
-\scratchdimen=\dimen170
-\scratchbox=\box42
-\nofMPsegments=\count129
-\nofMParguments=\count130
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count131
-\MPscratchDim=\dimen171
-\MPnumerator=\count132
-\makeMPintoPDFobject=\count133
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count129
+\scratchdimen=\dimen172
+\scratchbox=\box45
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen173
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks36
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -896,79 +910,87 @@ e
 ))
 ABD: EveryShipout initializing macros
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 36.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 36.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 36.
+(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 37.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 38.
-LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 38.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 41.
-LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <12> not available
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/sc' tried instead on input line 42.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 43.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 45.
+LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <12> not available
+(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 46.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 47.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 43.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 47.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 43.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 47.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 43.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 47.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 43.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 47.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-<timeline.png, id=4, 1042.89626pt x 842.14626pt>
+<MNIST.png, id=4, 217.81375pt x 216.81pt>
+File: MNIST.png Graphic file (type png)
+ <use MNIST.png>
+Package pdftex.def Info: MNIST.png used on input line 58.
+(pdftex.def)             Requested size: 145.16847pt x 144.49773pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./MNIST.png>]
+<timeline.png, id=13, 1042.89626pt x 842.14626pt>
 File: timeline.png Graphic file (type png)
  <use timeline.png>
-Package pdftex.def Info: timeline.png used on input line 54.
+Package pdftex.def Info: timeline.png used on input line 78.
 (pdftex.def)             Requested size: 532.28195pt x 429.82301pt.
 
-Overfull \hbox (48.39195pt too wide) in paragraph at lines 53--55
+Overfull \hbox (48.39195pt too wide) in paragraph at lines 78--78
 [] 
  []
 
-[1
+[2
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./timeline.png>]
-(./main.aux) ) 
+ <./timeline.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 15096 strings out of 493029
- 304433 string characters out of 6136234
- 456024 words of memory out of 5000000
- 18312 multiletter control sequences out of 15000+600000
- 26311 words of font info for 50 fonts, out of 8000000 for 9000
+ 15198 strings out of 493029
+ 305787 string characters out of 6136234
+ 456691 words of memory out of 5000000
+ 18400 multiletter control sequences out of 15000+600000
+ 33575 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,8n,65p,466b,215s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/
-share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (2 pages, 86766 bytes).
+ 62i,8n,65p,470b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips
+/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (2 pages, 115705 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
- 17 compressed objects within 1 object stream
+ 31 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

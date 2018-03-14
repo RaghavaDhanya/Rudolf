@@ -2,12 +2,14 @@
 
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
-\usepackage[a4paper, total={7in, 10.5in}]{geometry}
+\usepackage[a4paper, total={7in, 10in}]{geometry}
 \usepackage{mathpazo} % Palatino font
 \usepackage{graphicx}
 \usepackage{sectsty}
 \usepackage{lipsum} 
 \usepackage{pgfgantt}
+\usepackage{afterpage}
+\usepackage{wrapfig}
 % \usepackage{indentfirst}
 \usepackage{float}
 \usepackage{framed}
@@ -22,6 +24,8 @@
 \titlespacing*{\chapter}{0pt}{40pt}{40pt}
 \titleformat*{\section}{\Large\bfseries}
 \titleformat*{\subsection}{\large\bfseries}
+
+\renewcommand*\footnoterule{}
 % \newpagestyle{mystyle}
 % {\sethead[\thepage][][\chaptertitle]{}{}{\thepage}}
 % \pagestyle{mystyle}
@@ -48,17 +52,27 @@
 \noindent \large{Name of the Guide }\hspace{13pt}\textbf{\large{Sushila Shidnal}}\medskip\\
 \noindent \large{Duration }\hspace{66pt}\textbf{\large{From sometime to sometime}}\medskip\\
 \HRule
-\noindent \textbf{\Large{Details Of Work Carried Out:}}\\
-\indent\lipsum[2-6]\par\bigskip
+\noindent \textbf{\Large{Details Of Work Carried Out:}}\bigskip\\
+\large{Under Basic GAN, we implemented the DCGAN architecture from Alec Radford \textit{et al}\footnotemark. We were able to reproduce the results on the MNIST dataset and on facial images with a high degree of visual accuracy. The training took around 30 hours to complete on a modest home computer.\par}
+\begin{wrapfigure}{l}{0.3\textwidth}
+\includegraphics[width=.3\textwidth]{MNIST.png}
+\caption{GAN output after 40000 epochs}
+\end{wrapfigure} 
+\lipsum[1-2]
+
+\end{framed}
+\footnotetext{Alec Radford, Luke Metz, and Soumith Chintala. Unsupervised representation learning with deep
+convolutional generative adversarial networks. CoRR, abs/1511.06434, 2015.}
+\afterpage{
+\begin{framed}
 \noindent \textbf{\Large{Time-line:}}\\[10pt]
 \includegraphics[width=1.1\textwidth]{timeline.png}\\[10pt] 
 \noindent\HRule
 \vspace{50px}
-
 \centering
 \textbf{Head of the Department}
 \vspace{50px}
 \flushleft\textbf{Project Guide}\hfill\textbf{Project Coordinator}
 \end{framed}
-
+}
 \end{document}
