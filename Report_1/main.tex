@@ -50,17 +50,17 @@
                         & {\large \textbf{Shashank S.}}       & \large \textbf{1MV14CS131}
 \end{tabular}\\[15pt]  
 \noindent \large{Name of the Guide: }\hspace{12pt}\textbf{\large{Sushila Shidnal}}\medskip\\
-\noindent \large{Duration: }\hspace{65pt}\textbf{\large{From sometime to sometime}}\medskip\\
+\noindent \large{Duration: }\hspace{65pt}\textbf{\large{From February Week 3 to March Week 1}}\medskip\\
 \HRule
 \noindent \textbf{\Large{Details Of Work Carried Out:}}\bigskip\\
-\indent Under Basic GAN, we implemented the DCGAN architecture from Alec Radford \textit{et al}\footnotemark[1]. We were able to reproduce the results on the MNIST dataset and on facial images with a high degree of visual accuracy. The training with CelebA dataset which has 200k examples each with 28x28 pixels took around 30 hours to complete 1600 epochs on a modest home computer system.\par
+\indent Under Basic GAN, we implemented the DCGAN architecture from Alec Radford \textit{et al}\footnotemark[1]. We were able to reproduce the results on the MNIST dataset, which is a handwritten digit database with a high degree of visual accuracy. The training with CelebA dataset, a dataset of celebrity faces which has 200k examples each with 28x28 pixels, took around 30 hours to complete 1600 epochs on a modest home computer system.\par
 \begin{wrapfigure}{l}{0.3\textwidth}
 \includegraphics[width=.3\textwidth]{MNIST.png}
-\caption{GAN output after 40000 epochs}
+\caption{GAN output after 40000 epochs on MNIST}
 \label{fig:MNIST}
 \end{wrapfigure} 
-Seeing as the training would take an enormous amount of time on standard computing systems we searched for other options. After considering AWS and Google Colaboratory, we decided on Colaboratory for its ease of use. It allows us to implement code in the form of Jupyter notebooks stored on the Google drive. Colaboratory has Nvidia Tesla GPU back-end support and 13 GB of RAM which helps improve the training speeds. For comparison it took 70 minutes to train the same DCGAN on MNIST dataset which has 60000 examples each with 28x28 pixels for 60000 epochs, It is more than 8x speedup even if the number of epochs are ignored. We can see the results in figure \ref{fig:MNIST}.\par
-The next step in the process was to implement a vanilla CapsNet. This would act as the base code which we will augment to finally shape it into a GAN. We implemented CapsNet architecture similar to that of in Geoffrey Hinton \textit{et al.}\footnotemark[2]. We were able to reproduce the results but with longer training times.
+Seeing as the training would take an enormous amount of time on standard computing systems we searched for other options. After considering AWS and Google Colaboratory, we decided on Colaboratory for its ease of use. It allows us to implement code in the form of Jupyter notebooks stored on the Google drive. Colaboratory has Nvidia Tesla GPU back-end support and 13 GB of RAM which helps improve the training speeds. For comparison it took 70 minutes to train the same DCGAN on MNIST dataset which has 60000 examples each with 28x28 pixels for 60000 epochs. This had a speedup of about 8x, even if the number of epochs are ignored. We can see the results in figure \ref{fig:MNIST}.\par
+The next step in the process was to implement a vanilla CapsNet. This would act as the base code which we will augment to finally shape it into a GAN. We implemented CapsNet architecture similar to that of in Geoffrey Hinton \textit{et al.}\footnotemark[2]. We were able to reproduce the results but with longer training times. This code will be used to build a binary classifier to make it into the discriminator component of the GAN.
 \end{framed}
 \footnotetext[1]{Alec Radford, Luke Metz, and Soumith Chintala. Unsupervised representation learning with deep
 convolutional generative adversarial networks. CoRR, abs/1511.06434, 2015.}
