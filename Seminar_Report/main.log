@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.16)  21 MAR 2018 20:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.16)  21 MAR 2018 20:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -476,14 +476,14 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(45.80893pt, 505.89pt, 45.80894pt)
-* v-part:(T,H,B)=(77.84674pt, 650.43pt, 116.77011pt)
+* v-part:(T,H,B)=(34.48474pt, 758.83499pt, 51.72711pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=505.89pt
-* \textheight=650.43pt
+* \textheight=758.83499pt
 * \oddsidemargin=-26.46106pt
 * \evensidemargin=-26.46106pt
-* \topmargin=-31.42325pt
+* \topmargin=-74.78525pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -640,8 +640,8 @@ No file main.bbl.
 (./main.aux) ) 
 Here is how much of TeX's memory you used:
  3353 strings out of 493029
- 44478 string characters out of 6136234
- 109440 words of memory out of 5000000
+ 44489 string characters out of 6136234
+ 109457 words of memory out of 5000000
  6786 multiletter control sequences out of 15000+600000
  29924 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -649,7 +649,7 @@ Here is how much of TeX's memory you used:
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/
 share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (7 pages, 497143 bytes).
+Output written on main.pdf (7 pages, 497107 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream

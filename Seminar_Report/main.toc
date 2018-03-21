@@ -1,5 +1,5 @@
 \contentsline {chapter}{Abstract}{i}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {chapter}{\numberline {2}Literature Survey}{2}
-\contentsline {chapter}{\numberline {3}Scope}{3}
+\contentsline {chapter}{\numberline {2}Technical Description}{2}
+\contentsline {chapter}{\numberline {3}Applications}{3}
 \contentsline {chapter}{\numberline {4}Conclusion}{4}
