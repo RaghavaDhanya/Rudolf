@@ -1,0 +1,54 @@
+\documentclass[12pt]{report}
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage[a4paper, total={7in, 9in}]{geometry}
+\usepackage{mathpazo} % Palatino font
+\usepackage{graphicx}
+\usepackage{sectsty}
+\usepackage{epigraph}
+\usepackage{indentfirst}
+\usepackage{float}
+\usepackage[pagestyles]{titlesec}
+\usepackage[nottoc,notlof,notlot]{tocbibind} 
+\renewcommand\bibname{References}
+% \titleformat{\chapter}{\bfseries\centering}{}{0pt}{\Huge}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}
+  {}
+  {0pt}
+  {\filcenter\Huge\scshape}
+\titlespacing*{\chapter}{0pt}{40pt}{40pt}
+\titleformat*{\section}{\Large\bfseries}
+\titleformat*{\subsection}{\large\bfseries}
+\setlength\epigraphwidth{.8\textwidth}
+\setlength\epigraphrule{1pt}
+% \newpagestyle{mystyle}
+% {\sethead[\thepage][][\chaptertitle]{}{}{\thepage}}
+% \pagestyle{mystyle}
+\pagestyle{plain}
+
+% \allsectionsfont{\centering}
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+\input{sections/front.tex}
+\pagenumbering{roman}
+\input{sections/abstract.tex}
+\tableofcontents
+% \listoffigures
+\clearpage
+\pagenumbering{arabic}
+\input{sections/introduction.tex}
+\par
+\input{sections/tech.tex}
+\par
+\input{sections/apps.tex}
+\par
+
+\input{sections/conclusion.tex}
+\par\clearpage
+\bibliography{ref}{}
+\bibliographystyle{plain}
+\par
+\end{document}
