@@ -3,6 +3,8 @@
 \contentsline {section}{\numberline {1.1}Deep Learning: The boom}{1}
 \contentsline {section}{\numberline {1.2}How can Quantum Computers Help?}{2}
 \contentsline {chapter}{\numberline {2}Technical Description}{3}
-\contentsline {chapter}{\numberline {3}Applications}{4}
-\contentsline {chapter}{\numberline {4}Conclusion}{5}
-\contentsline {chapter}{References}{6}
+\contentsline {section}{\numberline {2.1}Quantum Enhanced Machine Learning}{3}
+\contentsline {section}{\numberline {2.2}Search: Grover's algorithm}{3}
+\contentsline {chapter}{\numberline {3}Applications}{5}
+\contentsline {chapter}{\numberline {4}Conclusion}{6}
+\contentsline {chapter}{References}{7}
