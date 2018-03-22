@@ -4,45 +4,45 @@ The top-level auxiliary file: main.aux
 The style file: plain.bst
 Database file #1: ref.bib
 Warning--empty booktitle in lecun
-You've used 2 entries,
+You've used 5 entries,
             2118 wiz_defined-function locations,
-            511 strings with 4324 characters,
-and the built_in function-call counts, 770 in all, are:
-= -- 77
-> -- 31
-< -- 2
-+ -- 13
-- -- 10
-* -- 50
-:= -- 125
-add.period$ -- 7
-call.type$ -- 2
-change.case$ -- 11
+            532 strings with 4762 characters,
+and the built_in function-call counts, 1890 in all, are:
+= -- 188
+> -- 79
+< -- 3
++ -- 32
+- -- 26
+* -- 129
+:= -- 299
+add.period$ -- 16
+call.type$ -- 5
+change.case$ -- 28
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 34
-empty$ -- 59
-format.name$ -- 10
-if$ -- 166
+cite$ -- 6
+duplicate$ -- 83
+empty$ -- 147
+format.name$ -- 26
+if$ -- 409
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 2
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 14
+int.to.str$ -- 5
+missing$ -- 5
+newline$ -- 28
+num.names$ -- 10
+pop$ -- 31
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 23
 quote$ -- 0
-skip$ -- 26
+skip$ -- 66
 stack$ -- 0
-substring$ -- 43
-swap$ -- 11
-text.length$ -- 2
+substring$ -- 113
+swap$ -- 28
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
+type$ -- 20
 warning$ -- 1
-while$ -- 7
-width$ -- 3
-write$ -- 24
+while$ -- 17
+width$ -- 6
+write$ -- 57
 (There was 1 warning)

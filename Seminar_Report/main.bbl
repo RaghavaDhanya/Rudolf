@@ -1,10 +1,26 @@
 \begin{thebibliography}{1}
 
+\bibitem{quananneal}
+A.B. Finnila, M.A. Gomez, C.~Sebenik, C.~Stenson, and J.D. Doll.
+\newblock Quantum annealing: A new method for minimizing multidimensional
+  functions.
+\newblock {\em Chemical Physics Letters}, 219(5):343 -- 348, 1994.
+
+\bibitem{grover}
+Vladimir~E. Korepin and Lov~K. Grover.
+\newblock Simple algorithm for partial quantum search.
+\newblock {\em Quantum Information Processing}, 5(1):5--10, Feb 2006.
+
 \bibitem{lecun}
 Yann LeCun and Yoshua Bengio.
 \newblock The handbook of brain theory and neural networks.
 \newblock chapter Convolutional Networks for Images, Speech, and Time Series,
   pages 255--258. MIT Press, Cambridge, MA, USA, 1998.
+
+\bibitem{matinv}
+S.~{Lloyd}.
+\newblock {Quantum algorithm for solving linear systems of equations}.
+\newblock In {\em APS March Meeting Abstracts}, page D4.002, March 2010.
 
 \bibitem{kmeans}
 S.~{Lloyd}, M.~{Mohseni}, and P.~{Rebentrost}.
