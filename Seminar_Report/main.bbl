@@ -1,5 +1,11 @@
 \begin{thebibliography}{1}
 
+\bibitem{lecun}
+Yann LeCun and Yoshua Bengio.
+\newblock The handbook of brain theory and neural networks.
+\newblock chapter Convolutional Networks for Images, Speech, and Time Series,
+  pages 255--258. MIT Press, Cambridge, MA, USA, 1998.
+
 \bibitem{kmeans}
 S.~{Lloyd}, M.~{Mohseni}, and P.~{Rebentrost}.
 \newblock {Quantum algorithms for supervised and unsupervised machine

@@ -1,6 +1,8 @@
 \contentsline {chapter}{Abstract}{i}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {chapter}{\numberline {2}Technical Description}{2}
-\contentsline {chapter}{\numberline {3}Applications}{3}
-\contentsline {chapter}{\numberline {4}Conclusion}{4}
-\contentsline {chapter}{References}{5}
+\contentsline {section}{\numberline {1.1}Deep Learning: The boom}{1}
+\contentsline {section}{\numberline {1.2}How can Quantum Computers Help?}{2}
+\contentsline {chapter}{\numberline {2}Technical Description}{3}
+\contentsline {chapter}{\numberline {3}Applications}{4}
+\contentsline {chapter}{\numberline {4}Conclusion}{5}
+\contentsline {chapter}{References}{6}
