@@ -1,0 +1,83 @@
+\documentclass[12pt, oneside]{report}
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage[a4paper,left=1in,right=1in,top=.75in,bottom=.75in]{geometry}
+\usepackage{mathpazo} % Palatino font
+\usepackage{graphicx}
+\usepackage{sectsty}
+\usepackage{epigraph}
+\usepackage{indentfirst}
+\usepackage{float}
+\usepackage[pagestyles]{titlesec}
+\usepackage{setspace}
+\usepackage[nottoc,notlof,notlot]{tocbibind}
+
+% \renewcommand{\baselinestretch}{1.5} 
+
+\renewcommand\bibname{References}
+\titleformat{\chapter}[display]
+{\normalfont\Large\bfseries}{\scshape\chaptertitlename\ \thechapter}{20pt}{\filcenter\LARGE\scshape}
+
+
+\titlespacing*{\chapter}{0pt}{0pt}{20pt}
+\titleformat*{\section}{\Large\bfseries}
+\titleformat*{\subsection}{\large\bfseries}
+\setlength\epigraphwidth{.8\textwidth}
+\setlength\epigraphrule{1pt}
+
+
+\renewpagestyle{plain}{
+  \setheadrule{.4pt}
+  \setfootrule{.4pt}% Header rule
+  \setfootrule{.4pt}% Footer rule
+  \sethead[Image Regeneration with Generative Models]% odd-left
+          []% odd-center
+          [\chaptertitle]% odd-right
+          {Image Regeneration with Generative Models}% even-left
+          {}% even-center
+          {\chaptertitle}% even-right
+  \setfoot[Dept. of CSE, Sir MVIT]% odd-left
+          []% odd-center
+          [\thepage]% odd-right
+          {Dept. of CSE, Sir MVIT}% even-left
+          {}% even-center
+          {\thepage}% even-right
+}
+
+\pagestyle{plain}
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+{\setstretch{1.0}
+\input{sections/front.tex}\par
+\input{sections/front.tex}\par
+}
+\pagenumbering{roman}
+\input{sections/certificate.tex}\par
+\input{sections/abstract.tex}\par
+\tableofcontents
+% \listoffigures
+\clearpage
+\pagenumbering{arabic}
+% \pagestyle{plain}
+\input{sections/introduction.tex}
+\par
+\input{sections/literature.tex}
+\par
+\input{sections/objective.tex}
+\par
+\input{sections/scope.tex}
+\par
+\input{sections/method.tex}
+\par
+\input{sections/techno.tex}
+\par
+\input{sections/conclusion.tex}
+\par\clearpage
+\bibliography{ref}{}
+\bibliographystyle{plainyr-rev}
+\par
+\end{document}
