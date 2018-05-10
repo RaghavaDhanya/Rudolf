@@ -7,10 +7,10 @@
 \contentsline {section}{\numberline {1.2}Generative Adversarial Networks}{2}
 \contentsline {section}{\numberline {1.3}Convolutional Neural Networks}{3}
 \contentsline {section}{\numberline {1.4}Capsule Networks}{3}
-\contentsline {chapter}{\numberline {2}Literature Survey}{4}
-\contentsline {chapter}{\numberline {3}Objective}{6}
-\contentsline {chapter}{\numberline {4}Scope}{7}
-\contentsline {chapter}{\numberline {5}Methodology}{8}
-\contentsline {chapter}{\numberline {6}Technology}{10}
-\contentsline {chapter}{\numberline {7}Conclusion}{11}
-\contentsline {chapter}{References}{12}
+\contentsline {chapter}{\numberline {2}Literature Survey}{5}
+\contentsline {chapter}{\numberline {3}Objective}{7}
+\contentsline {chapter}{\numberline {4}Scope}{8}
+\contentsline {chapter}{\numberline {5}Methodology}{9}
+\contentsline {chapter}{\numberline {6}Technology}{11}
+\contentsline {chapter}{\numberline {7}Conclusion}{12}
+\contentsline {chapter}{References}{13}

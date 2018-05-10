@@ -34,13 +34,26 @@ To learn the distribution of the generator $p_g$ over data $\bm{x}$, we define a
 
 \section{Convolutional Neural Networks} % (fold)
 \label{sec:convolutional_neural_networks}
+
+\begin{figure}[H]
+\centering\includegraphics[width=.7\textwidth]{images/CNN.jpg}
+\caption{Convolutional Neural Network}
+\label{fig:cnn}
+\end{figure}
 Before we can jump to understanding Capsule Networks, we need to know about Convolutional Neural Networks(CNNs). Convolutional neural networks are very similar to ordinary neural networks, they consist of neurons that have learn-able weights and biases. Each neuron receives inputs, performs a scalar product and possibly follows it with a nonlinearity. The entire network expresses a single differentiable score function: raw image pixels at one end to class scores at the other end. And they still have a loss function on the last layer.\par\bigskip
 The major difference is that CNN explicitly assumes that the inputs are images, which allows us to encode certain properties in the architecture. These then make the forward functions more efficient to implement and significantly reduces the amount of parameters in the network.\par\bigskip
-Ordinary neural networks don’t scale well to full images, for example, A colour image of dimensions of 150x150 (which is considered as low resolution by most people) has a shape (150,150,3), a fully connected neuron on first layer which receives this image would require 67500 weights. Unlike an ordinary neural network, the layers of a CNN have neurons arranged in 3 dimensions: width, height, depth, the neurons in a layer will only be connected to a small region of the layer before it, instead of all of the neurons in a fully-connected manner. CNN  will reduce the full image into a single vector of class scores, arranged along the depth dimension.\par\bigskip
-CNNs use a "Pooling" layer to reduce the spatial size of the input for each convolutional layer. The Pooling Layer operates independently on every depth slice of the input and resizes it spatially, using the MAX operation, hence pooling layer is sometimes referred to as Max Pooling layer.
+Ordinary neural networks don’t scale well to full images, for example, A colour image of dimensions of 150x150 (which is considered as low resolution by most people) has a shape (150,150,3), a fully connected neuron on first layer which receives this image would require 67500 weights. Unlike an ordinary neural network, the layers of a CNN have neurons arranged in 3 dimensions: width, height, depth as shown in figure \ref{fig:cnn}. The neurons in a layer will only be connected to a small region of the layer before it, instead of all of the neurons in a fully-connected manner. CNN  will reduce the full image into a single vector of class scores, arranged along the depth dimension.\par\bigskip
+CNNs use a "Pooling" layer to reduce the spatial size of the input for each convolutional layer. The Pooling Layer operates independently on every depth slice of the input and resizes it spatially, generally using the MAX operation, hence pooling layer is sometimes referred to as Max Pooling layer.
 % section convolutional_neural_network (end)
 
 \section{Capsule Networks} % (fold)
 \label{sec:capsule_networks}
-“The pooling operation used in convolutional neural networks is a big mistake and the fact that it works so well is a disaster.” says Geoffrey Hinton, one of the founders of deep learning (Also known as Godfather of Deep Learning) and an inventor of numerous models and algorithms that are widely used today.
+“The pooling operation used in convolutional neural networks is a big mistake and the fact that it works so well is a disaster.” says Geoffrey Hinton, one of the founders of deep learning (Also known as Godfather of Deep Learning) and an inventor of numerous models and algorithms that are widely used today. CNNs perform exceptionally great when they are classifying images which are very close to the data set. If the images have rotation, tilt or any other different orientation then CNNs have poor performance. This problem is usually partially solved by adding different variations of the same image during training. But CNNs still require large amount of data to perform reasonably well. We use pooling after each layer to make it compute in reasonable time frames. But in essence, it also loses out the positional data.\par\bigskip
+\begin{figure}[H]
+\centering\includegraphics[width=.7\textwidth]{images/caps.png}
+\caption{Capsule Networks}
+\label{fig:caps}
+\end{figure}
+What we need is not invariance but equivariance. Invariance makes a CNN tolerant to small changes in the viewpoint. Equivariance makes a CNN understand the rotation or proportion change and adapt itself accordingly so that the spatial positioning inside an image is not lost. This leads us to Capsule Networks.\par\bigskip
+Capsule is a nested set of neural layers as shown in figure \ref{fig:caps}. Capsules are like cortical columns in human brains. Deep neural nets learn by back-propagation of errors over the entire network. In contrast real brains supposedly wire neurons by Hebbian principles: “units that fire together, wire together”. Capsules mimic Hebbian learning in the way that: “A lower-level capsule prefers to send its output to higher level capsules whose activity vectors have a big scalar product with the prediction coming from the lower-level capsule”. Capsules, combination of capsules encodes objects parts AND their relative positions, so an object instance can be accurately derived from the presence of the parts at the right locations, and not just their presence. Capsules produce equivariant features. Capsules predict the activity of higher-layer capsules to route information to right higher-layer capsules, this is called "Dynamic routing".
 % section capsule_networks (end)
