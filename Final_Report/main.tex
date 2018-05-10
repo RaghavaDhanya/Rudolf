@@ -13,34 +13,42 @@
 \usepackage{setspace}
 \usepackage[nottoc,notlof,notlot]{tocbibind}
 
+\usepackage{amsmath,bm} 
+
+\usepackage{etoolbox}
+% correct a bug in titlesec package
+\makeatletter
+\patchcmd{\ttlh@hang}{\parindent\z@}{\parindent\z@\leavevmode}{}{}
+\patchcmd{\ttlh@hang}{\noindent}{}{}{}
+\makeatother
 % \renewcommand{\baselinestretch}{1.5} 
 
 \renewcommand\bibname{References}
 \titleformat{\chapter}[display]
 {\normalfont\Large\bfseries}{\scshape\chaptertitlename\ \thechapter}{20pt}{\filcenter\LARGE\scshape}
+\titleformat{\section}{\bfseries\large}{\thesection}{0.4em}{}
+\titleformat{\subsection}{\bfseries}{\thesubsection}{0.4em}{}
 
 
-\titlespacing*{\chapter}{0pt}{0pt}{20pt}
-\titleformat*{\section}{\Large\bfseries}
-\titleformat*{\subsection}{\large\bfseries}
+% \titlespacing*{\chapter}{0pt}{0pt}{20pt}
+% \titleformat*{\subsection}{\bfseries}
 \setlength\epigraphwidth{.8\textwidth}
 \setlength\epigraphrule{1pt}
 
 
-\renewpagestyle{plain}{
+\newpagestyle{fncy}{
   \setheadrule{.4pt}
   \setfootrule{.4pt}% Header rule
-  \setfootrule{.4pt}% Footer rule
   \sethead[Image Regeneration with Generative Models]% odd-left
           []% odd-center
           [\chaptertitle]% odd-right
           {Image Regeneration with Generative Models}% even-left
           {}% even-center
           {\chaptertitle}% even-right
-  \setfoot[Dept. of CSE, Sir MVIT]% odd-left
+  \setfoot[Department of CSE, Sir MVIT]% odd-left
           []% odd-center
           [\thepage]% odd-right
-          {Dept. of CSE, Sir MVIT}% even-left
+          {Department of CSE, Sir MVIT}% even-left
           {}% even-center
           {\thepage}% even-right
 }
@@ -55,14 +63,34 @@
 \input{sections/front.tex}\par
 \input{sections/front.tex}\par
 }
-\pagenumbering{roman}
 \input{sections/certificate.tex}\par
+\input{sections/declaration.tex}\par
+
+\pagenumbering{roman}
 \input{sections/abstract.tex}\par
 \tableofcontents
 % \listoffigures
 \clearpage
 \pagenumbering{arabic}
 % \pagestyle{plain}
+\renewpagestyle{plain}{
+  \setheadrule{.4pt}
+  \setfootrule{.4pt}% Header rule
+  \sethead[Image Regeneration with Generative Models]% odd-left
+          []% odd-center
+          [\chaptertitle]% odd-right
+          {Image Regeneration with Generative Models}% even-left
+          {}% even-center
+          {\chaptertitle}% even-right
+  \setfoot[Department of CSE, Sir MVIT]% odd-left
+          []% odd-center
+          [\thepage]% odd-right
+          {Department of CSE, Sir MVIT}% even-left
+          {}% even-center
+          {\thepage}% even-right
+}
+\pagestyle{fncy}
+
 \input{sections/introduction.tex}
 \par
 \input{sections/literature.tex}
