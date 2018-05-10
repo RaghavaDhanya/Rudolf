@@ -47,6 +47,11 @@ Sebastian Nowozin, Botond Cseke, and Ryota Tomioka.
   editors, {\em Advances in Neural Information Processing Systems 29}, pages
   271--279. Curran Associates, Inc., 2016.
 
+\bibitem{acgan}
+Augustus Odena, Christopher Olah, and Jonathon Shlens.
+\newblock Conditional image synthesis with auxiliary classifier gans.
+\newblock {\em arXiv preprint arXiv:1610.09585}, 2016.
+
 \bibitem{improvedgan}
 Tim Salimans, Ian Goodfellow, Wojciech Zaremba, Vicki Cheung, Alec Radford,
   Xi~Chen, and Xi~Chen.

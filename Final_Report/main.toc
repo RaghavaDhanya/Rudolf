@@ -9,9 +9,16 @@
 \contentsline {section}{\numberline {1.4}Capsule Networks}{4}
 \contentsline {chapter}{\numberline {2}Literature Survey}{5}
 \contentsline {section}{\numberline {2.1}DCGAN}{5}
-\contentsline {chapter}{\numberline {3}Objective}{7}
-\contentsline {chapter}{\numberline {4}Scope}{8}
-\contentsline {chapter}{\numberline {5}Methodology}{9}
-\contentsline {chapter}{\numberline {6}Technology}{11}
-\contentsline {chapter}{\numberline {7}Conclusion}{12}
-\contentsline {chapter}{References}{13}
+\contentsline {section}{\numberline {2.2}InfoGAN}{6}
+\contentsline {section}{\numberline {2.3}ACGAN}{6}
+\contentsline {section}{\numberline {2.4}WGAN}{6}
+\contentsline {section}{\numberline {2.5}Other GANs}{6}
+\contentsline {section}{\numberline {2.6}Capsule Neural Network}{7}
+\contentsline {chapter}{\numberline {3}Objective}{8}
+\contentsline {chapter}{\numberline {4}Scope}{9}
+\contentsline {chapter}{\numberline {5}Methodology}{10}
+\contentsline {chapter}{\numberline {6}Technology}{12}
+\contentsline {chapter}{\numberline {7}Implementation}{13}
+\contentsline {chapter}{\numberline {8}Execution and Results}{14}
+\contentsline {chapter}{\numberline {9}Conclusion}{15}
+\contentsline {chapter}{References}{16}
