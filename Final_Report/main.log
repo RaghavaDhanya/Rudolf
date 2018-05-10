@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.16)  10 MAY 2018 23:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.16)  11 MAY 2018 01:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -712,28 +712,27 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 15.
  [1])
 (./sections/declaration.tex
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--9
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--16
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
  []
 
-[1
 
-]) (./sections/acknowledgments.tex) (./sections/abstract.tex [1
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+[1]) (./sections/acknowledgments.tex
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
+) (./sections/abstract.tex [1
 
 ]) [2
 
@@ -788,15 +787,16 @@ File: images/caps.png Graphic file (type png)
 <use images/caps.png>
 Package pdftex.def Info: images/caps.png used on input line 58.
 (pdftex.def)             Requested size: 317.07614pt x 88.68736pt.
-) (./sections/literature.tex [4 <./images/caps.png>]
+ [4 <./images/caps.png>]) (./sections/literature.tex
+[5]
 Chapter 2.
-<images/dcgan.png, id=57, 996.72375pt x 229.85875pt>
+<images/dcgan.png, id=61, 996.72375pt x 229.85875pt>
 File: images/dcgan.png Graphic file (type png)
  <use images/dcgan.png>
-Package pdftex.def Info: images/dcgan.png used on input line 14.
+Package pdftex.def Info: images/dcgan.png used on input line 16.
 (pdftex.def)             Requested size: 452.9679pt x 104.45961pt.
 
-[5
+[6
 
  <./images/dcgan.png>]
 Overfull \hbox (21.98671pt too wide) in paragraph at lines 47--48
@@ -804,47 +804,40 @@ Overfull \hbox (21.98671pt too wide) in paragraph at lines 47--48
  ^^U in-clud-ing non-conditional
  []
 
-[6]) (./sections/objective.tex [7]
+[7]) (./sections/techno.tex [8]
 Chapter 3.
-) (./sections/scope.tex [8
+[9
 
-]
+]) (./sections/objective.tex [10]
 Chapter 4.
-) (./sections/method.tex [9
+) (./sections/scope.tex [11
 
 ]
 Chapter 5.
-<images/methodology.png, id=75, 963.6pt x 542.025pt>
+) (./sections/method.tex [12
+
+]
+Chapter 6.
+<images/methodology.png, id=85, 963.6pt x 542.025pt>
 File: images/methodology.png Graphic file (type png)
 
 <use images/methodology.png>
 Package pdftex.def Info: images/methodology.png used on input line 8.
 (pdftex.def)             Requested size: 452.9679pt x 254.79314pt.
- [10
+ [13
 
  <./images/methodology.png>])
-(./sections/techno.tex [11]
-Chapter 6.
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 4.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
-File: omsppl.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
-)
-(./sections/implementation.tex [12
-
-]
+(./sections/implementation.tex [14]
 Chapter 7.
-) (./sections/execandresults.tex [13
+) (./sections/execandresults.tex [15
 
 ]
 Chapter 8.
-) (./sections/conclusion.tex [14
+) (./sections/conclusion.tex [16
 
 ]
 Chapter 9.
-) [15
+) [17
 
 ] (./main.bbl
 Underfull \hbox (badness 1043) in paragraph at lines 12--18
@@ -852,31 +845,34 @@ Underfull \hbox (badness 1043) in paragraph at lines 12--18
 u-moulin, and
  []
 
-[16
+[18
 
 
-]) [17] (./main.aux) ) 
+]) [19] (./main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4606 strings out of 493029
- 59667 string characters out of 6136234
- 133480 words of memory out of 5000000
- 7934 multiletter control sequences out of 15000+600000
- 77068 words of font info for 155 fonts, out of 8000000 for 9000
+ 4595 strings out of 493029
+ 59477 string characters out of 6136234
+ 133547 words of memory out of 5000000
+ 7926 multiletter control sequences out of 15000+600000
+ 77742 words of font info for 155 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,7n,32p,1450b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.en
-c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/palatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
-ino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.
-pfb>
-Output written on main.pdf (25 pages, 1146918 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pa
+latino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi
+8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (27 pages, 1151964 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 137 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
