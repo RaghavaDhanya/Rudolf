@@ -21,10 +21,15 @@
 \contentsline {section}{\numberline {3.2}Keras}{9}
 \contentsline {section}{\numberline {3.3}PyTorch}{10}
 \contentsline {section}{\numberline {3.4}Google Colaboratory}{10}
-\contentsline {chapter}{\numberline {4}Objective}{11}
-\contentsline {chapter}{\numberline {5}Scope}{12}
-\contentsline {chapter}{\numberline {6}Methodology}{13}
-\contentsline {chapter}{\numberline {7}Implementation}{15}
-\contentsline {chapter}{\numberline {8}Execution and Results}{16}
-\contentsline {chapter}{\numberline {9}Conclusion}{17}
-\contentsline {chapter}{References}{18}
+\contentsline {chapter}{\numberline {4}System Requirements}{11}
+\contentsline {section}{\numberline {4.1}Functional Requirements}{11}
+\contentsline {section}{\numberline {4.2}Non Functional Requirements}{11}
+\contentsline {section}{\numberline {4.3}Development Requirement}{11}
+\contentsline {subsection}{\numberline {4.3.1}Training System Requirements}{11}
+\contentsline {subsection}{\numberline {4.3.2}Testing System Requirements}{12}
+\contentsline {chapter}{\numberline {5}Proposed Model}{13}
+\contentsline {chapter}{\numberline {6}Scope}{16}
+\contentsline {chapter}{\numberline {7}Implementation}{17}
+\contentsline {chapter}{\numberline {8}Execution and Results}{18}
+\contentsline {chapter}{\numberline {9}Conclusion}{19}
+\contentsline {chapter}{References}{20}

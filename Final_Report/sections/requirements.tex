@@ -1,0 +1,55 @@
+\chapter{System Requirements}\label{ch:system_requirements}
+\epigraph{\textit{\normalsize “Any A.I. smart enough to pass a Turing test is smart enough to know to fail it.”}}{\textit{ \normalsize Ian McDonald,\\ River of Gods}}
+
+\section{Functional Requirements} % (fold)
+\label{sec:functional_requirements}
+The system must be able to
+\begin{enumerate}
+    \item Take a latent space vector or noise.
+    \item Learn joint probability distribution of training images.
+    \item Generate a realistic image of the training distribution and doesn't belong to training set.
+    \item Use a binary Capsule network classifier to predict real or fake image.
+\end{enumerate}
+% section functional_requirements (end)
+\section{Non Functional Requirements} % (fold)
+\label{sec:non_functional_requirements}
+The system should have following non functional requirements.
+\begin{enumerate}
+    \item Efficiency, Fast forward and backward propagation.
+    \item Use less data and still produce high quality results.    
+\end{enumerate}
+% section non_functional_requirements (end)
+
+\section{Development Requirement} % (fold)
+\label{sec:development_requirement}
+System requirements for training and testing model
+\subsection{Training System Requirements} % (fold)
+\label{sub:training_system_requirements}
+For training the model,
+\begin{enumerate}
+    \item python 3.4 or above
+    \item Tensorflow 1.7 or above
+    \item Keras  2.1.6 or above
+    \item Numpy, Scipy, Matplotlib
+    \item OpenCV 2
+    \item CPU 1.6 GHz or above
+    \item Nvdia GPU with CUDA compatibility 3.5 or above
+    \item RAM 8GB or above
+    \item Disk storage 20GB or above
+\end{enumerate}
+% subsection training_system_requirements (end)
+
+\subsection{Testing System Requirements} % (fold)
+\label{sub:Testing_system_requirements}
+For evaluating the model or just forward propagation,
+\begin{enumerate}
+    \item python 3.4 or above
+    \item Tensorflow 1.7 or above
+    \item Keras  2.1.6 or above
+    \item Numpy, Scipy, Matplotlib
+    \item OpenCV 2
+    \item CPU 1 GHz or above
+    \item RAM 4GB or above
+    \item Disk storage 20GB or above
+\end{enumerate}
+% section development_requirement (end)
