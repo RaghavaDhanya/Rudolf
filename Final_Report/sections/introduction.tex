@@ -23,6 +23,11 @@ The trick is that the neural networks that we use as generating models have a si
 
 \section{Generative Adversarial Networks} % (fold)
 \label{sec:generative_adversarial_networks}
+\begin{figure}[H]
+\centering\includegraphics[width=.7\textwidth]{images/vanillaGAN.jpg}
+\caption{Vanilla Generative Adversarial Network}
+\label{fig:gans}
+\end{figure}
 Generative Adversarial Networks, which we already discussed above, pose the training process as a game between two distinct networks: A neural network, called the generator, generates new instances of data, while the other, the discriminator, evaluates their authenticity; discriminator network tries to classify samples as either coming from the true distribution $p(x)$ or the model distribution $\hat{p}(x)$. Every time the discriminator notices a difference between the two distributions the generator adjusts its parameters slightly to make it go away, until at the end (in theory) the generator exactly reproduces the true data distribution and the discriminator is guessing at random, unable to find a difference.\par\bigskip
 The generator takes noise as input and attempts to produce an image that belongs to the real distribution; that is, it tries to fool the discriminator to accept it as real image. Discriminator takes a generated image or a real image as input and attempts to correctly classify the image as real or fake (generated).\par\bigskip
 To learn the distribution of the generator $p_g$ over data $\bm{x}$, we define a prior on input noise variables $p_{\bm{z}}(\bm{z})$, then represent a mapping to data space as $G(\bm{z}; \theta_g)$, where $G$ is a differentiable function represented by a neural network with parameters $\theta_g$. We define a second neural network $D(\bm{x}; \theta_d)$ that outputs a single scalar. $D(\bm{x})$ represents the probability that $\bm{x}$ came from the data rather than $p_g$. We train $D$ to maximize the probability of assigning the correct label to the training examples and samples of $G$. We simultaneously train $G$ to minimize $\log(1-D(G(\bm{z})))$.\par\bigskip

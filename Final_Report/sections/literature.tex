@@ -6,12 +6,19 @@
 GANs were first introduced by Ian Goodfellow \textit{et al}. \cite{gan} in Neural Information Processing Systems 2014. The paper proposes a completely new framework for estimating generative models via an adversarial process. In this process two models are simultaneously trained. According to \cite{gan} the network has a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G. This original work by Ian Goodfellow uses fully connected neural networks in the generator and the discriminator. 
 \par\bigskip
 
-
-Since then, there has been tremendous advancements in Deep Learning. A convolutional neural network (CNN, or ConvNet) \cite{imagenet} is a class of deep, feed-forward artificial neural networks that has successfully been applied to analyzing visual imagery. The convolution layer parameters consist of a set of learn-able filters, also called as kernels, which have a small receptive field, but they extend through the full depth of the input volume. As a result, the network learns filters that activate when it detects some specific type of feature at some spatial position in the input.
+\section{DCGAN} % (fold)
+\label{sec:dcgan}
+Since GANs were introduced, there has been tremendous advancements in Deep Learning. A convolutional neural network (CNN, or ConvNet) \cite{imagenet} is a class of deep, feed-forward artificial neural networks that has successfully been applied to analyzing visual imagery. The convolution layer parameters consist of a set of learn-able filters, also called as kernels, which have a small receptive field, but they extend through the full depth of the input volume. As a result, the network learns filters that activate when it detects some specific type of feature at some spatial position in the input.
+\par\bigskip
+\begin{figure}[H]
+\centering\includegraphics[width=1\textwidth]{images/dcgan.png}
+\caption{Deep Convolutional Generative Adversarial Network}
+\label{fig:dcgan}
+\end{figure}
+A breakthrough development that occurred in Adversarial Networks was the introduction of “Deep Convolutional Generative Adversarial Networks” by Alec Radford \textit{et al} \cite{dcgan}. DCGAN uses CNNs as generator and discriminator as shown in \ref{fig:dcgan}. He applied a list of empirically validated tricks as the substitution of pooling and fully connected layers with convolutional layers.
 \par\bigskip
 
-A breakthrough development that occurred in Adversarial Networks was the introduction of “Deep Convolutional Generative Adversarial Networks” by Alec Radford \textit{et al} \cite{dcgan}. He applied a list of empirically validated tricks as the substitution of pooling and fully connected layers with convolutional layers.
-\par\bigskip
+% section dcgan (end)
 
 The power of the features encoded in the latent variables was further explored by Chen at al. \cite{infogan}. They propose an algorithm which is completely unsupervised, unlike previous approaches which involved supervision, and learns interpretable and disentangled representations on challenging datasets. Their approach only adds a negligible computation cost on top of GAN and is easy to train.
 \par\bigskip
