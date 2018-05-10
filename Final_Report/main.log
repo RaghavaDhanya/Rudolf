@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.16)  10 MAY 2018 19:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.16)  10 MAY 2018 21:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -712,39 +712,40 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 15.
  [1])
 (./sections/declaration.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--17
-
- []
-
-[1]) (./sections/abstract.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 2.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 2.
-) [1
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 
-] (./main.toc)
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+[1
+
+]) (./sections/acknowledgments.tex) (./sections/abstract.tex [1
+
+]) [2
+
+]
+(./main.toc)
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [2
+ [3
 
-]
-(./sections/introduction.tex
+] (./sections/introduction.tex
 Chapter 1.
-
-LaTeX Warning: Citation `gan' on page 1 undefined on input line 16.
-
 [1
 
 
@@ -765,59 +766,13 @@ rons that have learn-able weights
 
 ) (./sections/literature.tex [3]
 Chapter 2.
-
-LaTeX Warning: Citation `gan' on page 4 undefined on input line 6.
-
-
-LaTeX Warning: Citation `gan' on page 4 undefined on input line 6.
-
-
-LaTeX Warning: Citation `imagenet' on page 4 undefined on input line 10.
-
-
-LaTeX Warning: Citation `dcgan' on page 4 undefined on input line 13.
-
-
-LaTeX Warning: Citation `infogan' on page 4 undefined on input line 16.
-
-
-LaTeX Warning: Citation `dcgan' on page 4 undefined on input line 19.
-
-
-LaTeX Warning: Citation `improvedgan' on page 4 undefined on input line 19.
-
-
-LaTeX Warning: Citation `wgan' on page 4 undefined on input line 22.
-
 [4
 
 ]
-
-LaTeX Warning: Citation `wgan' on page 5 undefined on input line 25.
-
-
-LaTeX Warning: Citation `improvedwgan' on page 5 undefined on input line 26.
-
-
-LaTeX Warning: Citation `deepresidual' on page 5 undefined on input line 26.
-
-
-LaTeX Warning: Citation `congan' on page 5 undefined on input line 29.
-
-
 Overfull \hbox (21.98671pt too wide) in paragraph at lines 29--30
 \T1/ppl/m/n/12 net-works, but were out-per-formed by sev-eral other ap-proaches
  ^^U in-clud-ing non-conditional
  []
-
-
-LaTeX Warning: Citation `vardivmin' on page 5 undefined on input line 32.
-
-
-LaTeX Warning: Citation `copgan' on page 5 undefined on input line 35.
-
-
-LaTeX Warning: Citation `capsnet' on page 5 undefined on input line 38.
 
 ) (./sections/objective.tex [5]
 Chapter 3.
@@ -829,7 +784,7 @@ Chapter 4.
 
 ]
 Chapter 5.
-<images/methodology.png, id=57, 963.6pt x 542.025pt>
+<images/methodology.png, id=60, 963.6pt x 542.025pt>
 File: images/methodology.png Graphic file (type png)
 
 <use images/methodology.png>
@@ -853,33 +808,37 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
 Chapter 7.
 ) [11
 
-]
-No file main.bbl.
-(./main.aux)
+] (./main.bbl
+Underfull \hbox (badness 1043) in paragraph at lines 12--18
+[]\T1/ppl/m/n/12 Ishaan Gul-ra-jani, Faruk Ahmed, Mar-tin Ar-jovsky, Vin-cent D
+u-moulin, and
+ []
 
-LaTeX Warning: There were undefined references.
+[12
 
- ) 
+
+]) [13] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 4554 strings out of 493029
- 58812 string characters out of 6136234
- 132318 words of memory out of 5000000
- 7903 multiletter control sequences out of 15000+600000
- 75784 words of font info for 153 fonts, out of 8000000 for 9000
+ 4562 strings out of 493029
+ 58937 string characters out of 6136234
+ 133368 words of memory out of 5000000
+ 7904 multiletter control sequences out of 15000+600000
+ 77068 words of font info for 155 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,31p,881b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pa
-latino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi
-8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (17 pages, 818988 bytes).
+ 38i,7n,32p,881b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.en
+c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/palatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
+ino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.
+pfb>
+Output written on main.pdf (20 pages, 827300 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 109 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
