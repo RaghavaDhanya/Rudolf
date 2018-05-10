@@ -1,6 +1,11 @@
 \chapter{Conclusion}\label{ch:conclusion}
 \epigraph{\textit{\normalsize “A year spent in artificial intelligence is enough to make one believe in God”}}{\textit{ \normalsize Alan Perlis,\\ First Turning award recipient}}
-During the course of this project, we wish to replicate the results of the existing state-of-the-art in Generative Models. Using this as a stepping stone, we would like to incorporate a hitherto unexplored option in CapsNet for Generative Models. Our motivating assumption is that CapsNet would provide a performance improvement.We base this on the idea that it is more capable of understanding the variances in objects. This in turn should lead to lower data requirements during training of the model and consequently lower power consumption. 
 
-\par\bigskip We wish to provide a comparison between our novel CapsNet-based approach and other implementations of GAN for the same task. We would like to implement a proof of concept by developing a application to complete incomplete images of human faces. This could later on be used in enhancement of hazy CCTV footage to identify individuals, which would be immensely helpful to law enforcement personnel.
+During the course of this project, we wished to replicate the results of the existing state-of-the-art in Generative Models. We implemented a few different versions of GANs with CapsNet. Our motivating assumption was that CapsNet would provide a performance improvement. We based this on the idea that it is more capable of understanding the variances in objects. This in turn should lead to lower data requirements during training of the model and consequently lower power consumption. 
+
+\par\bigskip We provide a comparison between our novel CapsNet-based approach and other implementations of GAN for the same task. To observe this we augment the code of a few GANs, namely ACGAN, InfoGAN, DCGAN and WGAN, by implementing the discriminator with CapsNet. We decided to work with a few standard metrics such as Discriminator Loss, Generator Loss and Accuracy to measure its training performance. The data while training was captured and visualized in the form of graphs.
+
+\par\bigskip % Conclusion from results and analysis
+
+% We would like to implement a proof of concept by developing a application to complete incomplete images of human faces. This could later on be used in enhancement of hazy CCTV footage to identify individuals, which would be immensely helpful to law enforcement personnel.
 
