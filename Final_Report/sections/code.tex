@@ -1,0 +1,37 @@
+{\chapter{Code snippets}\label{ch:scope}}
+\epigraph{\textit{\normalsize “By far the greatest danger of Artificial Intelligence is that people conclude too early that they understand it.”}}{\textit{ \normalsize Eliezer Yudkowsky,\\ Machine Intelligence Research Institute}}
+
+\section{Building Generator} % (fold)
+\label{sec:building_generator}
+\begin{lstlisting}[basicstyle=\scriptsize,language=Python]
+def build_generator(self):
+
+    model = Sequential()
+
+    model.add(Dense(128 * 8 * 8, activation="relu", input_shape=(self.latent_dim,)))
+    model.add(Reshape((8, 8, 128)))
+    model.add(BatchNormalization(momentum=0.8))
+    model.add(UpSampling2D())
+    model.add(Conv2D(128, kernel_size=3, padding="same"))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization(momentum=0.8))
+    model.add(UpSampling2D())
+    model.add(Conv2D(64, kernel_size=3, padding="same"))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization(momentum=0.8))
+    model.add(UpSampling2D())
+    model.add(Conv2D(32, kernel_size=3, padding="same"))
+    model.add(Activation("relu"))
+    model.add(BatchNormalization(momentum=0.8))
+    model.add(Conv2D(self.channels, kernel_size=3, padding="same"))
+    model.add(Activation("tanh"))
+
+    model.summary()
+
+    noise = Input(shape=(self.latent_dim,))
+    img = model(noise)
+
+    return Model(noise, img)
+
+\end{lstlisting}
+% section building_generator (end)
