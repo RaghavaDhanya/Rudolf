@@ -1,26 +1,64 @@
 \chapter{Proposed Model}\label{ch:proposed_model}
 \epigraph{\textit{\normalsize “Artificial intelligence, in fact, is obviously an intelligence transmitted by conscious subjects, an intelligence placed in equipment.”}}{\textit{ \normalsize Pope Benedict XVI}}
 
-The first step would be to implement the state-of-the-art in image regeneration to guage the improvements. We use DCGAN to start of with. The results of the training and testing will be recorded to compare it with the results of our CapsNet-based approach later. We will be using CapsNet as the underlying technology to implement our GAN (CapsGAN). The goal is to replace the CNN inside DCGAN with CapsNet and compare the results. The GAN internally consists of two components - a generator and a discriminator - which we build out of CapsNet. The discriminator is initially trained separately to distinguish real and fake data, and later they work together to improve upon their performance by acting as adversaries.
-\par\bigskip
-
+\section{Generator} % (fold)
+\label{sec:generator}
+We use a deep convolutional generator model, this is similar to what DCGAN uses as generator. It starts with latent vector or noise of shape (100) which connects to a densely connected layer. We then use Reshape layer which reshapes it to (8, 8, 128) and perform batch normalization in batch normalization layer. We then perform up-sampling by using DeConv layer. DeConv layer is internally created by a up-sampling layer and Convolutional layer. We perform DeConv two more times to get the shape of the image as expected.
 \begin{figure}[H]
-\centering\includegraphics[width=1\textwidth]{images/methodology.png}
-\caption{Proposed architecture}
-\label{fig:capsgan}
-\end{figure}
+\centering\includegraphics[width=1\textwidth]{images/Generator.png}
+\caption{Generator architecture}
+\label{fig:generator}
+\end{figure} 
 
-The generator will use noise as input to generate faces. We will use random data as this noise. This ensures the data is unique and across the spectrum while retaining a normal distribution.
-\par\bigskip
+% section generator (end)
 
-The CapsNet making up the discriminator consists of a small convolutional network to convert low level data in the form of pixels into an artifact called "pose". These poses can be anything, like nose, ear, eye, etc. These poses are then passed on as input to the later lower layers consisting of components called Capsules. A capsule is analogous to the human brain containing different modules to handle different tasks. The brain has a mechanism to route the information among the modules, to reach the best modules that can handle the information.
-\par\bigskip
 
-A capsule is a nested set of neural layers. Each capsule is able to handle one particular pose and communicate its calculation to other capsules which can use that calculation. This calculation is in the form of a probability prediction of the current pose that takes place in its logistic unit. This working is fundamentally different from convolutional networks, which utilizes Max Pooling. Max pooling selects the most active input node from the next layer to pass on the information. CapsNet on the other hand selects the next capsule based on which capsule would be capable of handling that information. This is called Dynamic routing. This results in invariance of information to the position and orientation of features in an object while ignoring the invariance in very low level features as, at the pixel level, this does not matter.
-\par\bigskip
 
-The generator is built using an architecture that is a mirror image of the discriminator. Inside, the data flow is in the opposite direction. The job of the discriminator is to take the images given out by the generator and discriminate it against a ground truth. The discriminator selects the class based on how close the images are in agreement. The underlying principle is that when multiple entities agree with each other in higher dimensions, the chances of it happening due to complete coincidence is exponentially minimal. This ensures the understanding by the CapsNet of the world is remarkably similar to humans.
 
+
+
+
+
+% _________________________________________________________________
+% Layer (type)                 Output Shape              Param #   
+% =================================================================
+% dense_5 (Dense)              (None, 8192)              827392    
+% _________________________________________________________________
+% reshape_1 (Reshape)          (None, 8, 8, 128)         0         
+% _________________________________________________________________
+% batch_normalization_3 (Batch (None, 8, 8, 128)         512       
+% _________________________________________________________________
+% up_sampling2d_1 (UpSampling2 (None, 16, 16, 128)       0         
+% _________________________________________________________________
+% conv2d_1 (Conv2D)            (None, 16, 16, 128)       147584    
+% _________________________________________________________________
+% activation_1 (Activation)    (None, 16, 16, 128)       0         
+% _________________________________________________________________
+% batch_normalization_4 (Batch (None, 16, 16, 128)       512       
+% _________________________________________________________________
+% up_sampling2d_2 (UpSampling2 (None, 32, 32, 128)       0         
+% _________________________________________________________________
+% conv2d_2 (Conv2D)            (None, 32, 32, 64)        73792     
+% _________________________________________________________________
+% activation_2 (Activation)    (None, 32, 32, 64)        0         
+% _________________________________________________________________
+% batch_normalization_5 (Batch (None, 32, 32, 64)        256       
+% _________________________________________________________________
+% up_sampling2d_3 (UpSampling2 (None, 64, 64, 64)        0         
+% _________________________________________________________________
+% conv2d_3 (Conv2D)            (None, 64, 64, 32)        18464     
+% _________________________________________________________________
+% activation_3 (Activation)    (None, 64, 64, 32)        0         
+% _________________________________________________________________
+% batch_normalization_6 (Batch (None, 64, 64, 32)        128       
+% _________________________________________________________________
+% conv2d_4 (Conv2D)            (None, 64, 64, 3)         867       
+% _________________________________________________________________
+% activation_4 (Activation)    (None, 64, 64, 3)         0         
+% =================================================================
+% Total params: 1,069,507
+% Trainable params: 1,068,803
+% Non-trainable params: 704
 % \begin{lstlisting}[basicstyle=\scriptsize,]
 % __________________________________________________________________________________________________
 % Layer (type)                    Output Shape         Param #     Connected to                     
