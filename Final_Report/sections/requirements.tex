@@ -3,26 +3,26 @@
 
 \section{Functional Requirements} % (fold)
 \label{sec:functional_requirements}
-The system must be able to
+The system must, at the minimum, fulfill certain basic requirements.
 \begin{enumerate}
-    \item Take a latent space vector or noise.
+    \item Take a latent space vector or noise as input.
     \item Learn joint probability distribution of training images.
-    \item Generate a realistic image of the training distribution and doesn't belong to training set.
-    \item Use a binary Capsule network classifier to predict real or fake image.
+    \item Generate a realistic image of the training distribution that doesn't belong to training set.
+    \item Use a binary Capsule network classifier to differentiates real or fake image.
 \end{enumerate}
 % section functional_requirements (end)
 \section{Non Functional Requirements} % (fold)
 \label{sec:non_functional_requirements}
-The system should have following non functional requirements.
+The system should have following non functional requirements. These specify the quality of the system.
 \begin{enumerate}
-    \item Efficiency, Fast forward and backward propagation.
-    \item Use less data and still produce high quality results.    
+    \item Efficient, Fast forward and backward propagation.
+    \item Curb data usage while maintaining high quality results.    
 \end{enumerate}
 % section non_functional_requirements (end)
 
 \section{Development Requirement} % (fold)
 \label{sec:development_requirement}
-System requirements for training and testing model
+System requirements for training and testing the models
 \subsection{Training System Requirements} % (fold)
 \label{sub:training_system_requirements}
 For training the model,
@@ -41,7 +41,7 @@ For training the model,
 
 \subsection{Testing System Requirements} % (fold)
 \label{sub:Testing_system_requirements}
-For evaluating the model or just forward propagation,
+For evaluating the model or just forward-propagation,
 \begin{enumerate}
     \item python 3.4 or above
     \item Tensorflow 1.7 or above

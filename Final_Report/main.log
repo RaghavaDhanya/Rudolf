@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.16)  11 MAY 2018 09:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.11)  11 MAY 2018 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -30,14 +30,14 @@ Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@posthook=\toks15
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -249,11 +249,17 @@ File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+01E02 (decimal 7682)
-   defining Unicode char U+01E03 (decimal 7683)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
    defining Unicode char U+2018 (decimal 8216)
    defining Unicode char U+2019 (decimal 8217)
    defining Unicode char U+201A (decimal 8218)
@@ -265,12 +271,14 @@ File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -311,7 +319,7 @@ Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -335,10 +343,10 @@ Now handling font encoding U ...
    defining Unicode char U+2423 (decimal 9251)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
@@ -349,11 +357,10 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
@@ -377,29 +384,21 @@ Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS)
 \symupright=\mathgroup4
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count91
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
@@ -420,14 +419,14 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count92
+\c@float@type=\count91
 \float@exts=\toks18
 \float@box=\box26
 \@float@everytoks=\toks19
 \@floatcapt=\box27
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2016/03/15 v2.10.1 Sectioning titles
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box28
 \beforetitleunit=\skip47
 \aftertitleunit=\skip48
@@ -452,23 +451,23 @@ Package tocbibind Info: The document has chapter divisions on input line 50.
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count93
+\lst@mode=\count92
 \lst@gtempboxa=\box29
 \lst@token=\toks21
-\lst@length=\count94
+\lst@length=\count93
 \lst@currlwidth=\dimen118
-\lst@column=\count95
-\lst@pos=\count96
+\lst@column=\count94
+\lst@pos=\count95
 \lst@lostspace=\dimen119
 \lst@width=\dimen120
-\lst@newlines=\count97
-\lst@lineno=\count98
+\lst@newlines=\count96
+\lst@lineno=\count97
 \lst@maxwidth=\dimen121
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count99
-\lst@skipnumbers=\count100
+\c@lstnumber=\count98
+\lst@skipnumbers=\count99
 \lst@framebox=\box30
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
@@ -477,7 +476,7 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/03/03 v2.15a AMS math features
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
@@ -494,32 +493,32 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen123
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
+Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count101
-LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count102
-\leftroot@=\count103
-LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count104
-\DOTSCASE@=\count105
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+\inf@bad=\count100
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count101
+\leftroot@=\count102
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count103
+\DOTSCASE@=\count104
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box31
 \strutbox@=\box32
 \big@size=\dimen124
-LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count106
-\c@MaxMatrixCols=\count107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count105
+\c@MaxMatrixCols=\count106
 \dotsspace@=\muskip10
-\c@parentequation=\count108
-\dspbrk@lvl=\count109
+\c@parentequation=\count107
+\dspbrk@lvl=\count108
 \tag@help=\toks23
-\row@=\count110
-\column@=\count111
-\maxfields@=\count112
+\row@=\count109
+\column@=\count110
+\maxfields@=\count111
 \andhelp@=\toks24
 \eqnshift@=\dimen125
 \alignsep@=\dimen126
@@ -531,11 +530,11 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \multlinegap=\skip50
 \multlinetaggap=\skip51
 \mathdisplay@stack=\toks26
-LaTeX Info: Redefining \[ on input line 2735.
-LaTeX Info: Redefining \] on input line 2736.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2014/10/28 v1.1c Bold Symbol Support (DPC/FMi)
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup5
 \symboldletters=\mathgroup6
 \symboldsymbols=\mathgroup7
@@ -544,8 +543,8 @@ LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count113
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count112
 ) (./main.aux)
 \openout1 = `main.aux'.
 
@@ -600,73 +599,80 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count114
+\scratchcounter=\count113
 \scratchdimen=\dimen131
 \scratchbox=\box33
-\nofMPsegments=\count115
-\nofMParguments=\count116
+\nofMPsegments=\count114
+\nofMParguments=\count115
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count117
+\MPscratchCnt=\count116
 \MPscratchDim=\dimen132
-\MPnumerator=\count118
-\makeMPintoPDFobject=\count119
+\MPnumerator=\count117
+\makeMPintoPDFobject=\count118
 \everyMPtoPDFconversion=\toks28
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
+(grfext)             \AppendGraphicsExtensions on input line 456.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count120
+\c@lstlisting=\count119
 
 (./sections/front.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/sc' tried instead on input line 14.
- <images/vtu.png, id=1, 238.64156pt x 344.03531pt>
+<images/vtu.png, id=1, 238.64156pt x 344.03531pt>
 File: images/vtu.png Graphic file (type png)
-
 <use images/vtu.png>
-Package pdftex.def Info: images/vtu.png used on input line 17.
+Package pdftex.def Info: images/vtu.png  used on input line 17.
 (pdftex.def)             Requested size: 67.94241pt x 97.94609pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <12> not available
 (Font)              Font shape `T1/ppl/b/sc' tried instead on input line 26.
@@ -680,7 +686,7 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Try loading font information for OML+zplm on input line 42.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Try loading font information for OMS+zplm on input line 42.
@@ -703,11 +709,10 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 43.
-
 <images/mvit.png, id=3, 425.9112pt x 376.2858pt>
 File: images/mvit.png Graphic file (type png)
- <use images/mvit.png>
-Package pdftex.def Info: images/mvit.png used on input line 60.
+<use images/mvit.png>
+Package pdftex.def Info: images/mvit.png  used on input line 60.
 (pdftex.def)             Requested size: 67.94241pt x 60.02321pt.
  [1
 
@@ -718,18 +723,17 @@ pdfTeX warning: pdflatex (file ./images/mvit.png): large interlaced PNG might c
 ause out of memory (use non-interlaced PNG to fix this)
 >]) (./sections/front.tex
 File: images/vtu.png Graphic file (type png)
- <use images/vtu.png>
-Package pdftex.def Info: images/vtu.png used on input line 17.
+<use images/vtu.png>
+Package pdftex.def Info: images/vtu.png  used on input line 17.
 (pdftex.def)             Requested size: 67.94241pt x 97.94609pt.
 File: images/mvit.png Graphic file (type png)
- <use images/mvit.png>
-Package pdftex.def Info: images/mvit.png used on input line 60.
+<use images/mvit.png>
+Package pdftex.def Info: images/mvit.png  used on input line 60.
 (pdftex.def)             Requested size: 67.94241pt x 60.02321pt.
- [1])
-(./sections/certificate.tex
+ [1]) (./sections/certificate.tex
 File: images/mvit.png Graphic file (type png)
- <use images/mvit.png>
-Package pdftex.def Info: images/mvit.png used on input line 5.
+<use images/mvit.png>
+Package pdftex.def Info: images/mvit.png  used on input line 5.
 (pdftex.def)             Requested size: 90.5922pt x 80.03287pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/sc' tried instead on input line 14.
@@ -764,28 +768,28 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 ]) [2
 
 ]
-(./main.toc)
+(./main.toc [3
+
+])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [3
-
-] (./main.lof)
+ [4] (./main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [4
+ [5
 
 ] (./sections/introduction.tex
 Chapter 1.
 [1
 
 
-] <images/vanillaGAN.jpg, id=41, 606.265pt x 345.29pt>
+]
+<images/vanillaGAN.jpg, id=44, 606.265pt x 345.29pt>
 File: images/vanillaGAN.jpg Graphic file (type jpg)
-
 <use images/vanillaGAN.jpg>
-Package pdftex.def Info: images/vanillaGAN.jpg used on input line 27.
+Package pdftex.def Info: images/vanillaGAN.jpg  used on input line 27.
 (pdftex.def)             Requested size: 317.07614pt x 180.58975pt.
  [2 <./images/vanillaGAN.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
@@ -797,10 +801,10 @@ LaTeX Font Info:    Try loading font information for U+fplmbb on input line 36.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 )
-<images/CNN.jpg, id=45, 1259.70625pt x 425.59pt>
+<images/CNN.jpg, id=48, 1259.70625pt x 425.59pt>
 File: images/CNN.jpg Graphic file (type jpg)
- <use images/CNN.jpg>
-Package pdftex.def Info: images/CNN.jpg used on input line 44.
+<use images/CNN.jpg>
+Package pdftex.def Info: images/CNN.jpg  used on input line 44.
 (pdftex.def)             Requested size: 317.07614pt x 107.12456pt.
 
 Overfull \hbox (9.57903pt too wide) in paragraph at lines 48--48
@@ -808,21 +812,20 @@ Overfull \hbox (9.57903pt too wide) in paragraph at lines 48--48
 rons that have learn-able weights
  []
 
-[3 <./images/CNN.jpg>] <images/caps.png, id=52, 1672.2475pt x 467.7475pt>
+[3 <./images/CNN.jpg>]
+<images/caps.png, id=55, 1672.2475pt x 467.7475pt>
 File: images/caps.png Graphic file (type png)
-
 <use images/caps.png>
-Package pdftex.def Info: images/caps.png used on input line 58.
+Package pdftex.def Info: images/caps.png  used on input line 58.
 (pdftex.def)             Requested size: 317.07614pt x 88.68736pt.
  [4 <./images/caps.png>]) (./sections/literature.tex
 [5]
 Chapter 2.
-<images/dcgan.png, id=61, 996.72375pt x 229.85875pt>
+<images/dcgan.png, id=64, 996.72375pt x 229.85875pt>
 File: images/dcgan.png Graphic file (type png)
- <use images/dcgan.png>
-Package pdftex.def Info: images/dcgan.png used on input line 16.
+<use images/dcgan.png>
+Package pdftex.def Info: images/dcgan.png  used on input line 16.
 (pdftex.def)             Requested size: 452.9679pt x 104.45961pt.
-
 [6
 
  <./images/dcgan.png>]
@@ -841,49 +844,50 @@ Chapter 4.
 
 ]) (./sections/proposed.tex [12]
 Chapter 5.
-<images/Generator.png, id=85, 662.475pt x 278.03876pt>
+<images/Generator.png, id=88, 662.475pt x 278.03876pt>
 File: images/Generator.png Graphic file (type png)
-
 <use images/Generator.png>
-Package pdftex.def Info: images/Generator.png used on input line 8.
+Package pdftex.def Info: images/Generator.png  used on input line 8.
 (pdftex.def)             Requested size: 452.9679pt x 190.1075pt.
-) (./sections/implementation.tex [13
+[13
 
- <./images/Generator.png>]
+ <./images/Generator.png>] [14]) (./sections/implementation.tex [15]
 Chapter 6.
-<images/methodology.png, id=90, 963.6pt x 542.025pt>
+<images/methodology.png, id=99, 963.6pt x 542.025pt>
 File: images/methodology.png Graphic file (type png)
-
 <use images/methodology.png>
-Package pdftex.def Info: images/methodology.png used on input line 9.
+Package pdftex.def Info: images/methodology.png  used on input line 9.
 (pdftex.def)             Requested size: 452.9679pt x 254.79314pt.
- [14
+[16
 
- <./images/methodology.png>])
-(./sections/code.tex [15]
+ <./images/methodology.png>]) (./sections/code.tex [17]
 Chapter 7.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 11.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 21.
+ [18
+
+]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 71.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
-)
-(./sections/execandresults.tex [16
-
-]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
+ [19]
+LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 150.
+ [20])
+(./sections/execandresults.tex [21]
 Chapter 8.
-) (./sections/conclusion.tex [17
+) (./sections/conclusion.tex [22
 
 ]
 Chapter 9.
-) [18
+) [23
 
 ] (./main.bbl
 Underfull \hbox (badness 1043) in paragraph at lines 12--18
@@ -891,18 +895,18 @@ Underfull \hbox (badness 1043) in paragraph at lines 12--18
 u-moulin, and
  []
 
-[19
+[24
 
 
-]) [20] (./main.aux) ) 
+]) [25] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 6428 strings out of 493029
- 83428 string characters out of 6136234
- 191320 words of memory out of 5000000
- 9736 multiletter control sequences out of 15000+600000
- 81053 words of font info for 160 fonts, out of 8000000 for 9000
+ 6503 strings out of 492982
+ 84456 string characters out of 6134896
+ 224342 words of memory out of 5000000
+ 9836 multiletter control sequences out of 15000+600000
+ 86681 words of font info for 174 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,42p,1450b,1454s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,7n,42p,1450b,1873s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.en
 c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
@@ -912,10 +916,10 @@ ist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/p
 alatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/upl
 r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (28 pages, 1169601 bytes).
+Output written on main.pdf (34 pages, 1182513 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 166 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

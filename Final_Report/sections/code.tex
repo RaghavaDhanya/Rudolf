@@ -1,37 +1,260 @@
 {\chapter{Code snippets}\label{ch:scope}}
 \epigraph{\textit{\normalsize “By far the greatest danger of Artificial Intelligence is that people conclude too early that they understand it.”}}{\textit{ \normalsize Eliezer Yudkowsky,\\ Machine Intelligence Research Institute}}
 
+The internal architectures of all four GANs are similarly designed. Here we take DCGAN to showcase the code.
+
+\par\bigskip 
+The main code consists of a class (DCGAN) which contains the following five functions:
+\par\bigskip
+
+\begin{enumerate}
+    \item Initialization: Calls build\_generator and build\_discriminator and makes a combined model
+    \item Build\_Generator: Creates a generator model
+    \item Build\_Discriminator: Creates a discriminator model
+    \item Train: Takes the input images and starts training, prints training progress with metrics
+    \item Save\_Imgs: Saves a grid of generated images at specific epochs
+\end{enumerate}
+
+\section{Initialization} % (fold)
+\label{sec:initialization}
+\begin{lstlisting}[basicstyle=\scriptsize,language=Python]
+def __init__(self):
+    # Input shape
+    self.img_rows = 64
+    self.img_cols = 64
+    self.channels = 3
+    self.img_shape = (self.img_rows, self.img_cols, self.channels)
+    self.latent_dim = 100
+
+    optimizer = Adam(0.0002, 0.5)
+
+    # Build and compile the discriminator
+    self.discriminator = self.build_discriminator()
+    self.discriminator.compile(loss='binary_crossentropy',
+        optimizer=optimizer,
+        metrics=['accuracy'])
+
+    # Build the generator
+    self.generator = self.build_generator()
+
+    # The generator takes noise as input and generates imgs
+    z = Input(shape=(100,))
+    img = self.generator(z)
+
+    # For the combined model only train the generator
+    self.discriminator.trainable = False
+
+    # The discriminator takes generated images as input and determines validity
+    valid = self.discriminator(img)
+
+    # The combined model  (stacked generator and discriminator)
+    self.combined = Model(z, valid)
+    self.combined.compile(loss='binary_crossentropy', optimizer=optimizer)
+\end{lstlisting}
+
+% section initialization (end)
+
 \section{Building Generator} % (fold)
 \label{sec:building_generator}
+
 \begin{lstlisting}[basicstyle=\scriptsize,language=Python]
 def build_generator(self):
+    """
+    Build generator which takes noise (a tensor of size 100) as input,
+    and produces an RGB image of size (64 x 64) .
+    """
 
+    # Create a model in which one can add layers sequentially
     model = Sequential()
 
-    model.add(Dense(128 * 8 * 8, activation="relu", input_shape=(self.latent_dim,)))
+    # Add a densely connected layer to the model, activation function of ReLu
+    model.add(Dense(128 * 8 * 8, activation="relu", 
+        input_shape=(self.latent_dim,)))
     model.add(Reshape((8, 8, 128)))
+
+    # DeConv layer one starts
     model.add(BatchNormalization(momentum=0.8))
     model.add(UpSampling2D())
     model.add(Conv2D(128, kernel_size=3, padding="same"))
     model.add(Activation("relu"))
+
+    # DeConv layer two starts
     model.add(BatchNormalization(momentum=0.8))
     model.add(UpSampling2D())
     model.add(Conv2D(64, kernel_size=3, padding="same"))
     model.add(Activation("relu"))
+
+    # DeConv layer three starts
     model.add(BatchNormalization(momentum=0.8))
     model.add(UpSampling2D())
     model.add(Conv2D(32, kernel_size=3, padding="same"))
     model.add(Activation("relu"))
+
+    # Final output layer
     model.add(BatchNormalization(momentum=0.8))
     model.add(Conv2D(self.channels, kernel_size=3, padding="same"))
     model.add(Activation("tanh"))
 
+    # Print model summary
     model.summary()
 
+    # Use functional API to make model
     noise = Input(shape=(self.latent_dim,))
     img = model(noise)
 
+    # Return functional model
     return Model(noise, img)
 
 \end{lstlisting}
 % section building_generator (end)
+
+\section{Building Discriminator} % (fold)
+\label{sec:building_discriminator}
+\begin{lstlisting}[basicstyle=\scriptsize,language=Python]
+def build_discriminator(self):
+    """
+    Discriminator takes real/generated images and outputs its prediction.
+    """
+
+    # Define input shape for our network
+    img = Input(shape=self.img_shape)
+    
+    # First ConvLayer outputs a 56x56x256 matrix
+    x = Conv2D(filters=256, kernel_size=9, strides=1, 
+        padding='valid', name='conv1')(img)
+    x = LeakyReLU()(x)
+    x = BatchNormalization(momentum=0.8)(x)
+
+    # Capsule architecture starts
+
+    # First layer: PrimaryCaps
+    x = Conv2D(filters=8 * 32, kernel_size=9, strides=2, 
+        padding='valid', name='primarycap_conv2')(x)
+
+    # Primary capsule has collections of activations which denote orientation
+    # while intensity of the vector which denotes the presence of the digit)
+    x = Reshape(target_shape=[-1, 8], name='primarycap_reshape')(x)
+
+    # Output a number between 0 and 1 for each capsule 
+    # where the length of the input decides the amount
+    x = Lambda(squash, name='primarycap_squash')(x)
+    x = BatchNormalization(momentum=0.8)(x)
+
+    # Second layer: DigitCaps
+    # This is a modified form of the standard CapsNet DigitCaps architecture 
+    # where we have replaced the multiple capsules with a single capsule of 
+    # densely connected neural network.
+    x = Flatten()(x)
+
+    # Dynamic Routing
+    # uhat = prediction vector, u * w
+    # w = weight matrix but will act as a dense layer
+    # u = output from a previous layer
+    uhat = Dense(160, kernel_initializer='he_normal', 
+        bias_initializer='zeros', name='uhat_digitcaps')(x)
+
+    # softmax will make sure that each weight c_ij is a non-negative number 
+    # and their sum equals to one
+    c = Activation('softmax', name='softmax_digitcaps1')(uhat) 
+
+    # s_j (output of the current capsule level) = uhat * c
+    c = Dense(160)(c) # compute s_j
+    x = Multiply()([uhat, c])
+
+    # Squashing the capsule outputs creates severe blurry artifacts, 
+    # thus we replace it with Leaky ReLu.
+    s_j = LeakyReLU()(x)
+
+
+    c = Activation('softmax', name='softmax_digitcaps2')(s_j) 
+    c = Dense(160)(c)
+    x = Multiply()([uhat, c])
+    s_j = LeakyReLU()(x)
+
+    c = Activation('softmax', name='softmax_digitcaps3')(s_j) 
+    c = Dense(160)(c)
+    x = Multiply()([uhat, c])
+    s_j = LeakyReLU()(x)
+
+    # Final dense layer output a binary classification
+    pred = Dense(1, activation='sigmoid')(s_j)
+    return Model(img, pred)
+\end{lstlisting}
+
+% section building_discriminator (end)
+
+\section{Train} % (fold)
+\label{sec:train}
+\begin{lstlisting}[basicstyle=\scriptsize,language=Python]
+def train(self, epochs, batch_size=128, save_interval=50):
+    
+    half_batch = int(batch_size / 2)
+
+    for epoch in range(epochs):
+        # ---------------------
+        #  Train Discriminator
+        # ---------------------
+        cnt=0
+        train_datagen = ImageDataGenerator(rescale=1./255)
+        train_generator = train_datagen.flow_from_directory('data',
+            target_size=(64, 64),batch_size=half_batch,class_mode=None)
+        for x in train_generator:
+            # Sample noise and generate a half batch of new images
+            noise = np.random.normal(0, 1, (half_batch, 100))
+            gen_imgs = self.generator.predict(noise)
+
+            # Train the discriminator 
+            # (real classified as ones and generated as zeros)
+            d_loss_real = self.discriminator.train_on_batch
+                (x, np.ones((half_batch, 1)))
+            d_loss_fake = self.discriminator.train_on_batch
+                (gen_imgs, np.zeros((half_batch, 1)))
+            d_loss = 0.5 * np.add(d_loss_real, d_loss_fake)
+
+            # ---------------------
+            #  Train Generator
+            # ---------------------
+
+            # Sample generator input
+            noise = np.random.normal(0, 1, (batch_size, 100))
+
+            # Train the generator 
+            # (wants discriminator to mistake images as real)
+            g_loss = self.combined.train_on_batch
+                (noise, np.ones((batch_size, 1)))
+
+            # Plot the progress
+            if(cnt%save_interval==0):
+              print ("%d [D loss: %f, acc.: %.2f%%] [G loss: %f]" 
+                % (epoch, d_loss[0], 100*d_loss[1], g_loss))
+            
+            # If at save interval => save generated image samples
+            if(cnt%save_interval==0):
+              self.save_imgs(cnt)
+            cnt+=1
+\end{lstlisting}
+% section train (end)
+
+\section{Save Imgs} % (fold)
+\label{sec:save_imgs}
+\begin{lstlisting}[basicstyle=\scriptsize,language=Python]
+def save_imgs(self, epoch):
+    r, c = 5, 5
+    noise = np.random.normal(0, 1, (r * c, 100))
+    gen_imgs = self.generator.predict(noise)
+
+    # Rescale images 0 - 1
+    gen_imgs = 0.5 * gen_imgs + 0.5
+
+    fig, axs = plt.subplots(r, c)
+    #fig.suptitle("DCGAN: Generated digits", fontsize=12)
+    cnt = 0
+    for i in range(r):
+        for j in range(c):
+            axs[i,j].imshow(gen_imgs[cnt, :,:,0], cmap='gray')
+            axs[i,j].axis('off')
+            cnt += 1
+    fig.savefig("images/images_%d.png" % epoch)
+    plt.close()
+\end{lstlisting}
+% section save_imgs (end)
