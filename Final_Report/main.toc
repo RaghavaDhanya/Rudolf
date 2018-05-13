@@ -45,5 +45,5 @@
 \contentsline {section}{\numberline {7.4}Train}{21}
 \contentsline {section}{\numberline {7.5}Save Imgs}{22}
 \contentsline {chapter}{\numberline {8}Execution and Results}{23}
-\contentsline {chapter}{\numberline {9}Conclusion}{24}
-\contentsline {chapter}{References}{25}
+\contentsline {chapter}{\numberline {9}Conclusion}{25}
+\contentsline {chapter}{References}{26}

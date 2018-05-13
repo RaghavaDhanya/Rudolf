@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.11)  13 MAY 2018 22:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.11)  13 MAY 2018 22:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -542,27 +542,65 @@ Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen131
+\captionmargin@=\dimen132
+\captionwidth=\dimen133
+\caption@tempdima=\dimen134
+\caption@indent=\dimen135
+\caption@parindent=\dimen136
+\caption@hangindent=\dimen137
+)
+\c@ContinuedFloat=\count112
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+)
+\c@KVtest=\count113
+\sf@farskip=\skip52
+\sf@captopadj=\dimen138
+\sf@capskip=\skip53
+\sf@nearskip=\skip54
+\c@subfigure=\count114
+\c@subfigure@save=\count115
+\c@lofdepth=\count116
+\c@subtable=\count117
+\c@subtable@save=\count118
+\c@lotdepth=\count119
+\sf@top=\skip55
+\sf@bottom=\skip56
+)
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count112
-) (./main.aux)
+\etb@tempcnta=\count120
+) (./main.aux
+
+LaTeX Warning: Label `fig:dcgan' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 59.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 60.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 *geometry* driver: auto-detecting
@@ -601,16 +639,16 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count113
-\scratchdimen=\dimen131
+\scratchcounter=\count121
+\scratchdimen=\dimen139
 \scratchbox=\box33
-\nofMPsegments=\count114
-\nofMParguments=\count115
+\nofMPsegments=\count122
+\nofMParguments=\count123
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count116
-\MPscratchDim=\dimen132
-\MPnumerator=\count117
-\makeMPintoPDFobject=\count118
+\MPscratchCnt=\count124
+\MPscratchDim=\dimen140
+\MPnumerator=\count125
+\makeMPintoPDFobject=\count126
 \everyMPtoPDFconversion=\toks28
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -664,7 +702,10 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count119
+\c@lstlisting=\count127
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
 
 (./sections/front.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <17.28> not available
@@ -1013,11 +1054,73 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <8> not available
  [21])
 (./sections/execandresults.tex [22]
 Chapter 8.
-) (./sections/conclusion.tex [23
 
-]
+Overfull \hbox (1.57245pt too wide) in paragraph at lines 3--4
+[]\T1/ppl/m/n/12 Our re-search con-sisted of four net-works: AC-GAN, DC-GAN, In
+-fo-GAN and WGAN.
+ []
+
+<images/plots/classacgan.png, id=125, 462.528pt x 346.896pt>
+File: images/plots/classacgan.png Graphic file (type png)
+<use images/plots/classacgan.png>
+Package pdftex.def Info: images/plots/classacgan.png  used on input line 9.
+(pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
+<images/plots/capsacgan.png, id=126, 462.528pt x 346.896pt>
+File: images/plots/capsacgan.png Graphic file (type png)
+<use images/plots/capsacgan.png>
+Package pdftex.def Info: images/plots/capsacgan.png  used on input line 11.
+(pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
+<images/plots/classdcgan.png, id=127, 462.528pt x 346.896pt>
+File: images/plots/classdcgan.png Graphic file (type png)
+<use images/plots/classdcgan.png>
+Package pdftex.def Info: images/plots/classdcgan.png  used on input line 18.
+(pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
+<images/plots/capsdcgan.png, id=128, 462.528pt x 346.896pt>
+File: images/plots/capsdcgan.png Graphic file (type png)
+<use images/plots/capsdcgan.png>
+Package pdftex.def Info: images/plots/capsdcgan.png  used on input line 20.
+(pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
+<images/plots/classinfogan.png, id=129, 462.528pt x 346.896pt>
+File: images/plots/classinfogan.png Graphic file (type png)
+<use images/plots/classinfogan.png>
+Package pdftex.def Info: images/plots/classinfogan.png  used on input line 27.
+(pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
+<images/plots/capsinfogan.png, id=130, 462.528pt x 346.896pt>
+File: images/plots/capsinfogan.png Graphic file (type png)
+<use images/plots/capsinfogan.png>
+Package pdftex.def Info: images/plots/capsinfogan.png  used on input line 29.
+(pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
+[23
+
+ <./images/plots/classacgan.png> <./images/plots/capsacgan.png> <./images/plots
+/classdcgan.png> <./images/plots/capsdcgan.png>]
+<images/plots/classwgan.png, id=138, 462.528pt x 346.896pt>
+File: images/plots/classwgan.png Graphic file (type png)
+<use images/plots/classwgan.png>
+Package pdftex.def Info: images/plots/classwgan.png  used on input line 36.
+(pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
+<images/plots/capswgan.png, id=139, 462.528pt x 346.896pt>
+File: images/plots/capswgan.png Graphic file (type png)
+<use images/plots/capswgan.png>
+Package pdftex.def Info: images/plots/capswgan.png  used on input line 38.
+(pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
+<images/plots/classwgan-zoomed.png, id=140, 462.528pt x 346.896pt>
+File: images/plots/classwgan-zoomed.png Graphic file (type png)
+<use images/plots/classwgan-zoomed.png>
+Package pdftex.def Info: images/plots/classwgan-zoomed.png  used on input line 
+47.
+(pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
+<images/plots/capswgan-zoomed.png, id=141, 462.528pt x 346.896pt>
+File: images/plots/capswgan-zoomed.png Graphic file (type png)
+<use images/plots/capswgan-zoomed.png>
+Package pdftex.def Info: images/plots/capswgan-zoomed.png  used on input line 4
+9.
+(pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
+) (./sections/conclusion.tex [24 <./images/plots/classinfogan.png> <./images/pl
+ots/capsinfogan.png> <./images/plots/classwgan.png> <./images/plots/capswgan.pn
+g> <./images/plots/classwgan-zoomed.png> <./images/plots/capswgan-zoomed.png>]
 Chapter 9.
-) [24
+) [25
 
 ] (./main.bbl
 Underfull \hbox (badness 1043) in paragraph at lines 12--18
@@ -1025,31 +1128,35 @@ Underfull \hbox (badness 1043) in paragraph at lines 12--18
 u-moulin, and
  []
 
-[25
+[26
 
 
-]) [26] (./main.aux) ) 
+]) [27] (./main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 6560 strings out of 492982
- 85545 string characters out of 6134896
- 227981 words of memory out of 5000000
- 9893 multiletter control sequences out of 15000+600000
- 86681 words of font info for 174 fonts, out of 8000000 for 9000
+ 7805 strings out of 492982
+ 108495 string characters out of 6134896
+ 241282 words of memory out of 5000000
+ 11116 multiletter control sequences out of 15000+600000
+ 88287 words of font info for 176 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,42p,1450b,1748s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.en
-c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/p
-alatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/upl
-r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (35 pages, 1186666 bytes).
+ 44i,9n,49p,1450b,1748s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/mathpazo/fplmbb.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/
+uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (36 pages, 1658391 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
+ 192 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

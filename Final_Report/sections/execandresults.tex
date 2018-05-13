@@ -1,3 +1,52 @@
 \chapter{Execution and Results}\label{ch:execandresults}
 
-% Execution and results
+Our research consisted of four networks: ACGAN, DCGAN, InfoGAN and WGAN. Each of the networks was trained for 20,000 epochs each. The training period for the individual networks took anywhere between a few hours and a couple of days. For each network, we logged a few key metrics, mainly the Generator Loss (GLoss), Discriminator Loss (DLoss) and the Accuracy (Acc). 
+\par\bigskip
+Below we show graphically the performance of the (four) classical networks as compared to the CapsNet discriminator augmented networks.
+
+\begin{figure}[H]
+    \centering
+    \subfloat[Classical ACGAN]{{\includegraphics[width=.45\linewidth]{images/plots/classacgan.png} }}%
+    \qquad
+    \subfloat[CapsNet augmented ACGAN]{{\includegraphics[width=.45\linewidth]{images/plots/capsacgan.png} }}%
+    \caption{ACGAN metrics}%
+    \label{fig:acgan}%
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \subfloat[Classical DCGAN]{{\includegraphics[width=.45\linewidth]{images/plots/classdcgan.png} }}%
+    \qquad
+    \subfloat[CapsNet augmented DCGAN]{{\includegraphics[width=.45\linewidth]{images/plots/capsdcgan.png} }}%
+    \caption{DCGAN metrics}%
+    \label{fig:dcgan}%
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \subfloat[Classical InfoGAN]{{\includegraphics[width=.45\linewidth]{images/plots/classinfogan.png} }}%
+    \qquad
+    \subfloat[CapsNet augmented InfoGAN]{{\includegraphics[width=.45\linewidth]{images/plots/capsinfogan.png} }}%
+    \caption{InfoGAN metrics}%
+    \label{fig:infogan}%
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \subfloat[Classical WGAN]{{\includegraphics[width=.45\linewidth]{images/plots/classwgan.png} }}%
+    \qquad
+    \subfloat[CapsNet augmented WGAN]{{\includegraphics[width=.45\linewidth]{images/plots/capswgan.png} }}%
+    \caption{WGAN metrics}%
+    \label{fig:wgan}%
+\end{figure}
+
+The metrics of WGAN are at a smaller scale, so below is a comparison at the lower scale.
+
+\begin{figure}[H]
+    \centering
+    \subfloat[Classical WGAN]{{\includegraphics[width=.45\linewidth]{images/plots/classwgan-zoomed.png} }}%
+    \qquad
+    \subfloat[CapsNet augmented WGAN]{{\includegraphics[width=.45\linewidth]{images/plots/capswgan-zoomed.png} }}%
+    \caption{WGAN metrics - zoomed}%
+    \label{fig:wgan}%
+\end{figure}
