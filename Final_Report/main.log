@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.11)  11 MAY 2018 15:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.11)  13 MAY 2018 22:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -847,11 +847,11 @@ Chapter 5.
 <images/Generator.png, id=88, 662.475pt x 278.03876pt>
 File: images/Generator.png Graphic file (type png)
 <use images/Generator.png>
-Package pdftex.def Info: images/Generator.png  used on input line 8.
+Package pdftex.def Info: images/Generator.png  used on input line 17.
 (pdftex.def)             Requested size: 452.9679pt x 190.1075pt.
 [13
 
- <./images/Generator.png>] [14]) (./sections/implementation.tex [15]
+] [14 <./images/Generator.png>]) (./sections/implementation.tex [15]
 Chapter 6.
 <images/methodology.png, id=99, 963.6pt x 542.025pt>
 File: images/methodology.png Graphic file (type png)
@@ -860,34 +860,164 @@ Package pdftex.def Info: images/methodology.png  used on input line 9.
 (pdftex.def)             Requested size: 452.9679pt x 254.79314pt.
 [16
 
- <./images/methodology.png>]) (./sections/code.tex [17]
-Chapter 7.
+ <./images/methodology.png>]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 21.
- [18
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 28.
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 74--75
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 76--77
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 78--79
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 80--81
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 82--83
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 84--85
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 86--87
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 88--89
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 90--91
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 92--93
+[][][] 
+ []
+
+[17]
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 94--95
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 96--97
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 98--99
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 100--101
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 103--104
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 105--106
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 107--108
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 109--110
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 112--113
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 114--115
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 116--117
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 118--119
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 121--122
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 123--124
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 125--126
+[][][] 
+ []
+
+
+Overfull \hbox (17.43689pt too wide) in paragraph at lines 129--130
+[][][] 
+ []
+
+) (./sections/code.tex [18]
+Chapter 7.
+[19
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+ppl on input line 71.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
- [19]
+ [20]
 LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 150.
- [20])
-(./sections/execandresults.tex [21]
+ [21])
+(./sections/execandresults.tex [22]
 Chapter 8.
-) (./sections/conclusion.tex [22
+) (./sections/conclusion.tex [23
 
 ]
 Chapter 9.
-) [23
+) [24
 
 ] (./main.bbl
 Underfull \hbox (badness 1043) in paragraph at lines 12--18
@@ -895,18 +1025,18 @@ Underfull \hbox (badness 1043) in paragraph at lines 12--18
 u-moulin, and
  []
 
-[24
+[25
 
 
-]) [25] (./main.aux) ) 
+]) [26] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 6503 strings out of 492982
- 84456 string characters out of 6134896
- 224342 words of memory out of 5000000
- 9836 multiletter control sequences out of 15000+600000
+ 6560 strings out of 492982
+ 85545 string characters out of 6134896
+ 227981 words of memory out of 5000000
+ 9893 multiletter control sequences out of 15000+600000
  86681 words of font info for 174 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,42p,1450b,1873s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,7n,42p,1450b,1748s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.en
 c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
@@ -916,10 +1046,10 @@ ist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/p
 alatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/upl
 r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (34 pages, 1182513 bytes).
+Output written on main.pdf (35 pages, 1186666 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
+ 169 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
