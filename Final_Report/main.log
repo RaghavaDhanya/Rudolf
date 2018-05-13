@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.11)  13 MAY 2018 23:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.11)  13 MAY 2018 23:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -779,14 +779,19 @@ File: images/mvit.png Graphic file (type png)
 <use images/mvit.png>
 Package pdftex.def Info: images/mvit.png  used on input line 5.
 (pdftex.def)             Requested size: 90.5922pt x 80.03287pt.
+
+Overfull \hbox (21.20868pt too wide) in paragraph at lines 8--9
+\T1/ppl/m/n/12 els" has been car-ried out by Ab-hi-jith C. (1MV14CS004), Raghav
+a G. Dhanya (1MV14CS077)
+ []
+
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/sc' tried instead on input line 14.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 15.
- [1])
-(./sections/declaration.tex
+[1]) (./sections/declaration.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 6.
 
@@ -1156,7 +1161,7 @@ ic/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/
 uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (36 pages, 1659582 bytes).
+Output written on main.pdf (36 pages, 1659609 bytes).
 PDF statistics:
  192 PDF objects out of 1000 (max. 8388607)
  109 compressed objects within 2 object streams
