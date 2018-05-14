@@ -63,6 +63,11 @@ What we need is not invariance but equivariance. Invariance makes a CNN tolerant
 Capsule is a nested set of neural layers as shown in figure \ref{fig:caps}. Capsules are like cortical columns in human brains. Deep neural nets learn by back-propagation of errors over the entire network. In contrast real brains supposedly wire neurons by Hebbian principles: “units that fire together, wire together”. Capsules mimic Hebbian learning in the way that: “A lower-level capsule prefers to send its output to higher level capsules whose activity vectors have a big scalar product with the prediction coming from the lower-level capsule”. Capsules, combination of capsules encodes objects parts AND their relative positions, so an object instance can be accurately derived from the presence of the parts at the right locations, and not just their presence. Capsules produce equivariant features. Capsules predict the activity of higher-layer capsules to route information to right higher-layer capsules, this is called "Dynamic routing".
 % section capsule_networks (end)
 
+\section{Semantic Inpainting} % (fold)
+\label{sec:semantic_inpainting}
+To demonstrate the application of our modified GAN, we will be using Semantic Inpainting. Inpainting is the process of reconstructing lost or deteriorated parts of images and videos. In the museum world, in the case of a valuable painting, this task would be carried out by a skilled art conservator or art restorer. In the digital world, inpainting (also known as image interpolation or video interpolation) refers to the application of sophisticated algorithms to replace lost or corrupted parts of the image data (mainly small regions or to remove small defects). Here we will be using GAN to implement semantic inpainting.
+% section semantic_in_painting (end)
+
 \section{Scope of work} % (fold)
 \label{sec:scope_of_work}
 Generative Adversarial Networks are one of the hottest topics in Deep Learning right now. The applications of GANs are far ranging and immense. Creating Info-graphics from text, creating animations for rapid development of marketing content, generating website designs are to name a few. Our focus in this project is to implement a way to complete images of faces by generating the missing pieces using a GAN. 

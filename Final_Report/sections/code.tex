@@ -18,6 +18,7 @@ The main code consists of a class (DCGAN) which contains the following five func
 \section{Initialization} % (fold)
 \label{sec:initialization}
 \begin{lstlisting}[basicstyle=\scriptsize,language=Python]
+
 def __init__(self):
     # Input shape
     self.img_rows = 64
@@ -44,7 +45,8 @@ def __init__(self):
     # For the combined model only train the generator
     self.discriminator.trainable = False
 
-    # The discriminator takes generated images as input and determines validity
+    # The discriminator takes generated images as 
+    # input and determines validity
     valid = self.discriminator(img)
 
     # The combined model  (stacked generator and discriminator)
@@ -67,7 +69,8 @@ def build_generator(self):
     # Create a model in which one can add layers sequentially
     model = Sequential()
 
-    # Add a densely connected layer to the model, activation function of ReLu
+    # Add a densely connected layer to the model, 
+    # activation function of ReLu
     model.add(Dense(128 * 8 * 8, activation="relu", 
         input_shape=(self.latent_dim,)))
     model.add(Reshape((8, 8, 128)))

@@ -8,17 +8,7 @@ We provide a comparison between our novel CapsNet-based approach and other imple
 \par\bigskip 
 
 % Conclusion from results and analysis
-A preliminarily analysis of the data shows us that our CapsNet augmented networks, hence-forth referred to as the network name prefixed with "Caps", perform comparably with the classical architectures. 
-\par\bigskip
 
-Under ACGAN we see that CapsACGAN starts off with very high variance in GLoss and DLoss. Over the course of 20,000 epochs, the variance gradually reduces to match the Classical ACGAN metrics at the end. Accuracy of CapsACGAN, on the other hand, quickly stabilizes to meet classical ACGAN metrics. As a side note, ACGAN was the fastest trained network, taking roughly three hours to complete 20,000 epochs.
-\par\bigskip
-
-DCGAN and InfoGAN are interesting in the sense that they show a remarkable shift in the GLoss metric. This is odd considering only the discriminator code was augmented and the generator was left untouched. This requires further analysis. Accuracy and DLoss follow their classical counterpart closely.
-\par\bigskip
-
-WGAN happens to be the best and state-of-the-art. Consequently, the variance in the metrics were at a much smaller scale. We had to zoom-in to notice the difference between the metrics. We see that an initial burst of high variance quickly stabilizes to quickly trace a path closely matching the classical architecture.
-\par\bigskip
 
 In conclusion, we can confidently state that augmenting the GANs with CapsNet was a fruitful endeavor. The CapsNet helped to reduce th training overhead considerably when compared to classical networks while providing remarkably similar results. Our research shows that embedding CapsNet into the GAN does not degrade its performance and, in certain cases, improves upon it.
 

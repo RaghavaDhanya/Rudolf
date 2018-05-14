@@ -28,10 +28,12 @@
 \newlabel{sec:capsule_networks}{{1.4}{4}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces Capsule Networks\relax }}{4}}
 \newlabel{fig:caps}{{1.3}{4}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.5}Scope of work}{4}}
-\newlabel{sec:scope_of_work}{{1.5}{4}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.6}Motivation}{5}}
-\newlabel{sec:motivation}{{1.6}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.5}Semantic Inpainting}{4}}
+\newlabel{sec:semantic_inpainting}{{1.5}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.6}Scope of work}{5}}
+\newlabel{sec:scope_of_work}{{1.6}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.7}Motivation}{5}}
+\newlabel{sec:motivation}{{1.7}{5}}
 \citation{gan}
 \citation{gan}
 \citation{imagenet}
@@ -80,90 +82,94 @@
 \newlabel{sec:google_colaboratory}{{3.4}{10}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.5}Matplotlib}{10}}
 \newlabel{sec:matplotlib}{{3.5}{10}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}System Requirements}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.6}Flask}{10}}
+\newlabel{sec:flask}{{3.6}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.7}OpenCV}{11}}
+\newlabel{sec:opencv}{{3.7}{11}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}System Requirements}{12}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:system_requirements}{{4}{11}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Functional Requirements}{11}}
-\newlabel{sec:functional_requirements}{{4.1}{11}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Non Functional Requirements}{11}}
-\newlabel{sec:non_functional_requirements}{{4.2}{11}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Development Requirement}{11}}
-\newlabel{sec:development_requirement}{{4.3}{11}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Training System Requirements}{11}}
-\newlabel{sub:training_system_requirements}{{4.3.1}{11}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Testing System Requirements}{12}}
-\newlabel{sub:Testing_system_requirements}{{4.3.2}{12}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Proposed Architecture}{13}}
+\newlabel{ch:system_requirements}{{4}{12}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Functional Requirements}{12}}
+\newlabel{sec:functional_requirements}{{4.1}{12}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Non Functional Requirements}{12}}
+\newlabel{sec:non_functional_requirements}{{4.2}{12}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Development Requirement}{12}}
+\newlabel{sec:development_requirement}{{4.3}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Training System Requirements}{12}}
+\newlabel{sub:training_system_requirements}{{4.3.1}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Testing System Requirements}{13}}
+\newlabel{sub:Testing_system_requirements}{{4.3.2}{13}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Proposed Architecture}{14}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:proposed_architecture}{{5}{13}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Generator}{13}}
-\newlabel{sec:generator}{{5.1}{13}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Generator architecture\relax }}{14}}
-\newlabel{fig:generator}{{5.1}{14}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Discriminator}{14}}
-\newlabel{sec:discriminator}{{5.2}{14}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Layer 1: Convolutional Layer}{14}}
-\newlabel{sub:layer_1_convolutional_layer}{{5.2.1}{14}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Layer 2: PrimaryCaps Layer}{14}}
-\newlabel{sub:layer_2_primarycaps_layer}{{5.2.2}{14}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}Layer 3: DigitCaps Layer}{15}}
-\newlabel{sub:layer_3_digitcaps_layer}{{5.2.3}{15}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Implementation}{16}}
+\newlabel{ch:proposed_architecture}{{5}{14}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Generator}{14}}
+\newlabel{sec:generator}{{5.1}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Generator architecture\relax }}{15}}
+\newlabel{fig:generator}{{5.1}{15}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Discriminator}{15}}
+\newlabel{sec:discriminator}{{5.2}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Layer 1: Convolutional Layer}{15}}
+\newlabel{sub:layer_1_convolutional_layer}{{5.2.1}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Layer 2: PrimaryCaps Layer}{15}}
+\newlabel{sub:layer_2_primarycaps_layer}{{5.2.2}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}Layer 3: DigitCaps Layer}{16}}
+\newlabel{sub:layer_3_digitcaps_layer}{{5.2.3}{16}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Implementation}{17}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:implementation}{{6}{16}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Proposed architecture\relax }}{16}}
-\newlabel{fig:capsgan}{{6.1}{16}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Network Architectures}{17}}
-\newlabel{sec:network_architectures}{{6.1}{17}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}Generator}{17}}
-\newlabel{sub:generator}{{6.1.1}{17}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.2}Discriminator}{17}}
-\newlabel{sub:discriminator}{{6.1.2}{17}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Code snippets}{19}}
+\newlabel{ch:implementation}{{6}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Proposed architecture\relax }}{17}}
+\newlabel{fig:capsgan}{{6.1}{17}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Network Architectures}{18}}
+\newlabel{sec:network_architectures}{{6.1}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}Generator}{18}}
+\newlabel{sub:generator}{{6.1.1}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.2}Discriminator}{18}}
+\newlabel{sub:discriminator}{{6.1.2}{18}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Code snippets}{20}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:scope}{{7}{19}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.1}Initialization}{19}}
-\newlabel{sec:initialization}{{7.1}{19}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.2}Building Generator}{20}}
-\newlabel{sec:building_generator}{{7.2}{20}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.3}Building Discriminator}{20}}
-\newlabel{sec:building_discriminator}{{7.3}{20}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.4}Train}{21}}
-\newlabel{sec:train}{{7.4}{21}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.5}Save Imgs}{22}}
-\newlabel{sec:save_imgs}{{7.5}{22}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}Execution and Results}{23}}
+\newlabel{ch:scope}{{7}{20}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Initialization}{20}}
+\newlabel{sec:initialization}{{7.1}{20}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Building Generator}{21}}
+\newlabel{sec:building_generator}{{7.2}{21}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}Building Discriminator}{21}}
+\newlabel{sec:building_discriminator}{{7.3}{21}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.4}Train}{22}}
+\newlabel{sec:train}{{7.4}{22}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.5}Save Imgs}{23}}
+\newlabel{sec:save_imgs}{{7.5}{23}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}Execution and Results}{24}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:execandresults}{{8}{23}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces ACGAN metrics\relax }}{23}}
-\newlabel{fig:acgan}{{8.1}{23}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Classical ACGAN}}}{23}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {CapsNet augmented ACGAN}}}{23}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces DCGAN metrics\relax }}{23}}
-\newlabel{fig:dcgan}{{8.2}{23}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Classical DCGAN}}}{23}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {CapsNet augmented DCGAN}}}{23}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces InfoGAN metrics\relax }}{24}}
-\newlabel{fig:infogan}{{8.3}{24}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Classical InfoGAN}}}{24}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {CapsNet augmented InfoGAN}}}{24}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.4}{\ignorespaces WGAN metrics\relax }}{24}}
-\newlabel{fig:wgan}{{8.4}{24}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Classical WGAN}}}{24}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {CapsNet augmented WGAN}}}{24}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.5}{\ignorespaces WGAN metrics - zoomed\relax }}{24}}
-\newlabel{fig:wgan}{{8.5}{24}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Classical WGAN}}}{24}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {CapsNet augmented WGAN}}}{24}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Conclusion}{25}}
+\newlabel{ch:execandresults}{{8}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces ACGAN metrics\relax }}{24}}
+\newlabel{fig:acgan}{{8.1}{24}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Classical ACGAN}}}{24}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {CapsNet augmented ACGAN}}}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces DCGAN metrics\relax }}{24}}
+\newlabel{fig:dcgan}{{8.2}{24}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Classical DCGAN}}}{24}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {CapsNet augmented DCGAN}}}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces InfoGAN metrics\relax }}{25}}
+\newlabel{fig:infogan}{{8.3}{25}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Classical InfoGAN}}}{25}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {CapsNet augmented InfoGAN}}}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.4}{\ignorespaces WGAN metrics\relax }}{25}}
+\newlabel{fig:wgan}{{8.4}{25}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Classical WGAN}}}{25}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {CapsNet augmented WGAN}}}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.5}{\ignorespaces WGAN metrics - zoomed\relax }}{25}}
+\newlabel{fig:wgan}{{8.5}{25}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Classical WGAN}}}{25}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {CapsNet augmented WGAN}}}{25}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Conclusion}{27}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:conclusion}{{9}{25}}
+\newlabel{ch:conclusion}{{9}{27}}
 \bibdata{ref}
 \bibcite{wgan}{1}
 \bibcite{improvedwgan}{2}
@@ -176,7 +182,7 @@
 \bibcite{deepresidual}{9}
 \bibcite{dcgan}{10}
 \bibcite{gan}{11}
-\@writefile{toc}{\contentsline {chapter}{References}{26}}
+\@writefile{toc}{\contentsline {chapter}{References}{28}}
 \bibcite{congan}{12}
 \bibcite{imagenet}{13}
 \bibstyle{plainyr-rev}

@@ -50,3 +50,17 @@ The metrics of WGAN are at a smaller scale, so below is a comparison at the lowe
     \caption{WGAN metrics - zoomed}%
     \label{fig:wgan}%
 \end{figure}
+\par\bigskip
+
+A preliminarily analysis of the data shows us that our CapsNet augmented networks, hence-forth referred to as the network name prefixed with "Caps", perform comparably with the classical architectures. 
+\par\bigskip
+
+Under ACGAN we see that CapsACGAN starts off with very high variance in GLoss and DLoss. Over the course of 20,000 epochs, the variance gradually reduces to match the Classical ACGAN metrics at the end. Accuracy of CapsACGAN, on the other hand, quickly stabilizes to meet classical ACGAN metrics. As a side note, ACGAN was the fastest trained network, taking roughly three hours to complete 20,000 epochs.
+\par\bigskip
+
+DCGAN and InfoGAN are interesting in the sense that they show a remarkable shift in the GLoss metric. This is odd considering only the discriminator code was augmented and the generator was left untouched. This requires further analysis. Accuracy and DLoss follow their classical counterpart closely.
+\par\bigskip
+
+WGAN happens to be the best and state-of-the-art. Consequently, the variance in the metrics were at a much smaller scale. We had to zoom-in to notice the difference between the metrics. We see that an initial burst of high variance quickly stabilizes to quickly trace a path closely matching the classical architecture.
+\par\bigskip
+
