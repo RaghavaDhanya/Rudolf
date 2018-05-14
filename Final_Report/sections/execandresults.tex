@@ -1,5 +1,10 @@
 \chapter{Execution and Results}\label{ch:execandresults}
 
+
+\section{Training} % (fold)
+\label{sec:training}
+
+% section training (end)
 Our research consisted of four networks: ACGAN, DCGAN, InfoGAN and WGAN. Each of the networks was trained for 20,000 epochs each. The training period for the individual networks took anywhere between a few hours and a couple of days. For each network, we logged a few key metrics, mainly the Generator Loss (GLoss), Discriminator Loss (DLoss) and the Accuracy (Acc). 
 \par\bigskip
 Below we show graphically the performance of the (four) classical networks as compared to the CapsNet discriminator augmented networks.
@@ -64,3 +69,41 @@ DCGAN and InfoGAN are interesting in the sense that they show a remarkable shift
 WGAN happens to be the best and state-of-the-art. Consequently, the variance in the metrics were at a much smaller scale. We had to zoom-in to notice the difference between the metrics. We see that an initial burst of high variance quickly stabilizes to quickly trace a path closely matching the classical architecture.
 \par\bigskip
 
+
+
+\section{Demonstration} % (fold)
+\label{sec:demonstration}
+% \begin{figure}[H]
+% \centering\includegraphics[width=.9\textwidth]{images/completion_outputs/0_1.png}
+% \caption{Completed}
+% \label{fig:completed}
+% \end{figure}
+% section demonstration (end)
+
+\begin{figure}[H]
+    \centering
+    \subfloat{{\includegraphics[width=.9\linewidth]{images/completion_outputs/0_1.png} }}%
+    \\
+    \centering
+    \subfloat{{\includegraphics[width=.9\linewidth]{images/completion_outputs/0_2.png} }}%
+    \\
+    \centering
+    \subfloat{{\includegraphics[width=.9\linewidth]{images/completion_outputs/3_1.png} }}%
+    \caption{Examples}%
+    \label{fig:examples}%
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \subfloat{{\includegraphics[width=.9\linewidth]{images/completion_outputs/3_2.png} }}%
+    \\
+    \centering
+    \subfloat{{\includegraphics[width=.9\linewidth]{images/completion_outputs/4.png} }}%
+    \\
+    \centering
+    \subfloat{{\includegraphics[width=.9\linewidth]{images/completion_outputs/8_1.png} }}%
+    \\
+    \centering
+    \subfloat{{\includegraphics[width=.9\linewidth]{images/completion_outputs/9_1.png} }}%
+    \caption{More examples}%
+    \label{fig:more_examples}%
+\end{figure}

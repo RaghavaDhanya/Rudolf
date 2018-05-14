@@ -60,6 +60,12 @@ Tim Salimans, Ian Goodfellow, Wojciech Zaremba, Vicki Cheung, Alec Radford,
   editors, {\em Advances in Neural Information Processing Systems 29}, pages
   2234--2242. Curran Associates, Inc., 2016.
 
+\bibitem{inpainting}
+Raymond~A. Yeh, Chen Chen, Teck{-}Yian Lim, Mark Hasegawa{-}Johnson, and
+  Minh~N. Do.
+\newblock Semantic image inpainting with perceptual and contextual losses.
+\newblock {\em CoRR}, abs/1607.07539, 2016.
+
 \bibitem{deepresidual}
 Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
 \newblock Deep residual learning for image recognition.

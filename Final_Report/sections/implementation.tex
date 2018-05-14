@@ -131,3 +131,85 @@ ________________________________________________________________________________
 % subsection discriminator (end)
 
 % section network_architectures (end)
+
+\section{Demonstration} % (fold)
+\label{sec:demonstration}
+The training of the models took place on Colaboratory, over Keras. Keras provided for a fast implementation of the code and high level abstraction. The output model was in the format of H5. This could not be directly used as part of semantic inpainting as semantic inpainting requires changing low level architectural details which Keras does not allow. Hence we converted the H5 model to TensorFlow protocol buffer, which is TensorFlow's model saving format, the code for which can be found in \ref{sub:converting_models}.
+\par\bigskip
+
+For the semantic inpainting, we take as input an image. The image is loaded onto a canvas with an ability to mask a part of the image. Once the mask is set, our processing starts. The following process is based on Raymond A. Yeh \textit{et al.} \cite{inpainting}
+\par\bigskip
+
+The masked image is a Hadamard product of the mask component, M, and the original input image, y. 
+\begin{equation} \label{eqn:masked_image}
+Masked Image = \bm{M} \odot\  \bm{y}
+\end{equation}
+\par\bigskip
+
+Suppose we've found an image from the generator $G(\hat z)$ for some $\hat z$ that gives a reasonable reconstruction of the missing portions. The completed pixels $(1 - M) \odot G(\hat z)$ can be added to the original pixels to create the reconstructed image:
+\begin{equation} \label{eqn:reconstructed_image}
+\bm{x} \textsubscript{reconstructed} = \bm{M} \odot\  \bm{y} + (1 - \bm{M}) \odot \bm{G} (\hat z)
+\end{equation}
+\par\bigskip
+
+Now all that is needed is to find a $G(\hat z)$ that does a good enough job of completing the image. We will consider a loss function, a smaller value of which means that z is more suitable for completion. The total loss function will be a sum of two loss functions: Contextual and Perceptual.
+
+\subsection{Contextual Loss} % (fold)
+\label{sub:contextual_loss}
+To keep the same context as the input image, make sure the known pixel locations in the input image y are similar to the pixels in $G(z)$. We need to penalize $G(z)$ for not creating a similar image for the pixels that we know about. Formally, we do this by element-wise subtracting the pixels in $y$ from $G(z)$ and looking at how much they differ:
+\begin{equation} \label{eqn:contextual_loss}
+\bm{L}\textsubscript{contextual}(\bm{z}) = || \bm{M} \odot\  \bm{G(m)} + (1 - \bm{M}) \odot \bm{G} (\hat z) || \textsubscript{1}
+\end{equation}
+where $||x|| \textsubscript{1}=\sum \textsubscript{i} |x \textsubscript{i}|$ is the $l \textsubscript{1}$ norm of some vector $x$.
+
+% subsection contextual_loss (end)
+
+\subsection{Perceptual Loss} % (fold)
+\label{sub:perceptual_loss}
+To recover an image that looks real, let’s make sure the discriminator is properly convinced that the image looks real. We’ll do this with the same criterion used in training the network:
+\begin{equation} \label{eqn:perceptual_loss}
+\bm{L}\textsubscript{perceptual}(\bm{z}) = \bm{log} (1 - \bm{D}(\bm{G}(\bm{z})))
+\end{equation}
+% subsection perceptual_loss (end)
+
+\subsection{Total Loss} % (fold)
+\label{sub:total_loss}
+We now find $\hat z$ with a combination of the contextual and perceptual losses:
+\begin{equation} \label{eqn:total_loss}
+\bm{L}(\bm{z}) = \bm{L}\textsubscript{contextual}(\bm{z}) + \lambda \bm{L}\textsubscript{perceptual}(\bm{z})
+\end{equation}
+\begin{equation} \label{eqn:minimization}
+\hat z = arg \min_z \bm{L} (\bm{z})
+\end{equation}
+
+where $\lambda$ is a hyper-parameter that controls how important the contextual loss is relative to the perceptual loss. Then as before, the reconstructed image fills in the missing values of $\bm{y}$ with $\bm{G}(\bm{z})$:
+\begin{equation} \label{eqn:reconstructed_image_final}
+\bm{x} \textsubscript{reconstructed} = \bm{M} \odot\  \bm{y} + (1 - \bm{M}) \odot \bm{G} (\hat z)
+\end{equation}
+% subsection total_loss (end)
+
+\subsection{Projected Gradient Descent} % (fold)
+\label{sub:projected_gradient_descent}
+	For minimizing the loss function we use projected gradient descent. Its different from gradient descent in the sense, at a basic level, projected gradient descent is just a more general method for solving a more general problem. Gradient descent minimizes a function by moving in the negative gradient direction at each step. There is no constraint on the variable. 
+\begin{equation} \label{eqn:gradient_descent}
+\text{Problem 1:} \min_x f(x)
+$$
+$$
+x_{k+1} = x_k - t_k \nabla f(x_k)
+\end{equation}
+
+On the other hand, projected gradient descent minimizes a function subject to a constraint. At each step we move in the direction of the negative gradient, and then "project" onto the feasible set.
+
+\begin{equation} \label{eqn:projected_gradient_descent}
+\text{Problem 2:} \min_x f(x) \text{ subject to } x \in C
+$$
+$$
+y_{k+1} = x_k - t_k \nabla f(x_k)
+$$
+$$
+x_{k+1} = \text{arg} \min_{x \in C} \|y_{k+1}-x\| 
+\end{equation}
+
+% subsection projected_gradient_descent (end)
+
+% section demonstration (end)

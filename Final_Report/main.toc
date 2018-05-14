@@ -41,17 +41,24 @@
 \contentsline {section}{\numberline {6.1}Network Architectures}{18}
 \contentsline {subsection}{\numberline {6.1.1}Generator}{18}
 \contentsline {subsection}{\numberline {6.1.2}Discriminator}{18}
-\contentsline {chapter}{\numberline {7}Code snippets}{20}
-\contentsline {section}{\numberline {7.1}GAN Training}{20}
-\contentsline {subsection}{\numberline {7.1.1}Initialization}{20}
-\contentsline {subsection}{\numberline {7.1.2}Building Generator}{21}
-\contentsline {subsection}{\numberline {7.1.3}Building Discriminator}{21}
-\contentsline {subsection}{\numberline {7.1.4}Train}{22}
-\contentsline {subsection}{\numberline {7.1.5}Saving Images}{23}
-\contentsline {subsection}{\numberline {7.1.6}Saving Models}{23}
-\contentsline {section}{\numberline {7.2}Demonstration}{24}
-\contentsline {subsection}{\numberline {7.2.1}Converting Models}{24}
-\contentsline {subsection}{\numberline {7.2.2}Semantic Inpainting}{24}
-\contentsline {chapter}{\numberline {8}Execution and Results}{27}
-\contentsline {chapter}{\numberline {9}Conclusion}{30}
-\contentsline {chapter}{References}{31}
+\contentsline {section}{\numberline {6.2}Demonstration}{19}
+\contentsline {subsection}{\numberline {6.2.1}Contextual Loss}{20}
+\contentsline {subsection}{\numberline {6.2.2}Perceptual Loss}{20}
+\contentsline {subsection}{\numberline {6.2.3}Total Loss}{20}
+\contentsline {subsection}{\numberline {6.2.4}Projected Gradient Descent}{20}
+\contentsline {chapter}{\numberline {7}Code snippets}{21}
+\contentsline {section}{\numberline {7.1}GAN Training}{21}
+\contentsline {subsection}{\numberline {7.1.1}Initialization}{21}
+\contentsline {subsection}{\numberline {7.1.2}Building Generator}{22}
+\contentsline {subsection}{\numberline {7.1.3}Building Discriminator}{22}
+\contentsline {subsection}{\numberline {7.1.4}Train}{23}
+\contentsline {subsection}{\numberline {7.1.5}Saving Images}{24}
+\contentsline {subsection}{\numberline {7.1.6}Saving Models}{24}
+\contentsline {section}{\numberline {7.2}Demonstration}{25}
+\contentsline {subsection}{\numberline {7.2.1}Converting Models}{25}
+\contentsline {subsection}{\numberline {7.2.2}Semantic Inpainting}{25}
+\contentsline {chapter}{\numberline {8}Execution and Results}{28}
+\contentsline {section}{\numberline {8.1}Training}{28}
+\contentsline {section}{\numberline {8.2}Demonstration}{30}
+\contentsline {chapter}{\numberline {9}Conclusion}{32}
+\contentsline {chapter}{References}{33}
