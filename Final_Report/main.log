@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.11)  14 MAY 2018 10:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.11)  14 MAY 2018 11:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -921,17 +921,17 @@ Chapter 7.
 [20
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 74.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 77.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
  [21]
 LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 153.
- [22])
-(./sections/execandresults.tex [23]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 156.
+ [22]
+[23] [24] [25]) (./sections/execandresults.tex [26]
 Chapter 8.
 
 Overfull \hbox (1.57245pt too wide) in paragraph at lines 3--4
@@ -939,68 +939,68 @@ Overfull \hbox (1.57245pt too wide) in paragraph at lines 3--4
 -fo-GAN and WGAN.
  []
 
-<images/plots/classacgan.png, id=128, 462.528pt x 346.896pt>
+<images/plots/classacgan.png, id=137, 462.528pt x 346.896pt>
 File: images/plots/classacgan.png Graphic file (type png)
 <use images/plots/classacgan.png>
 Package pdftex.def Info: images/plots/classacgan.png  used on input line 9.
 (pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
-<images/plots/capsacgan.png, id=129, 462.528pt x 346.896pt>
+<images/plots/capsacgan.png, id=138, 462.528pt x 346.896pt>
 File: images/plots/capsacgan.png Graphic file (type png)
 <use images/plots/capsacgan.png>
 Package pdftex.def Info: images/plots/capsacgan.png  used on input line 11.
 (pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
-<images/plots/classdcgan.png, id=130, 462.528pt x 346.896pt>
+<images/plots/classdcgan.png, id=139, 462.528pt x 346.896pt>
 File: images/plots/classdcgan.png Graphic file (type png)
 <use images/plots/classdcgan.png>
 Package pdftex.def Info: images/plots/classdcgan.png  used on input line 18.
 (pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
-<images/plots/capsdcgan.png, id=131, 462.528pt x 346.896pt>
+<images/plots/capsdcgan.png, id=140, 462.528pt x 346.896pt>
 File: images/plots/capsdcgan.png Graphic file (type png)
 <use images/plots/capsdcgan.png>
 Package pdftex.def Info: images/plots/capsdcgan.png  used on input line 20.
 (pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
-<images/plots/classinfogan.png, id=132, 462.528pt x 346.896pt>
+<images/plots/classinfogan.png, id=141, 462.528pt x 346.896pt>
 File: images/plots/classinfogan.png Graphic file (type png)
 <use images/plots/classinfogan.png>
 Package pdftex.def Info: images/plots/classinfogan.png  used on input line 27.
 (pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
-<images/plots/capsinfogan.png, id=133, 462.528pt x 346.896pt>
+<images/plots/capsinfogan.png, id=142, 462.528pt x 346.896pt>
 File: images/plots/capsinfogan.png Graphic file (type png)
 <use images/plots/capsinfogan.png>
 Package pdftex.def Info: images/plots/capsinfogan.png  used on input line 29.
 (pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
-[24
+[27
 
  <./images/plots/classacgan.png> <./images/plots/capsacgan.png> <./images/plots
 /classdcgan.png> <./images/plots/capsdcgan.png>]
-<images/plots/classwgan.png, id=141, 462.528pt x 346.896pt>
+<images/plots/classwgan.png, id=150, 462.528pt x 346.896pt>
 File: images/plots/classwgan.png Graphic file (type png)
 <use images/plots/classwgan.png>
 Package pdftex.def Info: images/plots/classwgan.png  used on input line 36.
 (pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
-<images/plots/capswgan.png, id=142, 462.528pt x 346.896pt>
+<images/plots/capswgan.png, id=151, 462.528pt x 346.896pt>
 File: images/plots/capswgan.png Graphic file (type png)
 <use images/plots/capswgan.png>
 Package pdftex.def Info: images/plots/capswgan.png  used on input line 38.
 (pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
-<images/plots/classwgan-zoomed.png, id=143, 462.528pt x 346.896pt>
+<images/plots/classwgan-zoomed.png, id=152, 462.528pt x 346.896pt>
 File: images/plots/classwgan-zoomed.png Graphic file (type png)
 <use images/plots/classwgan-zoomed.png>
 Package pdftex.def Info: images/plots/classwgan-zoomed.png  used on input line 
 47.
 (pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
-<images/plots/capswgan-zoomed.png, id=144, 462.528pt x 346.896pt>
+<images/plots/capswgan-zoomed.png, id=153, 462.528pt x 346.896pt>
 File: images/plots/capswgan-zoomed.png Graphic file (type png)
 <use images/plots/capswgan-zoomed.png>
 Package pdftex.def Info: images/plots/capswgan-zoomed.png  used on input line 4
 9.
 (pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
- [25 <./images/plots/classinfogan.png> <./images/plots/capsinfogan.png> <./imag
+ [28 <./images/plots/classinfogan.png> <./images/plots/capsinfogan.png> <./imag
 es/plots/classwgan.png> <./images/plots/capswgan.png> <./images/plots/classwgan
 -zoomed.png> <./images/plots/capswgan-zoomed.png>]) (./sections/conclusion.tex 
-[26]
+[29]
 Chapter 9.
-) [27
+) [30
 
 ] (./main.bbl
 Underfull \hbox (badness 1043) in paragraph at lines 12--18
@@ -1008,19 +1008,19 @@ Underfull \hbox (badness 1043) in paragraph at lines 12--18
 u-moulin, and
  []
 
-[28
+[31
 
 
-]) [29] (./main.aux)
+]) [32] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7808 strings out of 492982
- 108537 string characters out of 6134896
- 241315 words of memory out of 5000000
- 11119 multiletter control sequences out of 15000+600000
+ 7928 strings out of 492982
+ 110263 string characters out of 6134896
+ 241373 words of memory out of 5000000
+ 11239 multiletter control sequences out of 15000+600000
  88287 words of font info for 176 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,9n,49p,1450b,1748s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1033,10 +1033,10 @@ ic/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/
 uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (38 pages, 1662239 bytes).
+Output written on main.pdf (41 pages, 1674413 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 116 compressed objects within 2 object streams
+ 210 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
