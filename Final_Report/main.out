@@ -1,0 +1,73 @@
+\BOOKMARK [0][-]{chapter*.2}{Abstract}{}% 1
+\BOOKMARK [-1][-]{part*.5}{Chapter 1 Introduction}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{part*.5}% 3
+\BOOKMARK [1][-]{section.1.1}{Generative Models}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.1}{Generative adversarial networks}{section.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.2}{Variational Autoencoders }{section.1.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.3}{Autoregressive models}{section.1.1}% 7
+\BOOKMARK [1][-]{section.1.2}{Generative Adversarial Networks}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.3}{Convolutional Neural Networks}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.4}{Capsule Networks}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.5}{Semantic Inpainting}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.6}{Scope of work}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.7}{Motivation}{chapter.1}% 13
+\BOOKMARK [-1][-]{part*.9}{Chapter 2 Literature Survey}{}% 14
+\BOOKMARK [0][-]{chapter.2}{Literature Survey}{part*.9}% 15
+\BOOKMARK [1][-]{section.2.1}{DCGAN}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.2}{InfoGAN}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.3}{ACGAN}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.4}{WGAN}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.5}{Other GANs}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.6}{Capsule Neural Network}{chapter.2}% 21
+\BOOKMARK [-1][-]{part*.11}{Chapter 3 Technology}{}% 22
+\BOOKMARK [0][-]{chapter.3}{Technology}{part*.11}% 23
+\BOOKMARK [1][-]{section.3.1}{Tensorflow}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.2}{Keras}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.3}{PyTorch}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.4}{Google Colaboratory}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.5}{Matplotlib}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.6}{Flask}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.7}{OpenCV}{chapter.3}% 30
+\BOOKMARK [-1][-]{part*.12}{Chapter 4 System Requirements}{}% 31
+\BOOKMARK [0][-]{chapter.4}{System Requirements}{part*.12}% 32
+\BOOKMARK [1][-]{section.4.1}{Functional Requirements}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.2}{Non Functional Requirements}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.3}{Development Requirement}{chapter.4}% 35
+\BOOKMARK [2][-]{subsection.4.3.1}{Training System Requirements}{section.4.3}% 36
+\BOOKMARK [2][-]{subsection.4.3.2}{Demonstration System Requirements}{section.4.3}% 37
+\BOOKMARK [-1][-]{part*.13}{Chapter 5 Proposed Architecture}{}% 38
+\BOOKMARK [0][-]{chapter.5}{Proposed Architecture}{part*.13}% 39
+\BOOKMARK [1][-]{section.5.1}{Generator}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.2}{Discriminator}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.2.1}{Layer 1: Convolutional Layer}{section.5.2}% 42
+\BOOKMARK [2][-]{subsection.5.2.2}{Layer 2: PrimaryCaps Layer}{section.5.2}% 43
+\BOOKMARK [2][-]{subsection.5.2.3}{Layer 3: DigitCaps Layer}{section.5.2}% 44
+\BOOKMARK [-1][-]{part*.15}{Chapter 6 Implementation}{}% 45
+\BOOKMARK [0][-]{chapter.6}{Implementation}{part*.15}% 46
+\BOOKMARK [1][-]{section.6.1}{Network Architectures}{chapter.6}% 47
+\BOOKMARK [2][-]{subsection.6.1.1}{Generator}{section.6.1}% 48
+\BOOKMARK [2][-]{subsection.6.1.2}{Discriminator}{section.6.1}% 49
+\BOOKMARK [1][-]{section.6.2}{Demonstration}{chapter.6}% 50
+\BOOKMARK [2][-]{subsection.6.2.1}{Contextual Loss}{section.6.2}% 51
+\BOOKMARK [2][-]{subsection.6.2.2}{Perceptual Loss}{section.6.2}% 52
+\BOOKMARK [2][-]{subsection.6.2.3}{Total Loss}{section.6.2}% 53
+\BOOKMARK [2][-]{subsection.6.2.4}{Projected Gradient Descent}{section.6.2}% 54
+\BOOKMARK [-1][-]{part*.17}{Chapter 7 Code Snippets}{}% 55
+\BOOKMARK [0][-]{chapter.7}{Code snippets}{part*.17}% 56
+\BOOKMARK [1][-]{section.7.1}{GAN Training}{chapter.7}% 57
+\BOOKMARK [2][-]{subsection.7.1.1}{Initialization}{section.7.1}% 58
+\BOOKMARK [2][-]{subsection.7.1.2}{Building Generator}{section.7.1}% 59
+\BOOKMARK [2][-]{subsection.7.1.3}{Building Discriminator}{section.7.1}% 60
+\BOOKMARK [2][-]{subsection.7.1.4}{Train}{section.7.1}% 61
+\BOOKMARK [2][-]{subsection.7.1.5}{Saving Images}{section.7.1}% 62
+\BOOKMARK [2][-]{subsection.7.1.6}{Saving Models}{section.7.1}% 63
+\BOOKMARK [1][-]{section.7.2}{Demonstration}{chapter.7}% 64
+\BOOKMARK [2][-]{subsection.7.2.1}{Converting Models}{section.7.2}% 65
+\BOOKMARK [2][-]{subsection.7.2.2}{Semantic Inpainting}{section.7.2}% 66
+\BOOKMARK [-1][-]{part*.18}{Chapter 8 Execution and Results}{}% 67
+\BOOKMARK [0][-]{chapter.8}{Execution and Results}{part*.18}% 68
+\BOOKMARK [1][-]{section.8.1}{Training}{chapter.8}% 69
+\BOOKMARK [1][-]{section.8.2}{Demonstration}{chapter.8}% 70
+\BOOKMARK [-1][-]{part*.26}{Chapter 9 Conclusion}{}% 71
+\BOOKMARK [0][-]{chapter.9}{Conclusion}{part*.26}% 72
+\BOOKMARK [0][-]{chapter*.27}{References}{part*.26}% 73

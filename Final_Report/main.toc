@@ -1,64 +1,73 @@
-\contentsline {chapter}{Abstract}{ii}
-\contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {section}{\numberline {1.1}Generative Models}{1}
-\contentsline {subsection}{\numberline {1.1.1}Generative adversarial networks}{1}
-\contentsline {subsection}{\numberline {1.1.2}Variational Autoencoders }{2}
-\contentsline {subsection}{\numberline {1.1.3}Autoregressive models}{2}
-\contentsline {section}{\numberline {1.2}Generative Adversarial Networks}{2}
-\contentsline {section}{\numberline {1.3}Convolutional Neural Networks}{3}
-\contentsline {section}{\numberline {1.4}Capsule Networks}{4}
-\contentsline {section}{\numberline {1.5}Semantic Inpainting}{4}
-\contentsline {section}{\numberline {1.6}Scope of work}{5}
-\contentsline {section}{\numberline {1.7}Motivation}{5}
-\contentsline {chapter}{\numberline {2}Literature Survey}{6}
-\contentsline {section}{\numberline {2.1}DCGAN}{6}
-\contentsline {section}{\numberline {2.2}InfoGAN}{7}
-\contentsline {section}{\numberline {2.3}ACGAN}{7}
-\contentsline {section}{\numberline {2.4}WGAN}{7}
-\contentsline {section}{\numberline {2.5}Other GANs}{7}
-\contentsline {section}{\numberline {2.6}Capsule Neural Network}{8}
-\contentsline {chapter}{\numberline {3}Technology}{9}
-\contentsline {section}{\numberline {3.1}Tensorflow}{9}
-\contentsline {section}{\numberline {3.2}Keras}{9}
-\contentsline {section}{\numberline {3.3}PyTorch}{10}
-\contentsline {section}{\numberline {3.4}Google Colaboratory}{10}
-\contentsline {section}{\numberline {3.5}Matplotlib}{10}
-\contentsline {section}{\numberline {3.6}Flask}{10}
-\contentsline {section}{\numberline {3.7}OpenCV}{11}
-\contentsline {chapter}{\numberline {4}System Requirements}{12}
-\contentsline {section}{\numberline {4.1}Functional Requirements}{12}
-\contentsline {section}{\numberline {4.2}Non Functional Requirements}{12}
-\contentsline {section}{\numberline {4.3}Development Requirement}{12}
-\contentsline {subsection}{\numberline {4.3.1}Training System Requirements}{12}
-\contentsline {subsection}{\numberline {4.3.2}Demonstration System Requirements}{13}
-\contentsline {chapter}{\numberline {5}Proposed Architecture}{14}
-\contentsline {section}{\numberline {5.1}Generator}{14}
-\contentsline {section}{\numberline {5.2}Discriminator}{15}
-\contentsline {subsection}{\numberline {5.2.1}Layer 1: Convolutional Layer}{15}
-\contentsline {subsection}{\numberline {5.2.2}Layer 2: PrimaryCaps Layer}{15}
-\contentsline {subsection}{\numberline {5.2.3}Layer 3: DigitCaps Layer}{16}
-\contentsline {chapter}{\numberline {6}Implementation}{17}
-\contentsline {section}{\numberline {6.1}Network Architectures}{18}
-\contentsline {subsection}{\numberline {6.1.1}Generator}{18}
-\contentsline {subsection}{\numberline {6.1.2}Discriminator}{18}
-\contentsline {section}{\numberline {6.2}Demonstration}{19}
-\contentsline {subsection}{\numberline {6.2.1}Contextual Loss}{20}
-\contentsline {subsection}{\numberline {6.2.2}Perceptual Loss}{20}
-\contentsline {subsection}{\numberline {6.2.3}Total Loss}{20}
-\contentsline {subsection}{\numberline {6.2.4}Projected Gradient Descent}{20}
-\contentsline {chapter}{\numberline {7}Code snippets}{21}
-\contentsline {section}{\numberline {7.1}GAN Training}{21}
-\contentsline {subsection}{\numberline {7.1.1}Initialization}{21}
-\contentsline {subsection}{\numberline {7.1.2}Building Generator}{22}
-\contentsline {subsection}{\numberline {7.1.3}Building Discriminator}{22}
-\contentsline {subsection}{\numberline {7.1.4}Train}{23}
-\contentsline {subsection}{\numberline {7.1.5}Saving Images}{24}
-\contentsline {subsection}{\numberline {7.1.6}Saving Models}{24}
-\contentsline {section}{\numberline {7.2}Demonstration}{25}
-\contentsline {subsection}{\numberline {7.2.1}Converting Models}{25}
-\contentsline {subsection}{\numberline {7.2.2}Semantic Inpainting}{25}
-\contentsline {chapter}{\numberline {8}Execution and Results}{28}
-\contentsline {section}{\numberline {8.1}Training}{28}
-\contentsline {section}{\numberline {8.2}Demonstration}{30}
-\contentsline {chapter}{\numberline {9}Conclusion}{32}
-\contentsline {chapter}{References}{33}
+\contentsline {chapter}{Abstract}{ii}{chapter*.2}
+\contentsline {part}{Chapter 1\\ Introduction}{0}{part*.5}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Generative Models}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Generative adversarial networks}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Variational Autoencoders }{2}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Autoregressive models}{2}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Generative Adversarial Networks}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Convolutional Neural Networks}{3}{section.1.3}
+\contentsline {section}{\numberline {1.4}Capsule Networks}{4}{section.1.4}
+\contentsline {section}{\numberline {1.5}Semantic Inpainting}{4}{section.1.5}
+\contentsline {section}{\numberline {1.6}Scope of work}{5}{section.1.6}
+\contentsline {section}{\numberline {1.7}Motivation}{5}{section.1.7}
+\contentsline {part}{Chapter 2\\ Literature Survey}{5}{part*.9}
+\contentsline {chapter}{\numberline {2}Literature Survey}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}DCGAN}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}InfoGAN}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3}ACGAN}{7}{section.2.3}
+\contentsline {section}{\numberline {2.4}WGAN}{7}{section.2.4}
+\contentsline {section}{\numberline {2.5}Other GANs}{7}{section.2.5}
+\contentsline {section}{\numberline {2.6}Capsule Neural Network}{8}{section.2.6}
+\contentsline {part}{Chapter 3\\ Technology}{8}{part*.11}
+\contentsline {chapter}{\numberline {3}Technology}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Tensorflow}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Keras}{9}{section.3.2}
+\contentsline {section}{\numberline {3.3}PyTorch}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}Google Colaboratory}{10}{section.3.4}
+\contentsline {section}{\numberline {3.5}Matplotlib}{10}{section.3.5}
+\contentsline {section}{\numberline {3.6}Flask}{10}{section.3.6}
+\contentsline {section}{\numberline {3.7}OpenCV}{11}{section.3.7}
+\contentsline {part}{Chapter 4\\ System Requirements}{11}{part*.12}
+\contentsline {chapter}{\numberline {4}System Requirements}{12}{chapter.4}
+\contentsline {section}{\numberline {4.1}Functional Requirements}{12}{section.4.1}
+\contentsline {section}{\numberline {4.2}Non Functional Requirements}{12}{section.4.2}
+\contentsline {section}{\numberline {4.3}Development Requirement}{12}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Training System Requirements}{12}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Demonstration System Requirements}{13}{subsection.4.3.2}
+\contentsline {part}{Chapter 5\\ Proposed Architecture}{13}{part*.13}
+\contentsline {chapter}{\numberline {5}Proposed Architecture}{14}{chapter.5}
+\contentsline {section}{\numberline {5.1}Generator}{14}{section.5.1}
+\contentsline {section}{\numberline {5.2}Discriminator}{15}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Layer 1: Convolutional Layer}{15}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Layer 2: PrimaryCaps Layer}{15}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Layer 3: DigitCaps Layer}{16}{subsection.5.2.3}
+\contentsline {part}{Chapter 6\\ Implementation}{16}{part*.15}
+\contentsline {chapter}{\numberline {6}Implementation}{17}{chapter.6}
+\contentsline {section}{\numberline {6.1}Network Architectures}{18}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Generator}{18}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Discriminator}{18}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Demonstration}{19}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Contextual Loss}{20}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Perceptual Loss}{20}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Total Loss}{20}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Projected Gradient Descent}{20}{subsection.6.2.4}
+\contentsline {part}{Chapter 7\\ Code Snippets}{20}{part*.17}
+\contentsline {chapter}{\numberline {7}Code snippets}{21}{chapter.7}
+\contentsline {section}{\numberline {7.1}GAN Training}{21}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Initialization}{21}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Building Generator}{22}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Building Discriminator}{22}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Train}{23}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {7.1.5}Saving Images}{24}{subsection.7.1.5}
+\contentsline {subsection}{\numberline {7.1.6}Saving Models}{24}{subsection.7.1.6}
+\contentsline {section}{\numberline {7.2}Demonstration}{25}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Converting Models}{25}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Semantic Inpainting}{25}{subsection.7.2.2}
+\contentsline {part}{Chapter 8\\ Execution and Results}{27}{part*.18}
+\contentsline {chapter}{\numberline {8}Execution and Results}{28}{chapter.8}
+\contentsline {section}{\numberline {8.1}Training}{28}{section.8.1}
+\contentsline {section}{\numberline {8.2}Demonstration}{31}{section.8.2}
+\contentsline {part}{Chapter 9\\ Conclusion}{32}{part*.26}
+\contentsline {chapter}{\numberline {9}Conclusion}{33}{chapter.9}
+\contentsline {chapter}{References}{34}{chapter*.27}

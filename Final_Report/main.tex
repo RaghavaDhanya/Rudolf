@@ -13,20 +13,25 @@
 \usepackage{setspace}
 \usepackage[nottoc,notlof,notlot]{tocbibind}
 \usepackage{listings}
+\usepackage[hidelinks]{hyperref}
 \usepackage{amsmath,bm} 
 \usepackage{subfig}
 \usepackage{etoolbox}
 \usepackage{amssymb}
+
+
 % correct a bug in titlesec package
 \makeatletter
 \patchcmd{\ttlh@hang}{\parindent\z@}{\parindent\z@\leavevmode}{}{}
 \patchcmd{\ttlh@hang}{\noindent}{}{}{}
 \makeatother
 % \renewcommand{\baselinestretch}{1.5} 
-
+\makeatletter\renewcommand*\l@part[2]{}\makeatother
 \renewcommand\bibname{References}
 \titleformat{\chapter}[display]
 {\normalfont\Large\bfseries}{\scshape\chaptertitlename\ \thechapter}{20pt}{\filcenter\LARGE\scshape}
+\titleformat{\part}
+{\filcenter\thispagestyle{empty}\addtocounter{page}{-1}\normalfont\Large\bfseries}{}{20pt}{\filcenter\Huge\scshape}
 \titleformat{\section}{\bfseries\large}{\thesection}{0.4em}{}
 \titleformat{\subsection}{\bfseries}{\thesubsection}{0.4em}{}
 
@@ -93,22 +98,40 @@
 }
 \pagestyle{fncy}
 
+\part*{Chapter 1\\ Introduction}
 \input{sections/introduction.tex}
 \par
+
+\part*{Chapter 2\\ Literature Survey}
 \input{sections/literature.tex}
 \par
+
+\part*{Chapter 3\\ Technology}
 \input{sections/techno.tex}
 \par
+
+
+\part*{Chapter 4\\ System Requirements}
 \input{sections/requirements.tex}
 \par
+
+\part*{Chapter 5\\ Proposed Architecture}
 \input{sections/proposed.tex}
 \par
+
+\part*{Chapter 6\\ Implementation}
 \input{sections/implementation.tex}
 \par
+
+\part*{Chapter 7\\ Code Snippets}
 \input{sections/code.tex}
 \par
+
+\part*{Chapter 8\\ Execution and Results}
 \input{sections/execandresults.tex}
 \par
+
+\part*{Chapter 9\\ Conclusion}
 \input{sections/conclusion.tex}
 \par\clearpage
 \bibliography{ref}{}
