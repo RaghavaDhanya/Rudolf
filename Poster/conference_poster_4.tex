@@ -31,7 +31,7 @@
 }
 \renewcommand\refname{}
 
-\definecolor{lightblue}{rgb}{0.145,0.6666,1} % Defines the color used for content box headers
+\definecolor{lightred}{rgb}{0.9529,.2745,.2745} % Defines the color used for content box headers
 \usepackage{lipsum}
 
 \begin{document}
@@ -42,15 +42,15 @@ headerborder=closed, % Adds a border around the header of content boxes
 colspacing=1em, % Column spacing
 bgColorOne=white, % Background color for the gradient on the left side of the poster
 bgColorTwo=white, % Background color for the gradient on the right side of the poster
-borderColor=lightblue, % Border color
-headerColorOne=black, % Background color for the header in the content boxes (left side)
-headerColorTwo=lightblue, % Background color for the header in the content boxes (right side)
+borderColor=lightred, % Border color
+headerColorOne=lightred, % Background color for the header in the content boxes (left side)
+headerColorTwo=lightred, % Background color for the header in the content boxes (right side)
 headerFontColor=white, % Text color for the header text in the content boxes
 boxColorOne=white, % Background color of the content boxes
 textborder=roundedleft, % Format of the border around content boxes, can be: none, bars, coils, triangles, rectangle, rounded, roundedsmall, roundedright or faded
 eyecatcher=true, % Set to false for ignoring the left logo in the title and move the title left
 headerheight=0.1\textheight, % Height of the header
-headershape=roundedright, % Specify the rounded corner in the content box headers, can be: rectangle, small-rounded, roundedright, roundedleft or rounded
+headershape=rounded, % Specify the rounded corner in the content box headers, can be: rectangle, small-rounded, roundedright, roundedleft or rounded
 headerfont=\Large\bf\textsc, % Large, bold and sans serif font in the headers of content boxes
 %textfont={\setlength{\parindent}{1.5em}}, % Uncomment for paragraph indentation
 linewidth=2pt, % Width of the border lines around content boxes
@@ -87,7 +87,7 @@ Generative Adversarial Networks\cite{gan} pose the training process as a game be
 }
 
 \headerbox{Capsule Networks}{name=caps,below=abstract,span=3,column=3}{
-Capsule is a nested set of neural layers. Capsules are like cortical columns in human brains. Deep neural nets learn by back-propagation of errors over the entire network. In contrast real brains supposedly wire neurons by Hebbian principles: "units that fire together, wire together". Capsules mimic Hebbian learning in the way that: "A lower-level capsule prefers to send its output to higher level capsules whose activity vectors have a big scalar product with the prediction coming from the lower-level capsule". Capsules, combination of capsules encodes objects parts AND their relative positions, so an object instance can be accurately derived from the presence of the parts at the right locations, and not just their presence. Capsules produce equivariant features. Capsules predict the activity of higher-layer capsules to route information to right higher-layer capsules, this is called "Dynamic routing"\cite{capsnet}.
+Capsule is a nested set of neural layers. Capsules are like cortical columns in human brains. Deep neural nets learn by back-propagation of errors over the entire network. In contrast real brains supposedly wire neurons by Hebbian principles: "units that fire together, wire together".\par Capsules mimic Hebbian learning in the way that: "A lower-level capsule prefers to send its output to higher level capsules whose activity vectors have a big scalar product with the prediction coming from the lower-level capsule". Capsules, combination of capsules encodes objects parts AND their relative positions, so an object instance can be accurately derived from the presence of the parts at the right locations, and not just their presence. Capsules produce equivariant features. Capsules predict the activity of higher-layer capsules to route information to right higher-layer capsules, this is called "Dynamic routing"\cite{capsnet}.
 }
 
 \headerbox{Results 1}{name=results1,below=gan,column=0,span=3}{
@@ -120,6 +120,7 @@ To demonstrate the application of our modified GAN, we will be using Semantic In
     \\
     \includegraphics[width=.5\linewidth]{completion_outputs/Figure_14.png}
     \includegraphics[width=.5\linewidth]{completion_outputs/Figure_15.png}
+    
 \begin{center}
     \includegraphics[width=.5\linewidth]{completion_outputs/Figure_5.png}
 \end{center}
