@@ -62,7 +62,7 @@ columns=6
 %
 {} % First university/lab logo on the left
 {\bf\textsc{Image Regeneration with Generative Models}} % Poster title
-{\textsc{ Abhijith C.(1MV14CS004), Raghava G Dhanya(1MV14CS077) and Shashank S.(1MV14CS131)\\Guide: Smt Sushila Shidnal\\ Sir M Visvesvaraya Institute of Technology }} % Author names and institution
+{\textsc{ Abhijith C.(1MV14CS004), Raghava G. Dhanya(1MV14CS077) and Shashank S.(1MV14CS131)\\Guide: Sushila Shidnal\\ Sir M. Visvesvaraya Institute of Technology }} % Author names and institution
 {}% {\includegraphics[height=4em]{example-image}} % Second university/lab logo on the right
 
 
@@ -75,19 +75,19 @@ In this project we propose a novel approach to accomplish the same results using
 
 
 \headerbox{Generative Adversarial Networks}{name=gan,below=abstract,span=3}{
-Generative Adversarial Networks\cite{gan} pose the training process as a game between two distinct networks: A neural network, called the generator, generates new instances of data, while the other, the discriminator, evaluates their authenticity; discriminator network tries to classify samples as either coming from the true distribution $p(x)$ or the model distribution $\hat{p}(x)$. Every time the discriminator notices a difference between the two distributions the generator adjusts its parameters slightly to make it go away, until at the end (in theory) the generator exactly reproduces the true data distribution and the discriminator is guessing at random, unable to find a difference.\par
+Generative Adversarial Networks\cite{gan} pose the training process as a game between two distinct networks: A neural network, called the generator, generates new instances of data, while the another, the discriminator, evaluates their authenticity; Discriminator network tries to classify samples as either coming from the true distribution $p(x)$ or the model distribution $\hat{p}(x)$. Every time the discriminator notices a difference between the two distributions, the feedback is given to the generator and the generator adjusts its parameters slightly to make it go away, until at the end (in theory) the generator exactly reproduces the true data distribution and the discriminator is guessing at random, unable to find a difference.\par
 \begin{center}
-\includegraphics[width=.7\textwidth]{vanillaGAN.png}\par
+\includegraphics[width=.8\textwidth]{vanillaGAN.png}\par
 \end{center}
 
-\noindent This can be represented minimax game \\
+\noindent This can be represented in the form of a minimax game \\
 \begin{equation} \label{eu_eqn}
 \min_{G} \max_{D} V(D, G)=\mathbb{E}_{\bm{x} \sim p_{\text{data}}(\bm{x})}[\log D(\bm{x})]+\mathbb{E}_{\bm{z} \sim p_{\bm{z}}(\bm{z})}[\log (1 - D(G(\bm{z})))]
 \end{equation}
 }
 
 \headerbox{Capsule Networks}{name=caps,below=abstract,span=3,column=3}{
-Capsule is a nested set of neural layers. Capsules are like cortical columns in human brains. Deep neural nets learn by back-propagation of errors over the entire network. In contrast real brains supposedly wire neurons by Hebbian principles: "units that fire together, wire together".\par Capsules mimic Hebbian learning in the way that: "A lower-level capsule prefers to send its output to higher level capsules whose activity vectors have a big scalar product with the prediction coming from the lower-level capsule". Capsules, combination of capsules encodes objects parts AND their relative positions, so an object instance can be accurately derived from the presence of the parts at the right locations, and not just their presence. Capsules produce equivariant features. Capsules predict the activity of higher-layer capsules to route information to right higher-layer capsules, this is called "Dynamic routing"\cite{capsnet}.
+A capsule is a nested set of neural layers. Capsules are like cortical columns in human brains. Deep neural nets learn by back-propagation of errors over the entire network. In contrast, human brains supposedly wire neurons as explained by the Hebbian Theory: "units that fire together, wire together".\par Capsules mimic Hebbian learning in the way that: "A lower-level capsule prefers to send its output to higher level capsules whose activity vectors have a big scalar product with the prediction coming from the lower-level capsule". A combination of capsules encode objects' parts AND their relative positions, so an object instance can be accurately derived from the presence of the parts at the right locations, and not just their presence. Capsules produce equivariant features. Capsules predict the activity of higher-layer capsules to route information to the right higher-layer capsules, a process called "Dynamic routing"\cite{capsnet}.
 }
 
 \headerbox{Results 1}{name=results1,below=gan,column=0,span=3}{
@@ -100,14 +100,15 @@ Capsule is a nested set of neural layers. Capsules are like cortical columns in 
     \\
     \includegraphics[width=.5\linewidth]{completion_outputs/4.png}
     \includegraphics[width=.5\linewidth]{completion_outputs/8_1.png}
-    \begin{center}
+
+\begin{center}
     \includegraphics[width=.5\linewidth]{completion_outputs/9_1.png} 
-    \end{center}
+\end{center}
     
 }
 
 \headerbox{Semantic Inpainting}{name=inpainting,below=caps,span=3,column=3}{
-To demonstrate the application of our modified GAN, we will be using Semantic Inpainting. Inpainting is the process of reconstructing lost or deteriorated parts of images and videos. In the museum world, in the case of a valuable painting, this task would be carried out by a skilled art conservator or art restorer. In the digital world, inpainting (also known as image interpolation or video interpolation) refers to the application of sophisticated algorithms to replace lost or corrupted parts of the image data (mainly small regions or to remove small defects). Here we will be using GAN to implement semantic inpainting.
+Inpainting is the process of reconstructing lost or deteriorated parts of images and videos. In the museum world, in the case of a valuable painting, this task would be carried out by a skilled art conservator or art restorer. In the digital world, inpainting (also known as image interpolation or video interpolation) refers to the application of sophisticated algorithms to replace lost or corrupted parts of the image data (mainly small regions or to remove small defects). As a demonstration of the application of our modified GAN, we use Semantic Inpainting. A part of the image is obscured by a mask. When this image is passed to the network, it reconstructs the image by filling in the mask.
 
 }
 
@@ -138,8 +139,8 @@ To demonstrate the application of our modified GAN, we will be using Semantic In
 
 
 \headerbox{Conclusion}{name=conclusion,column=3,span=3,aligned=references,below=results2}{ % This block is as tall as the references block
-During the course of this project, we wished to replicate the results of the existing state-of-the-art in Generative Models. We implemented a few different versions of GANs with CapsNet. Our motivating assumption was that CapsNet would provide a performance improvement. We based this on the idea that it is more capable of understanding the variances in objects. This in turn should lead to lower data requirements during training of the model and consequently lower power consumption. \par
-In conclusion, we can confidently state that augmenting the GANs with CapsNet was a fruitful endeavor. The CapsNet helped to reduce th training overhead considerably when compared to classical networks while providing remarkably similar results. Our research shows that embedding CapsNet into the GAN does not degrade its performance and, in certain cases, improves upon it.
+During the course of this project, we wished to replicate the results of the existing state-of-the-art in Generative Models and perform a comparative study. We implemented four different versions of GANs and modified them with CapsNet. Our motivation was based on the idea that CapsNet is more capable of understanding the variances in objects. This in turn should lead to lower data requirements during training of the model and consequently lower power consumption. \par
+In conclusion, we can confidently state that augmenting the GANs with CapsNet was a fruitful endeavor. The CapsNet helped to reduce th training overhead considerably when compared to classical networks while providing remarkably similar results. Our research shows that embedding CapsNet into the GAN, in certain cases, improves upon its performance.
 }
 
 

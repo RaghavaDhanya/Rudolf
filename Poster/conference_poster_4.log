@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.16)  20 MAY 2018 13:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.16)  20 MAY 2018 14:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -891,7 +891,7 @@ File: figures/vanillaGAN.png Graphic file (type png)
 
 <use figures/vanillaGAN.png>
 Package pdftex.def Info: figures/vanillaGAN.png used on input line 87.
-(pdftex.def)             Requested size: 228.80602pt x 124.15337pt.
+(pdftex.def)             Requested size: 261.49472pt x 141.89813pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 87--87
 
@@ -903,75 +903,75 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<figures/completion_outputs/0_1.png, id=35, 462.528pt x 145.9854pt>
+<figures/completion_outputs/0_1.png, id=35, 642.4pt x 184.69pt>
 File: figures/completion_outputs/0_1.png Graphic file (type png)
 
 <use figures/completion_outputs/0_1.png>
 Package pdftex.def Info: figures/completion_outputs/0_1.png used on input line 
-107.
-(pdftex.def)             Requested size: 163.43358pt x 51.58348pt.
+108.
+(pdftex.def)             Requested size: 163.43358pt x 46.98682pt.
 
-<figures/completion_outputs/0_2.png, id=36, 462.528pt x 146.7081pt>
+<figures/completion_outputs/0_2.png, id=36, 642.4pt x 184.69pt>
 File: figures/completion_outputs/0_2.png Graphic file (type png)
 
 <use figures/completion_outputs/0_2.png>
 Package pdftex.def Info: figures/completion_outputs/0_2.png used on input line 
-107.
-(pdftex.def)             Requested size: 163.43358pt x 51.83884pt.
+108.
+(pdftex.def)             Requested size: 163.43358pt x 46.98682pt.
 
-<figures/completion_outputs/3_1.png, id=37, 462.528pt x 145.9854pt>
+<figures/completion_outputs/3_1.png, id=37, 642.4pt x 184.69pt>
 File: figures/completion_outputs/3_1.png Graphic file (type png)
 
 <use figures/completion_outputs/3_1.png>
 Package pdftex.def Info: figures/completion_outputs/3_1.png used on input line 
-107.
-(pdftex.def)             Requested size: 163.43358pt x 51.58348pt.
+108.
+(pdftex.def)             Requested size: 163.43358pt x 46.98682pt.
 
-<figures/completion_outputs/3_2.png, id=38, 462.528pt x 143.8173pt>
+<figures/completion_outputs/3_2.png, id=38, 642.4pt x 184.69pt>
 File: figures/completion_outputs/3_2.png Graphic file (type png)
 
 <use figures/completion_outputs/3_2.png>
 Package pdftex.def Info: figures/completion_outputs/3_2.png used on input line 
-107.
-(pdftex.def)             Requested size: 163.43358pt x 50.81738pt.
+108.
+(pdftex.def)             Requested size: 163.43358pt x 46.98682pt.
 
-<figures/completion_outputs/4.png, id=39, 462.528pt x 143.8173pt>
+<figures/completion_outputs/4.png, id=39, 642.4pt x 184.69pt>
 File: figures/completion_outputs/4.png Graphic file (type png)
 
 <use figures/completion_outputs/4.png>
 Package pdftex.def Info: figures/completion_outputs/4.png used on input line 10
-7.
-(pdftex.def)             Requested size: 163.43358pt x 50.81738pt.
+8.
+(pdftex.def)             Requested size: 163.43358pt x 46.98682pt.
 
-<figures/completion_outputs/8_1.png, id=40, 462.528pt x 145.9854pt>
+<figures/completion_outputs/8_1.png, id=40, 642.4pt x 184.69pt>
 File: figures/completion_outputs/8_1.png Graphic file (type png)
 
 <use figures/completion_outputs/8_1.png>
 Package pdftex.def Info: figures/completion_outputs/8_1.png used on input line 
-107.
-(pdftex.def)             Requested size: 163.43358pt x 51.58348pt.
+108.
+(pdftex.def)             Requested size: 163.43358pt x 46.98682pt.
 
-Overfull \hbox (1.90001pt too wide) in paragraph at lines 107--107
+Overfull \hbox (1.90001pt too wide) in paragraph at lines 108--108
 [][] [] 
  []
 
 
-Overfull \hbox (1.90001pt too wide) in paragraph at lines 107--107
+Overfull \hbox (1.90001pt too wide) in paragraph at lines 108--108
 [] [] 
  []
 
 
-Overfull \hbox (1.90001pt too wide) in paragraph at lines 107--107
+Overfull \hbox (1.90001pt too wide) in paragraph at lines 108--108
 [] [] 
  []
 
-<figures/completion_outputs/9_1.png, id=41, 462.528pt x 146.7081pt>
+<figures/completion_outputs/9_1.png, id=41, 642.4pt x 184.69pt>
 File: figures/completion_outputs/9_1.png Graphic file (type png)
 
 <use figures/completion_outputs/9_1.png>
 Package pdftex.def Info: figures/completion_outputs/9_1.png used on input line 
-107.
-(pdftex.def)             Requested size: 163.43358pt x 51.83884pt.
+108.
+(pdftex.def)             Requested size: 163.43358pt x 46.98682pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -984,60 +984,60 @@ File: figures/completion_outputs/Figure_1.png Graphic file (type png)
 
 <use figures/completion_outputs/Figure_1.png>
 Package pdftex.def Info: figures/completion_outputs/Figure_1.png used on input 
-line 127.
+line 128.
 (pdftex.def)             Requested size: 163.43358pt x 46.98682pt.
 
-<figures/completion_outputs/Figure_2.png, id=43, 642.4pt x 189.70876pt>
+<figures/completion_outputs/Figure_2.png, id=43, 642.4pt x 184.69pt>
 File: figures/completion_outputs/Figure_2.png Graphic file (type png)
 
 <use figures/completion_outputs/Figure_2.png>
 Package pdftex.def Info: figures/completion_outputs/Figure_2.png used on input 
-line 127.
-(pdftex.def)             Requested size: 163.43358pt x 48.26364pt.
+line 128.
+(pdftex.def)             Requested size: 163.43358pt x 46.98682pt.
 
-<figures/completion_outputs/Figure_3.png, id=44, 642.4pt x 186.6975pt>
+<figures/completion_outputs/Figure_3.png, id=44, 642.4pt x 184.69pt>
 File: figures/completion_outputs/Figure_3.png Graphic file (type png)
 
 <use figures/completion_outputs/Figure_3.png>
 Package pdftex.def Info: figures/completion_outputs/Figure_3.png used on input 
-line 127.
-(pdftex.def)             Requested size: 163.43358pt x 47.49754pt.
+line 128.
+(pdftex.def)             Requested size: 163.43358pt x 46.98682pt.
 
-<figures/completion_outputs/Figure_4.png, id=45, 642.4pt x 195.73125pt>
+<figures/completion_outputs/Figure_4.png, id=45, 642.4pt x 184.69pt>
 File: figures/completion_outputs/Figure_4.png Graphic file (type png)
 
 <use figures/completion_outputs/Figure_4.png>
 Package pdftex.def Info: figures/completion_outputs/Figure_4.png used on input 
-line 127.
-(pdftex.def)             Requested size: 163.43358pt x 49.7958pt.
+line 128.
+(pdftex.def)             Requested size: 163.43358pt x 46.98682pt.
 
-<figures/completion_outputs/Figure_14.png, id=46, 642.4pt x 187.70125pt>
+<figures/completion_outputs/Figure_14.png, id=46, 642.4pt x 184.69pt>
 File: figures/completion_outputs/Figure_14.png Graphic file (type png)
 
 <use figures/completion_outputs/Figure_14.png>
 Package pdftex.def Info: figures/completion_outputs/Figure_14.png used on input
- line 127.
-(pdftex.def)             Requested size: 163.43358pt x 47.75291pt.
+ line 128.
+(pdftex.def)             Requested size: 163.43358pt x 46.98682pt.
 
-<figures/completion_outputs/Figure_15.png, id=47, 642.4pt x 188.705pt>
+<figures/completion_outputs/Figure_15.png, id=47, 642.4pt x 184.69pt>
 File: figures/completion_outputs/Figure_15.png Graphic file (type png)
 
 <use figures/completion_outputs/Figure_15.png>
 Package pdftex.def Info: figures/completion_outputs/Figure_15.png used on input
- line 127.
-(pdftex.def)             Requested size: 163.43358pt x 48.00827pt.
+ line 128.
+(pdftex.def)             Requested size: 163.43358pt x 46.98682pt.
 
-Overfull \hbox (1.90001pt too wide) in paragraph at lines 127--127
+Overfull \hbox (1.90001pt too wide) in paragraph at lines 128--128
 [][] [] 
  []
 
 
-Overfull \hbox (1.90001pt too wide) in paragraph at lines 127--127
+Overfull \hbox (1.90001pt too wide) in paragraph at lines 128--128
 [] [] 
  []
 
 
-Overfull \hbox (1.90001pt too wide) in paragraph at lines 127--127
+Overfull \hbox (1.90001pt too wide) in paragraph at lines 128--128
 [] [] 
  []
 
@@ -1046,7 +1046,7 @@ File: figures/completion_outputs/Figure_5.png Graphic file (type png)
 
 <use figures/completion_outputs/Figure_5.png>
 Package pdftex.def Info: figures/completion_outputs/Figure_5.png used on input 
-line 127.
+line 128.
 (pdftex.def)             Requested size: 163.43358pt x 46.98682pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1073,11 +1073,11 @@ etion_outputs/Figure_5.png>] (./conference_poster_4.aux) )
 Here is how much of TeX's memory you used:
  19526 strings out of 493029
  414592 string characters out of 6136234
- 600858 words of memory out of 5000000
+ 601900 words of memory out of 5000000
  22642 multiletter control sequences out of 15000+600000
  27136 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,92p,959b,971s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,10n,92p,974b,971s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/t
 exmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
@@ -1092,7 +1092,7 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/palatino/uplri8a.pfb>
-Output written on conference_poster_4.pdf (1 page, 272986 bytes).
+Output written on conference_poster_4.pdf (1 page, 272202 bytes).
 PDF statistics:
  123 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream
