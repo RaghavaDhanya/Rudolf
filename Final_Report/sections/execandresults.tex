@@ -69,7 +69,45 @@ DCGAN and InfoGAN are interesting in the sense that they show a remarkable shift
 WGAN happens to be the best and state-of-the-art. Consequently, the variance in the metrics were at a much smaller scale. We had to zoom-in to notice the difference between the metrics. We see that an initial burst of high variance quickly stabilizes to quickly trace a path closely matching the classical architecture.
 \par\bigskip
 
+\section{Generation} % (fold)
+\label{sec:generation}
 
+\begin{figure}[H]
+    \centering
+    \subfloat[Classical ACGAN]{{\includegraphics[width=.5\linewidth]{images/generation_outputs/acgan.png} }}%
+    \subfloat[CapsNet augmented ACGAN]{{\includegraphics[width=.5\linewidth]{images/generation_outputs/acgan_caps.png} }}%
+    \caption{ACGAN outputs}%
+    \label{fig:acgan_gen}%
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \subfloat[Classical DCGAN]{{\includegraphics[width=.45\linewidth]{images/generation_outputs/dcgan.png} }}%
+    \qquad
+    \subfloat[CapsNet augmented DCGAN]{{\includegraphics[width=.45\linewidth]{images/generation_outputs/dcgan_caps.png} }}%
+    \caption{DCGAN outputs}%
+    \label{fig:dcgan_gen}%
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \subfloat[Classical InfoGAN]{{\includegraphics[width=.5\linewidth]{images/generation_outputs/infogan.png} }}%
+    \subfloat[CapsNet augmented InfoGAN]{{\includegraphics[width=.5\linewidth]{images/generation_outputs/infogan_caps.png} }}%
+    \caption{InfoGAN outputs}%
+    \label{fig:infogan_gen}%
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \subfloat[Classical WGAN]{{\includegraphics[width=.45\linewidth]{images/generation_outputs/wgan.png} }}%
+    \qquad
+    \subfloat[CapsNet augmented WGAN]{{\includegraphics[width=.45\linewidth]{images/generation_outputs/wgan_caps.png} }}%
+    \caption{WGAN outputs}%
+    \label{fig:wgan_gen}%
+\end{figure}
+
+
+% section generation (end)
 
 \section{Demonstration} % (fold)
 \label{sec:demonstration}

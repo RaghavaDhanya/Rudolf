@@ -67,7 +67,8 @@
 \contentsline {part}{Chapter 8\\ Execution and Results}{27}{part*.18}
 \contentsline {chapter}{\numberline {8}Execution and Results}{28}{chapter.8}
 \contentsline {section}{\numberline {8.1}Training}{28}{section.8.1}
-\contentsline {section}{\numberline {8.2}Demonstration}{31}{section.8.2}
-\contentsline {part}{Chapter 9\\ Conclusion}{32}{part*.26}
-\contentsline {chapter}{\numberline {9}Conclusion}{33}{chapter.9}
-\contentsline {chapter}{References}{34}{chapter*.27}
+\contentsline {section}{\numberline {8.2}Generation}{30}{section.8.2}
+\contentsline {section}{\numberline {8.3}Demonstration}{32}{section.8.3}
+\contentsline {part}{Chapter 9\\ Conclusion}{33}{part*.30}
+\contentsline {chapter}{\numberline {9}Conclusion}{34}{chapter.9}
+\contentsline {chapter}{References}{35}{chapter*.31}
