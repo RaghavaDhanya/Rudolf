@@ -7,7 +7,7 @@
 The internal architectures of all four GANs are similarly designed. Here we take DCGAN to showcase the code.
 
 \par\bigskip 
-The main code consists of a class (DCGAN) which contains the following five functions:
+The main code consists of a class (DCGAN) which contains the following six functions:
 \par\bigskip
 
 \begin{enumerate}
@@ -16,6 +16,7 @@ The main code consists of a class (DCGAN) which contains the following five func
     \item Build\_Discriminator: Creates a discriminator model
     \item Train: Takes the input images and starts training, prints training progress with metrics
     \item Save\_Imgs: Saves a grid of generated images at specific epochs
+    \item Save\_models: Saves the current model to disk
 \end{enumerate}
 
 \subsection{Initialization} % (fold)

@@ -12,7 +12,7 @@ The first step is to implement the state-of-the-art in image regeneration to gua
 \label{fig:capsgan}
 \end{figure}
 
-During the course of our research we were forced to conclude that building a CapsNet based generator was not feasible. A fundamental aspect of a GAN is back-propagation in the discriminator which is not possible to replicate in the generator. Hence we implemented just the discriminator in CapsNet. 
+During the course of our research we were forced to conclude that building a CapsNet based generator was not feasible. A fundamental aspect of CapsNet is dynamic routing which is not possible to replicate in the generator, that is, dynamic routing cannot be inverted. Hence we implemented just the discriminator in CapsNet. 
 \par\bigskip
 
 We concentrated on four networks: DCGAN, WGAN, ACGAN and InfoGAN. Our training laboratory was Colloboratory - the cloud machine learning research platform. We trained each network individually for 20,000 epochs each. For our preliminary training we used the MNIST dataset. The MNIST dataset is a large dataset of handwritten digits commonly used for image processing training tasks. Each of the networks had it's discriminator augmented with the CapsNet code. The networks with the CapsNet discriminator were then individually trained on the same dataset, for 20,000 epochs each. Overall, it took us a few days to train all the networks and gather all the data.
