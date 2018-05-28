@@ -42,8 +42,8 @@
 \BOOKMARK [2][-]{subsection.5.2.1}{Layer 1: Convolutional Layer}{section.5.2}% 42
 \BOOKMARK [2][-]{subsection.5.2.2}{Layer 2: PrimaryCaps Layer}{section.5.2}% 43
 \BOOKMARK [2][-]{subsection.5.2.3}{Layer 3: DigitCaps Layer}{section.5.2}% 44
-\BOOKMARK [-1][-]{part*.15}{Chapter 6 Implementation}{}% 45
-\BOOKMARK [0][-]{chapter.6}{Implementation}{part*.15}% 46
+\BOOKMARK [-1][-]{part*.16}{Chapter 6 Implementation}{}% 45
+\BOOKMARK [0][-]{chapter.6}{Implementation}{part*.16}% 46
 \BOOKMARK [1][-]{section.6.1}{Network Architectures}{chapter.6}% 47
 \BOOKMARK [2][-]{subsection.6.1.1}{Generator}{section.6.1}% 48
 \BOOKMARK [2][-]{subsection.6.1.2}{Discriminator}{section.6.1}% 49
@@ -52,8 +52,8 @@
 \BOOKMARK [2][-]{subsection.6.2.2}{Perceptual Loss}{section.6.2}% 52
 \BOOKMARK [2][-]{subsection.6.2.3}{Total Loss}{section.6.2}% 53
 \BOOKMARK [2][-]{subsection.6.2.4}{Projected Gradient Descent}{section.6.2}% 54
-\BOOKMARK [-1][-]{part*.17}{Chapter 7 Code Snippets}{}% 55
-\BOOKMARK [0][-]{chapter.7}{Code snippets}{part*.17}% 56
+\BOOKMARK [-1][-]{part*.18}{Chapter 7 Code Snippets}{}% 55
+\BOOKMARK [0][-]{chapter.7}{Code snippets}{part*.18}% 56
 \BOOKMARK [1][-]{section.7.1}{GAN Training}{chapter.7}% 57
 \BOOKMARK [2][-]{subsection.7.1.1}{Initialization}{section.7.1}% 58
 \BOOKMARK [2][-]{subsection.7.1.2}{Building Generator}{section.7.1}% 59
@@ -64,11 +64,11 @@
 \BOOKMARK [1][-]{section.7.2}{Demonstration}{chapter.7}% 64
 \BOOKMARK [2][-]{subsection.7.2.1}{Converting Models}{section.7.2}% 65
 \BOOKMARK [2][-]{subsection.7.2.2}{Semantic Inpainting}{section.7.2}% 66
-\BOOKMARK [-1][-]{part*.18}{Chapter 8 Execution and Results}{}% 67
-\BOOKMARK [0][-]{chapter.8}{Execution and Results}{part*.18}% 68
+\BOOKMARK [-1][-]{part*.19}{Chapter 8 Execution and Results}{}% 67
+\BOOKMARK [0][-]{chapter.8}{Execution and Results}{part*.19}% 68
 \BOOKMARK [1][-]{section.8.1}{Training}{chapter.8}% 69
 \BOOKMARK [1][-]{section.8.2}{Generation}{chapter.8}% 70
 \BOOKMARK [1][-]{section.8.3}{Demonstration}{chapter.8}% 71
-\BOOKMARK [-1][-]{part*.30}{Chapter 9 Conclusion}{}% 72
-\BOOKMARK [0][-]{chapter.9}{Conclusion}{part*.30}% 73
-\BOOKMARK [0][-]{chapter*.31}{References}{part*.30}% 74
+\BOOKMARK [-1][-]{part*.31}{Chapter 9 Conclusion}{}% 72
+\BOOKMARK [0][-]{chapter.9}{Conclusion}{part*.31}% 73
+\BOOKMARK [0][-]{chapter*.32}{References}{part*.31}% 74
