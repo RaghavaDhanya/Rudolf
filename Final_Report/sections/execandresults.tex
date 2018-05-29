@@ -63,15 +63,15 @@ A preliminarily analysis of the data shows us that our CapsNet augmented network
 Under ACGAN we see that CapsACGAN starts off with very high variance in GLoss and DLoss. Over the course of 20,000 epochs, the variance gradually reduces to match the Classical ACGAN metrics at the end. Accuracy of CapsACGAN, on the other hand, quickly stabilizes to meet classical ACGAN metrics. As a side note, ACGAN was the fastest trained network, taking roughly three hours to complete 20,000 epochs.
 \par\bigskip
 
-DCGAN and InfoGAN are interesting in the sense that they show a remarkable shift in the GLoss metric. This is odd considering only the discriminator code was augmented and the generator was left untouched. This requires further analysis. Accuracy and DLoss follow their classical counterpart closely.
+DCGAN and InfoGAN are interesting in the sense that they show a remarkable shift in the GLoss metric. Even though it seems as if augmenting DCGAN with CapsNet discriminator leads to increase in GLoss, A closer look reveals that increased variation leads to faster learning of the generator network. Accuracy and DLoss follow their classical counterpart closely.
 \par\bigskip
 
-WGAN happens to be the best and state-of-the-art. Consequently, the variance in the metrics were at a much smaller scale. We had to zoom-in to notice the difference between the metrics. We see that an initial burst of high variance quickly stabilizes to quickly trace a path closely matching the classical architecture.
+WGAN happens to be the best and state-of-the-art. Consequently, the variance in the metrics were at a much smaller scale, that is, the network is designed to be more stabilized and balanced but this also leads to slower learning, we can see that adding CapsNet discriminator speeds this up by adding slightly more variance while the network is still balanced. We had to zoom-in to notice the difference between the metrics. We see that an initial burst of high variance quickly stabilizes to quickly trace a path closely matching the classical architecture.
 \par\bigskip
 
 \section{Generation} % (fold)
 \label{sec:generation}
-
+At the end of every epoch we saved the outputs of the generator. Here we show the outputs of generator of four networks after 20,000 epochs for comparison.
 \begin{figure}[H]
     \centering
     \subfloat[Classical ACGAN]{{\includegraphics[width=.5\linewidth]{images/generation_outputs/acgan.png} }}%
@@ -79,7 +79,7 @@ WGAN happens to be the best and state-of-the-art. Consequently, the variance in 
     \caption{ACGAN outputs}%
     \label{fig:acgan_gen}%
 \end{figure}
-
+As expected from the metrics the ACGAN and CapsACGAN produce very similar outputs.
 \begin{figure}[H]
     \centering
     \subfloat[Classical DCGAN]{{\includegraphics[width=.45\linewidth]{images/generation_outputs/dcgan.png} }}%
@@ -88,6 +88,7 @@ WGAN happens to be the best and state-of-the-art. Consequently, the variance in 
     \caption{DCGAN outputs}%
     \label{fig:dcgan_gen}%
 \end{figure}
+The outputs of DCGAN and CapsDCGAN are almost indistinguishable but a closer look reveals that CapsDCGAN produces more clear outputs and more percentage of CapsDCGAN outputs look real.
 
 \begin{figure}[H]
     \centering
@@ -96,7 +97,7 @@ WGAN happens to be the best and state-of-the-art. Consequently, the variance in 
     \caption{InfoGAN outputs}%
     \label{fig:infogan_gen}%
 \end{figure}
-
+Even though the CapsInfoGAN output looks structurally more better and has learned faster but it is more noisier than that of the InfoGAN.
 \begin{figure}[H]
     \centering
     \subfloat[Classical WGAN]{{\includegraphics[width=.45\linewidth]{images/generation_outputs/wgan.png} }}%
@@ -105,18 +106,14 @@ WGAN happens to be the best and state-of-the-art. Consequently, the variance in 
     \caption{WGAN outputs}%
     \label{fig:wgan_gen}%
 \end{figure}
-
+Finally in the WGAN outputs we can clearly see that CapsWGAN produces clear and better outputs, hence has learned more quickly than the WGAN. 
 
 % section generation (end)
 
 \section{Demonstration} % (fold)
 \label{sec:demonstration}
-% \begin{figure}[H]
-% \centering\includegraphics[width=.9\textwidth]{images/completion_outputs/0_1.png}
-% \caption{Completed}
-% \label{fig:completed}
-% \end{figure}
-% section demonstration (end)
+
+Initially for demonstration of semantic in-painting we used the MNIST model of CapsDCGAN that we used comparison in the previous sections. We had promising results as seen in the figure \ref{fig:mnist_examples}.
 
 \begin{figure}[H]
     \centering
@@ -136,6 +133,7 @@ WGAN happens to be the best and state-of-the-art. Consequently, the variance in 
     \caption{MNIST examples}%
     \label{fig:mnist_examples}%
 \end{figure}
+For the completion of faces however the process was more complex. We initially trained CapsDCGAN on LFW dataset \cite{lfw} for 50 epochs. Since LFW contains only 13,233 images, the model suffered from low generalization. So we decided to use the large CelebA dataset \cite{celeba} for training. CelebA consists of 202,599 images of 10,177 celebrities. We trained CapsDCGAN on CelebA for only 9 epochs and still obtained realistic images. The following are the completion outputs from CelebA model in figure \ref{fig:face_examples}.
 \begin{figure}[H]
     \centering
     \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/Figure_10.png} }}%

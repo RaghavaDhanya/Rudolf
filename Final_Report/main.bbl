@@ -66,6 +66,12 @@ Raymond~A. Yeh, Chen Chen, Teck{-}Yian Lim, Mark Hasegawa{-}Johnson, and
 \newblock Semantic image inpainting with perceptual and contextual losses.
 \newblock {\em CoRR}, abs/1607.07539, 2016.
 
+\bibitem{celeba}
+Ziwei Liu, Ping Luo, Xiaogang Wang, and Xiaoou Tang.
+\newblock Deep learning face attributes in the wild.
+\newblock In {\em Proceedings of International Conference on Computer Vision
+  (ICCV)}, December 2015.
+
 \bibitem{deepresidual}
 Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
 \newblock Deep residual learning for image recognition.
@@ -96,5 +102,12 @@ Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
 \newblock In F.~Pereira, C.~J.~C. Burges, L.~Bottou, and K.~Q. Weinberger,
   editors, {\em Advances in Neural Information Processing Systems 25}, pages
   1097--1105. Curran Associates, Inc., 2012.
+
+\bibitem{lfw}
+Gary~B Huang, Manu Ramesh, Tamara Berg, and Erik Learned-Miller.
+\newblock Labeled faces in the wild: A database for studying face recognition
+  in unconstrained environments.
+\newblock Technical report, Technical Report 07-49, University of
+  Massachusetts, Amherst, 2007.
 
 \end{thebibliography}

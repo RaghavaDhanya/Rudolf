@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: plainyr-rev.bst
 Database file #1: ref.bib
-You've used 14 entries,
+You've used 16 entries,
             2525 wiz_defined-function locations,
-            655 strings with 7199 characters,
-and the built_in function-call counts, 10340 in all, are:
-= -- 1283
-> -- 485
+            664 strings with 7603 characters,
+and the built_in function-call counts, 11399 in all, are:
+= -- 1423
+> -- 531
 < -- 10
-+ -- 294
-- -- 476
-* -- 594
-:= -- 1671
-add.period$ -- 51
-call.type$ -- 14
-change.case$ -- 86
-chr.to.int$ -- 56
-cite$ -- 28
-duplicate$ -- 467
-empty$ -- 495
-format.name$ -- 161
-if$ -- 2182
++ -- 329
+- -- 537
+* -- 644
+:= -- 1854
+add.period$ -- 57
+call.type$ -- 16
+change.case$ -- 99
+chr.to.int$ -- 64
+cite$ -- 32
+duplicate$ -- 516
+empty$ -- 540
+format.name$ -- 177
+if$ -- 2394
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 14
-newline$ -- 73
-num.names$ -- 46
-pop$ -- 130
+int.to.str$ -- 32
+missing$ -- 15
+newline$ -- 83
+num.names$ -- 50
+pop$ -- 148
 preamble$ -- 1
-purify$ -- 72
+purify$ -- 82
 quote$ -- 0
-skip$ -- 376
+skip$ -- 411
 stack$ -- 0
-substring$ -- 798
-swap$ -- 109
-text.length$ -- 24
+substring$ -- 864
+swap$ -- 111
+text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 134
-width$ -- 16
-write$ -- 166
+while$ -- 148
+width$ -- 18
+write$ -- 187
