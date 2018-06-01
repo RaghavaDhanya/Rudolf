@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.16)  1 JUN 2018 19:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.16)  2 JUN 2018 00:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
+**main
 (./main.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
@@ -1469,7 +1469,7 @@ Figure_20.png>]
 File: images/DemoFrontend.png Graphic file (type png)
 
 <use images/DemoFrontend.png>
-Package pdftex.def Info: images/DemoFrontend.png used on input line 179.
+Package pdftex.def Info: images/DemoFrontend.png used on input line 172.
 (pdftex.def)             Requested size: 452.9679pt x 310.79587pt.
 ) [37 <./images/DemoFrontend.png>]
 
@@ -1504,11 +1504,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
 Here is how much of TeX's memory you used:
  12673 strings out of 493029
  182974 string characters out of 6136234
- 324569 words of memory out of 5000000
+ 330570 words of memory out of 5000000
  15142 multiletter control sequences out of 15000+600000
  96886 words of font info for 204 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,10n,49p,1440b,1879s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,10n,49p,1436b,1879s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
@@ -1520,7 +1520,7 @@ ri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (58 pages, 2541960 bytes).
+Output written on main.pdf (58 pages, 2542351 bytes).
 PDF statistics:
  1574 PDF objects out of 1728 (max. 8388607)
  1397 compressed objects within 14 object streams

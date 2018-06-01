@@ -46,12 +46,12 @@
 \contentsline {chapter}{\numberline {6}Implementation}{18}{chapter.6}
 \contentsline {section}{\numberline {6.1}Network Architectures}{19}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Generator}{19}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Discriminator}{19}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.2}Discriminator}{20}{subsection.6.1.2}
 \contentsline {section}{\numberline {6.2}Demonstration}{20}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Contextual Loss}{21}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Perceptual Loss}{21}{subsection.6.2.2}
 \contentsline {subsection}{\numberline {6.2.3}Total Loss}{21}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Projected Gradient Descent}{21}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.4}Projected Gradient Descent}{22}{subsection.6.2.4}
 \contentsline {part}{Chapter 7\\ Code Snippets}{22}{part*.18}
 \contentsline {chapter}{\numberline {7}Code snippets}{23}{chapter.7}
 \contentsline {section}{\numberline {7.1}GAN Training}{23}{section.7.1}

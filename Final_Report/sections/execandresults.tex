@@ -167,14 +167,7 @@ For the completion of faces however the process was more complex. We initially t
 \end{figure}
 
 \newpage
-%
-%
-%
-% Put content for interface here
-%
-%
-%
-
+To facilitate demonstration and visual appeal we ported our completion code into a webapp using flask and socketio. The webapp provides a way to select images, draw a mask on them, and execute completion code. When performing the projected gradient descent, the webapp displays the dynamic state of the completed image, the number of iterations, and the graph of the loss function respect to the iteration, these values are dynamically updated using socketio, which is a Web-socket library. Web-socket provides a bidirectional communication channel between the client and the server. \par\bigskip
 \begin{figure}[H]
 \centering\includegraphics[width=1\textwidth]{images/DemoFrontend.png}
 \caption{Demonstration WebApp Interface}
