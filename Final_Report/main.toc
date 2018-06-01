@@ -26,7 +26,7 @@
 \contentsline {section}{\numberline {3.3}PyTorch}{11}{section.3.3}
 \contentsline {section}{\numberline {3.4}Google Colaboratory}{11}{section.3.4}
 \contentsline {section}{\numberline {3.5}Matplotlib}{11}{section.3.5}
-\contentsline {section}{\numberline {3.6}Flask}{11}{section.3.6}
+\contentsline {section}{\numberline {3.6}Flask}{12}{section.3.6}
 \contentsline {section}{\numberline {3.7}OpenCV}{12}{section.3.7}
 \contentsline {part}{Chapter 4\\ System Requirements}{12}{part*.12}
 \contentsline {chapter}{\numberline {4}System Requirements}{13}{chapter.4}

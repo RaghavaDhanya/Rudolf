@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.16)  1 JUN 2018 19:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.16)  1 JUN 2018 19:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -707,21 +707,21 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 70.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
@@ -790,7 +790,7 @@ e
 ))
 \c@lstlisting=\count138
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring OFF on input line 65.
+Package hyperref Info: Link coloring OFF on input line 70.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -800,9 +800,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count139
 )
-LaTeX Info: Redefining \ref on input line 65.
-LaTeX Info: Redefining \pageref on input line 65.
-LaTeX Info: Redefining \nameref on input line 65.
+LaTeX Info: Redefining \ref on input line 70.
+LaTeX Info: Redefining \pageref on input line 70.
+LaTeX Info: Redefining \nameref on input line 70.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
@@ -928,16 +928,6 @@ l.21 \end{titlepage}
                      [1]) (./sections/declaration.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 6.
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--12
-
- []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -965,13 +955,13 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 101.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 101.
+(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 101.
+(hyperref)                removing `\\' on input line 106.
 
 [0
 
@@ -1022,13 +1012,13 @@ Package pdftex.def Info: images/caps.png used on input line 58.
  [4 <./images/caps.png>] [5]) [6]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 105.
+(hyperref)                removing `\\' on input line 110.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.105 \part*{Chapter 2\\ Literature Survey}
+l.110 \part*{Chapter 2\\ Literature Survey}
                                             [6
 
 ] (./sections/literature.tex
@@ -1044,13 +1034,13 @@ Package pdftex.def Info: images/dcgan.png used on input line 16.
  <./images/dcgan.png>] [8]) [9]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 109.
+(hyperref)                removing `\\' on input line 114.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.109 \part*{Chapter 3\\ Technology}
+l.114 \part*{Chapter 3\\ Technology}
                                      [9
 
 ] (./sections/techno.tex
@@ -1060,13 +1050,13 @@ Chapter 3.
 ] [11]) [12]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 114.
+(hyperref)                removing `\\' on input line 119.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.114 \part*{Chapter 4\\ System Requirements}
+l.119 \part*{Chapter 4\\ System Requirements}
                                               [12
 
 ] (./sections/requirements.tex
@@ -1076,13 +1066,13 @@ Chapter 4.
 ]) [14]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 118.
+(hyperref)                removing `\\' on input line 123.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.14}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.118 \part*{Chapter 5\\ Proposed Architecture}
+l.123 \part*{Chapter 5\\ Proposed Architecture}
                                                 [14
 
 ] (./sections/proposed.tex
@@ -1102,26 +1092,16 @@ File: images/Discriminator.png Graphic file (type png)
 <use images/Discriminator.png>
 Package pdftex.def Info: images/Discriminator.png used on input line 28.
 (pdftex.def)             Requested size: 452.9679pt x 103.4742pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--44
-
- []
-
-[16 <./images/Generator.png> <./images/Discriminator.png>]) [17]
+ [16 <./images/Generator.png> <./images/Discriminator.png>]) [17]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 122.
+(hyperref)                removing `\\' on input line 127.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.17}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.122 \part*{Chapter 6\\ Implementation}
+l.127 \part*{Chapter 6\\ Implementation}
                                          [17
 
 ] (./sections/implementation.tex
@@ -1148,13 +1128,13 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 [21]) [22]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 126.
+(hyperref)                removing `\\' on input line 131.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.22}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.126 \part*{Chapter 7\\ Code Snippets}
+l.131 \part*{Chapter 7\\ Code Snippets}
                                         [22
 
 ] (./sections/code.tex
@@ -1175,24 +1155,18 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <8> not available
 [26] [27] [28]) [29]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 130.
+(hyperref)                removing `\\' on input line 135.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.29}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.130 \part*{Chapter 8\\ Execution and Results}
+l.135 \part*{Chapter 8\\ Execution and Results}
                                                 [29
 
 ]
 (./sections/execandresults.tex
 Chapter 8.
-
-Overfull \hbox (1.57245pt too wide) in paragraph at lines 8--9
-[]\T1/ppl/m/n/12 Our re-search con-sisted of four net-works: AC-GAN, DC-GAN, In
--fo-GAN and WGAN.
- []
-
 <images/plots/classacgan.png, id=1214, 462.528pt x 346.896pt>
 File: images/plots/classacgan.png Graphic file (type png)
 
@@ -1500,43 +1474,37 @@ Package pdftex.def Info: images/DemoFrontend.png used on input line 179.
 ) [37 <./images/DemoFrontend.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 134.
+(hyperref)                removing `\\' on input line 139.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.37}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.134 \part*{Chapter 9\\ Conclusion}
+l.139 \part*{Chapter 9\\ Conclusion}
                                      [37
 
 ] (./sections/conclusion.tex
 Chapter 9.
 ) [38
 
-] (./main.bbl
-Underfull \hbox (badness 1043) in paragraph at lines 12--18
-[]\T1/ppl/m/n/12 Ishaan Gul-ra-jani, Faruk Ahmed, Mar-tin Ar-jovsky, Vin-cent D
-u-moulin, and
- []
-
-[39
+] (./main.bbl [39
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
  [40]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3732464C61C86FC55BC9CE0C47CFE03D;4714.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
  12673 strings out of 493029
  182974 string characters out of 6136234
- 322436 words of memory out of 5000000
+ 324569 words of memory out of 5000000
  15142 multiletter control sequences out of 15000+600000
  96886 words of font info for 204 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1552,7 +1520,7 @@ ri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (58 pages, 2542325 bytes).
+Output written on main.pdf (58 pages, 2541960 bytes).
 PDF statistics:
  1574 PDF objects out of 1728 (max. 8388607)
  1397 compressed objects within 14 object streams
