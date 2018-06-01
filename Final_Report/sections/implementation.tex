@@ -3,19 +3,19 @@
 
 % Implementation details
 
-The first step is to implement the state-of-the-art in image regeneration to guage the improvements. We use DCGAN to start of with. The results of the training and testing will be recorded to compare it with the results of our CapsNet-based approach later. We will be using CapsNet as the underlying technology to implement our GAN (CapsGAN). The goal is to replace the CNN inside DCGAN with CapsNet and compare the results. The GAN internally consists of two components - a generator and a discriminator - which we build out of CapsNet. The discriminator is initially trained separately to distinguish real and fake data, and later they work together to improve upon their performance by acting as adversaries.
+The first step is to implement the state-of-the-art in image regeneration to guage the improvements. We use DCGAN to start of with. The results of the training and testing will be recorded to compare it with the results of our CapsNet-based approach later. We will be using CapsNet as the underlying technology to implement our GAN (CapsGAN). The goal is to replace the CNN inside DCGAN with CapsNet and compare the results. The GAN internally consists of two components - a generator and a discriminator - which we build out of CapsNet. The discriminator is initially trained separately to distinguish between real and fake data, and later they work together to improve upon their performance by acting as adversaries.
 \par\bigskip
 
 \begin{figure}[H]
 \centering\includegraphics[width=1\textwidth]{images/methodology.png}
-\caption{Proposed architecture}
+\caption{CapsDCGAN Architecture}
 \label{fig:capsgan}
 \end{figure}
 
 During the course of our research we were forced to conclude that building a CapsNet based generator was not feasible. A fundamental aspect of CapsNet is dynamic routing which is not possible to replicate in the generator, that is, dynamic routing cannot be inverted. Hence we implemented just the discriminator in CapsNet. 
 \par\bigskip
 
-We concentrated on four networks: DCGAN, WGAN, ACGAN and InfoGAN. Our training laboratory was Colloboratory - the cloud machine learning research platform. We trained each network individually for 20,000 epochs each. For our preliminary training we used the MNIST dataset. The MNIST dataset is a large dataset of handwritten digits commonly used for image processing training tasks. Each of the networks had it's discriminator augmented with the CapsNet code. The networks with the CapsNet discriminator were then individually trained on the same dataset, for 20,000 epochs each. Overall, it took us a few days to train all the networks and gather all the data.
+We concentrated on four networks: DCGAN, WGAN, ACGAN and InfoGAN. Our training laboratory was Colaboratory - the cloud machine learning research platform. We trained each network individually for 20,000 epochs each. For our preliminary training we used the MNIST dataset. The MNIST dataset is a large dataset of handwritten digits commonly used for image processing training tasks. Each of the networks had it's discriminator augmented with the CapsNet code. The networks with the CapsNet discriminator were then individually trained on the same dataset, for 20,000 epochs each. Overall, it took us a few days to train all the networks and gather all the data.
 \par\bigskip
 
 \section{Network Architectures} % (fold)
@@ -183,7 +183,7 @@ We now find $\hat z$ with a combination of the contextual and perceptual losses:
 \hat z = arg \min_z \bm{L} (\bm{z})
 \end{equation}
 
-where $\lambda$ is a hyper-parameter that controls how important the contextual loss is relative to the perceptual loss. Then as before, the reconstructed image fills in the missing values of $\bm{y}$ with $\bm{G}(\bm{z})$:
+where $\lambda$ is a hyper-parameter that controls how important the contextual loss is relative to the perceptual loss. Then, as before, the reconstructed image fills in the missing values of $\bm{y}$ with $\bm{G}(\bm{z})$:
 \begin{equation} \label{eqn:reconstructed_image_final}
 \bm{x} \textsubscript{reconstructed} = \bm{M} \odot\  \bm{y} + (1 - \bm{M}) \odot \bm{G} (\hat z)
 \end{equation}

@@ -56,11 +56,11 @@
 \BOOKMARK [0][-]{chapter.7}{Code snippets}{part*.18}% 56
 \BOOKMARK [1][-]{section.7.1}{GAN Training}{chapter.7}% 57
 \BOOKMARK [2][-]{subsection.7.1.1}{Initialization}{section.7.1}% 58
-\BOOKMARK [2][-]{subsection.7.1.2}{Building Generator}{section.7.1}% 59
-\BOOKMARK [2][-]{subsection.7.1.3}{Building Discriminator}{section.7.1}% 60
+\BOOKMARK [2][-]{subsection.7.1.2}{Build Generator}{section.7.1}% 59
+\BOOKMARK [2][-]{subsection.7.1.3}{Build Discriminator}{section.7.1}% 60
 \BOOKMARK [2][-]{subsection.7.1.4}{Train}{section.7.1}% 61
-\BOOKMARK [2][-]{subsection.7.1.5}{Saving Images}{section.7.1}% 62
-\BOOKMARK [2][-]{subsection.7.1.6}{Saving Models}{section.7.1}% 63
+\BOOKMARK [2][-]{subsection.7.1.5}{Save Images}{section.7.1}% 62
+\BOOKMARK [2][-]{subsection.7.1.6}{Save Models}{section.7.1}% 63
 \BOOKMARK [1][-]{section.7.2}{Demonstration}{chapter.7}% 64
 \BOOKMARK [2][-]{subsection.7.2.1}{Converting Models}{section.7.2}% 65
 \BOOKMARK [2][-]{subsection.7.2.2}{Semantic Inpainting}{section.7.2}% 66

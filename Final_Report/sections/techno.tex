@@ -4,60 +4,47 @@ Deep learning frameworks offer flexibility with designing and training custom de
 
 \section{Tensorflow} % (fold)
 \label{sec:tensorflow}
-TensorFlow is an open source software library for high performance numerical computation. Its flexible architecture allows easy deployment of computation across a variety of platforms (CPUs, GPUs, TPUs), and from desktops to clusters of servers to mobile and edge devices. Originally developed by researchers and engineers from the Google Brain team within Google’s AI organization, it comes with strong support for machine learning and deep learning and the flexible numerical computation core is used across many other scientific domains. TensorFlow, as the name indicates, is a framework to define and run computations involving tensors. A tensor is a generalization of vectors and matrices to potentially higher dimensions. Internally, TensorFlow represents tensors as n-dimensional arrays of base datatypes. TensorFlow uses a dataflow graph to represent your computation in terms of the dependencies between individual operations. This leads to a low-level programming model in which you first define the dataflow graph, then create a TensorFlow session to run parts of the graph across a set of local and remote devices.\par\bigskip
+TensorFlow is an open source software library for high performance numerical computation. Its flexible architecture allows easy deployment of computation across a variety of platforms (CPUs, GPUs, TPUs), and from desktops and clusters of servers to mobile and edge devices. Originally developed by researchers and engineers from the Google Brain team within Google’s AI organization, it comes with strong support for machine learning and deep learning and the flexible numerical computation core is used across many other scientific domains. TensorFlow, as the name indicates, is a framework to define and run computations involving tensors. A tensor is a generalization of vectors and matrices to potentially higher dimensions. Internally, TensorFlow represents tensors as n-dimensional arrays of base data types. TensorFlow uses a data flow graph to represent your computation in terms of the dependencies between individual operations. This leads to a low-level programming model in which you first define the data flow graph, then create a TensorFlow session to run parts of the graph across a set of local and remote devices.\par\bigskip
 We use Tensorflow when we need access to low level API such as metric functions or auto gradient functions.
 % section tensorflow (end)
 
 \section{Keras} % (fold)
 \label{sec:keras}
-Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano. It was developed with a focus on enabling fast experimentation. It puts user experience front and center. Keras follows best practices for reducing cognitive load: it offers consistent \& simple APIs, it minimizes the number of user actions required for common use cases, and it provides clear and actionable feedback upon user error. A model is understood as a sequence or a graph of standalone, fully-configurable modules that can be plugged together with as little restrictions as possible. In particular, neural layers, cost functions, optimizers, initialization schemes, activation functions, regularization schemes are all standalone modules that you can combine to create new models. Can easily create new modules allows for total expressiveness, making Keras suitable for advanced research.\par\bigskip
-We use Keras as our primary Deep learning library. Most of our code uses keras. 
+Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano. It was developed with a focus on enabling fast experimentation. It puts user experience front and center. Keras follows best practices for reducing cognitive load: it offers consistent \& simple APIs, it minimizes the number of user actions required for common use cases, and it provides clear and actionable feedback upon user error. A model is understood as a sequence or a graph of standalone, fully-configurable modules that can be plugged together with as little restrictions as possible. In particular, neural layers, cost functions, optimizers, initialization schemes, activation functions, regularization schemes are all standalone modules that you can combine to create new models. This allows for total expressiveness, making Keras suitable for advanced research.\par\bigskip
+We use Keras as our primary Deep learning library. Most of our code uses Keras as its underlying infrastructure. 
 % section keras (end)
 
 \section{PyTorch} % (fold)
 \label{sec:pytorch}
-PyTorch is a relatively new framework. PyTorch provides Tensors that can live either on the CPU or the GPU, and accelerate compute by a huge amount. It also provides a wide variety of tensor routines to accelerate and fit your scientific computation needs such as slicing, indexing, math operations, linear algebra, reductions. PyTorch has a unique way of building neural networks: using and replaying a tape recorder. Most frameworks such as TensorFlow, Theano, Caffe and CNTK have a static view of the world. One has to build a neural network, and reuse the same structure again and again. Changing the way the network behaves means that one has to start from scratch. With PyTorch, it uses a technique called Reverse-mode auto-differentiation, which allows you to change the way your network behaves arbitrarily with zero lag or overhead. Its inspiration comes from several research papers on this topic, as well as current and past work such as autograd, autograd, Chainer, etc. While this technique is not unique to PyTorch, it’s one of the fastest implementations of it to date. \par\bigskip
+PyTorch is a relatively new framework. PyTorch provides Tensors that can live either on the CPU or the GPU, and accelerate compute by a huge amount. It also provides a wide variety of tensor routines to accelerate and fit your scientific computation needs such as slicing, indexing, math operations, linear algebra and reductions. PyTorch has a unique way of building neural networks: using and replaying a tape recorder. Most frameworks such as TensorFlow, Theano, Caffe and CNTK have a static view of the world. One has to build a neural network, and reuse the same structure again and again. Changing the way the network behaves means that one has to start from scratch. With PyTorch, it uses a technique called Reverse-mode auto-differentiation, which allows you to change the way your network behaves arbitrarily with zero lag or overhead. Its inspiration comes from several research papers on this topic, as well as current and past work such as autograd, Chainer, etc. While this technique is not unique to PyTorch, it’s one of the fastest implementations of it to date. \par\bigskip
 We have a simple proof of concept implementation of our project in PyTorch, which can easily be extended to other GANs.
 % section pytorch (end)
 
 \section{Google Colaboratory} % (fold)
 \label{sec:google_colaboratory}
-Colaboratory is a research tool for machine learning education and research. Colaboratory is a Google research project created to help disseminate machine learning education and research. It’s a Jupyter notebook environment that requires no setup to use and runs entirely in the cloud. We can use GPU as a backend for free for 12 hours at a time. The GPU used in the backend is Nvidia Tesla K80. Colaboratory notebooks are stored in Google Drive and can be shared just as you would with Google Docs or Sheets. Colaboratory supports both Python2 and Python3 for code execution. It has Intel Xeon 2vCPU running at 2.2 GHz, 13 GB RAM and 33 GB storage space.
-We used Google Colaboratory extensively for our project. We trained and tested all of our models on colaboratory. It provides an average 10 times speed-up than running on a local machine. 
+Colaboratory is a Google research project created to help disseminate machine learning education and research. It’s a Jupyter notebook environment that requires no setup to use and runs entirely in the cloud. We can use GPU as a back-end for free for 12 hours at a time. The GPU used in the back-end is Nvidia Tesla K80. Colaboratory notebooks are stored in Google Drive and can be shared just as you would with Google Docs or Sheets. Colaboratory supports both Python2 and Python3 for code execution. It has Intel Xeon 2vCPU running at 2.2 GHz, 13 GB RAM and 33 GB storage space.
+\par\bigskip
+We used Google Colaboratory extensively for our project. We trained and tested all of our models on Colaboratory. It provides an average 10 times speed-up as compared to running on a local machine. 
 % section google_colaboratory (end)
 
 \section{Matplotlib} % (fold)
 \label{sec:matplotlib}
 Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. Matplotlib can be used in Python scripts, the Python and IPython shells, the Jupyter notebook, web application servers, and four graphical user interface toolkits.
+\par\bigskip
 We made use of Matplotlib to visualize the various graphs. The output images and data of the training were also obtained Matplotlib.
 % section matplotlib (end)
 
 \section{Flask} % (fold)
 \label{sec:flask}
-Flask is a micro web framework written in Python and based on the Werkzeug toolkit and Jinja2 template engine. We used Flask to port our python demonstration code onto a webapp. It forms an intermediary between the python code on the server and the front-end HTML and JavaScript.
+Flask is a micro web framework written in Python and based on the Werkzeug toolkit and Jinja2 template engine. 
+\par\bigskip
+We used Flask to port our python demonstration code onto a webapp. It forms an intermediary between the python code on the server and the front-end HTML and JavaScript.
 % section flask (end)
 
 \section{OpenCV} % (fold)
 \label{sec:opencv}
-OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products. Being a BSD-licensed product, OpenCV makes it easy for businesses to utilize and modify the code.
+OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products. Being a BSD-licensed product, OpenCV makes it easy for businesses to utilize and modify the code. The library has more than 2500 optimized algorithms, which includes a comprehensive set of both classic and state-of-the-art computer vision and machine learning algorithms. These algorithms can be used to detect and recognize faces, identify objects, classify human actions in videos, track camera movements, track moving objects, extract 3D models of objects, produce 3D point clouds from stereo cameras, stitch images together to produce a high resolution image of an entire scene, find similar images from an image database, remove red eyes from images taken using flash, follow eye movements, recognize scenery and establish markers to overlay it with augmented reality, etc.
 \par\bigskip
-The library has more than 2500 optimized algorithms, which includes a comprehensive set of both classic and state-of-the-art computer vision and machine learning algorithms. These algorithms can be used to detect and recognize faces, identify objects, classify human actions in videos, track camera movements, track moving objects, extract 3D models of objects, produce 3D point clouds from stereo cameras, stitch images together to produce a high resolution image of an entire scene, find similar images from an image database, remove red eyes from images taken using flash, follow eye movements, recognize scenery and establish markers to overlay it with augmented reality, etc.
+Our project uses OpenCV for various in-house code snippets. It forms an essential part in dealing with images.
 % section opencv (end)
 
-% \begin{itemize}
-% 	\item\textbf{Adversarial Training:} Two models undergoing training simultaneously by competing against each other. The output of each model acts as an adversary for the other to improve upon.
-% 	\item\textbf{Generative Model:} Any model capable of generating completely new realistic data of a class.
-% 	\item\textbf{Discriminative Model:} Here, as a Discriminator, a model which is capable of distinguishing between actual ground truth from the true distribution and generated information from a model.
-% 	\item\textbf{Gradient Descent:} A method of optimizing an objective function using a first-order iterative approach to find a local minimum.
-% 	\item\textbf{Gaussian Model:} A model that fits the data in the shape of a Gaussian function, identified by a characteristic "bell curve". CapsNet uses this to find agreeing probability outputs of the "capsules".
-% 	\item\textbf{TensorFlow:} An open source software library for numerical computation using data flow graphs. It was originally developed by the Google Brain Team within Google's Machine Intelligence research organization for machine learning and deep neural networks research.
-
-% \end{itemize}
-
-% \textbf{\Large Other essentials:}
-
-% \begin{itemize}
-% 	\item\textbf{CPU:} 3GHz quad core, x86-64 architecture (or)
-% 	\item\textbf{GPU:} NVIDIA or any other TensorFlow supported GPU, CUDA or cuDNN
-% 	\item\textbf{Python:} 2.7 or 3.4 and above
-% \end{itemize}
