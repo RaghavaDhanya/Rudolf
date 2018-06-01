@@ -41,7 +41,7 @@ To learn the distribution of the generator, $p_g$, over data, $\bm{x}$, we defin
 \label{sec:convolutional_neural_networks}
 
 \begin{figure}[H]
-\centering\includegraphics[width=.7\textwidth]{images/CNN.jpg}
+\centering\includegraphics[width=1\textwidth]{images/CNN.png}
 \caption{Convolutional Neural Network}
 \label{fig:cnn}
 \end{figure}
@@ -55,7 +55,7 @@ CNNs use a "pooling" layer to reduce the spatial size of the input for each conv
 \label{sec:capsule_networks}
 “The pooling operation used in convolutional neural networks is a big mistake and the fact that it works so well is a disaster”, says Geoffrey Hinton, one of the founders of deep learning (also known as the Godfather of Deep Learning) and an inventor of numerous models and algorithms that are widely used today. CNNs perform exceptionally great when they are classifying images which are very close to the data set. If the images have rotation, tilt or any other different orientation then CNNs have poor performance. This problem is usually partially solved by adding different variations of the same image during training. But CNNs still require large amount of data to perform reasonably well. We use pooling after each layer to make it compute in reasonable time frames. But in essence, it also loses out the positional data.\par\bigskip
 \begin{figure}[H]
-\centering\includegraphics[width=.7\textwidth]{images/caps.png}
+\centering\includegraphics[width=1\textwidth]{images/caps.png}
 \caption{Capsule Networks}
 \label{fig:caps}
 \end{figure}
@@ -65,9 +65,9 @@ A capsule is a nested set of neural layers as shown in figure \ref{fig:caps}. Ca
 
 \section{Semantic Inpainting} % (fold)
 \label{sec:semantic_inpainting}
-To demonstrate the application of our modified GAN, we will be using Semantic Inpainting. Inpainting is the process of reconstructing lost or deteriorated parts of images and videos. In the museum world, in the case of a valuable painting, this task would be carried out by a skilled art conservator or art restorer. In the digital world, inpainting (also known as image interpolation or video interpolation) refers to the application of sophisticated algorithms to replace lost or corrupted parts of the image data (mainly small regions or to remove small defects). 
+To demonstrate the application of our modified GAN, we will be using Semantic Inpainting. Inpainting is the process of reconstructing lost or deteriorated parts of images and videos. In the museum world, in the case of a valuable painting, this task would be carried out by a skilled art conservator or art restorer. In the digital world, inpainting (also known as image interpolation or video interpolation) refers to the application of sophisticated algorithms to replace lost or corrupted parts of the image data (mainly small regions or to remove small defects). Manual computer methods include using a clone tool or healing tool, to copy existing parts of the image to restore a damaged image. Exemplar-based image inpainting attempts to automate the clone tool process. It fills "holes" in the image by searching for similar patches in a nearby source region of the image, and copying the pixels from the most similar patch into the hole
 \par\bigskip
-Here we will be using GAN to implement semantic inpainting.
+Here we will be using more robust approach of generating missing parts of the image using GAN.
 % section semantic_in_painting (end)
 
 \section{Scope of work} % (fold)

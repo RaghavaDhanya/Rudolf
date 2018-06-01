@@ -15,7 +15,7 @@ Below we show graphically the performance of the (four) classical networks as co
     \qquad
     \subfloat[CapsNet augmented ACGAN]{{\includegraphics[width=.45\linewidth]{images/plots/capsacgan.png} }}%
     \caption{ACGAN metrics}%
-    \label{fig:acgan}%
+    \label{fig:acgan_metric}%
 \end{figure}
 
 \begin{figure}[H]
@@ -24,7 +24,7 @@ Below we show graphically the performance of the (four) classical networks as co
     \qquad
     \subfloat[CapsNet augmented DCGAN]{{\includegraphics[width=.45\linewidth]{images/plots/capsdcgan.png} }}%
     \caption{DCGAN metrics}%
-    \label{fig:dcgan}%
+    \label{fig:dcgan_metric}%
 \end{figure}
 
 \begin{figure}[H]
@@ -33,7 +33,7 @@ Below we show graphically the performance of the (four) classical networks as co
     \qquad
     \subfloat[CapsNet augmented InfoGAN]{{\includegraphics[width=.45\linewidth]{images/plots/capsinfogan.png} }}%
     \caption{InfoGAN metrics}%
-    \label{fig:infogan}%
+    \label{fig:infogan_metric}%
 \end{figure}
 
 \begin{figure}[H]
@@ -42,7 +42,7 @@ Below we show graphically the performance of the (four) classical networks as co
     \qquad
     \subfloat[CapsNet augmented WGAN]{{\includegraphics[width=.45\linewidth]{images/plots/capswgan.png} }}%
     \caption{WGAN metrics}%
-    \label{fig:wgan}%
+    \label{fig:wgan_metric}%
 \end{figure}
 
 The metrics of WGAN are at a smaller scale, so below is a comparison at the lower scale.
@@ -53,7 +53,7 @@ The metrics of WGAN are at a smaller scale, so below is a comparison at the lowe
     \qquad
     \subfloat[CapsNet augmented WGAN]{{\includegraphics[width=.45\linewidth]{images/plots/capswgan-zoomed.png} }}%
     \caption{WGAN metrics - zoomed}%
-    \label{fig:wgan}%
+    \label{fig:wgan_metric_zoomed}%
 \end{figure}
 \par\bigskip
 
@@ -74,8 +74,8 @@ WGAN happens to be the best and state-of-the-art. Consequently, the variance in 
 At the end of every epoch we saved the outputs of the generator. Here we show the outputs of generator of four networks after 20,000 epochs for comparison.
 \begin{figure}[H]
     \centering
-    \subfloat[Classical ACGAN]{{\includegraphics[width=.5\linewidth]{images/generation_outputs/acgan.png} }}%
-    \subfloat[CapsNet augmented ACGAN]{{\includegraphics[width=.5\linewidth]{images/generation_outputs/acgan_caps.png} }}%
+    \subfloat[Classical ACGAN]{{\includegraphics[width=.49\linewidth]{images/generation_outputs/acgan.png} }}%
+    \subfloat[CapsNet augmented ACGAN]{{\includegraphics[width=.49\linewidth]{images/generation_outputs/acgan_caps.png} }}%
     \caption{ACGAN outputs}%
     \label{fig:acgan_gen}%
 \end{figure}
@@ -92,17 +92,17 @@ The outputs of DCGAN and CapsDCGAN are almost indistinguishable but a closer loo
 
 \begin{figure}[H]
     \centering
-    \subfloat[Classical InfoGAN]{{\includegraphics[width=.5\linewidth]{images/generation_outputs/infogan.png} }}%
-    \subfloat[CapsNet augmented InfoGAN]{{\includegraphics[width=.5\linewidth]{images/generation_outputs/infogan_caps.png} }}%
+    \subfloat[Classical InfoGAN]{{\includegraphics[width=.49\linewidth]{images/generation_outputs/infogan.png} }}%
+    \subfloat[CapsNet augmented InfoGAN]{{\includegraphics[width=.49\linewidth]{images/generation_outputs/infogan_caps.png} }}%
     \caption{InfoGAN outputs}%
     \label{fig:infogan_gen}%
 \end{figure}
-Even though the CapsInfoGAN output looks structurally more better and has learned faster but it is more noisier than that of the InfoGAN.
+Even though the CapsInfoGAN output looks structurally better and has learned faster but it is more noisier than that of the InfoGAN.
 \begin{figure}[H]
     \centering
-    \subfloat[Classical WGAN]{{\includegraphics[width=.45\linewidth]{images/generation_outputs/wgan.png} }}%
+    \subfloat[Classical WGAN]{{\includegraphics[width=.42\linewidth]{images/generation_outputs/wgan.png} }}%
     \qquad
-    \subfloat[CapsNet augmented WGAN]{{\includegraphics[width=.45\linewidth]{images/generation_outputs/wgan_caps.png} }}%
+    \subfloat[CapsNet augmented WGAN]{{\includegraphics[width=.42\linewidth]{images/generation_outputs/wgan_caps.png} }}%
     \caption{WGAN outputs}%
     \label{fig:wgan_gen}%
 \end{figure}
@@ -111,52 +111,52 @@ Finally in the WGAN outputs we can clearly see that CapsWGAN produces clear and 
 % section generation (end)
 
 \section{Demonstration} % (fold)
-\label{sec:demonstration}
+\label{sec:res_demonstration}
 
 Initially, for demonstration of semantic in-painting, we used the MNIST model of CapsDCGAN that we used in the previous sections. We had promising results as seen in the figure \ref{fig:mnist_examples}.
 
 \begin{figure}[H]
     \centering
-    \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/0_1.png} }}%
-    \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/0_2.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/0_1.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/0_2.png} }}%
     \\
     \centering
-    \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/3_1.png} }}%
-    \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/3_2.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/3_1.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/3_2.png} }}%
     \\
     \centering
-    \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/4.png} }}%
-    \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/8_1.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/4.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/8_1.png} }}%
     \\
     \centering
-    \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/9_1.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/9_1.png} }}%
     \caption{MNIST examples}%
     \label{fig:mnist_examples}%
 \end{figure}
 For the completion of faces however the process was more complex. We initially trained CapsDCGAN on LFW dataset \cite{lfw} for 50 epochs. Since LFW contains only 13,233 images, the model suffered from low generalization. So we decided to use the larger CelebA dataset \cite{celeba} for training. CelebA consists of 202,599 images of 10,177 celebrities. We trained CapsDCGAN on CelebA for only 9 epochs and still obtained realistic images. The following are the completion outputs from CelebA model in figure \ref{fig:face_examples}.
 \begin{figure}[H]
     \centering
-    \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/Figure_10.png} }}%
-    \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/Figure_11.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/Figure_10.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/Figure_11.png} }}%
     \\
     \centering
-    \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/Figure_12.png} }}%
-    \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/Figure_13.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/Figure_12.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/Figure_13.png} }}%
     \\
     \centering
-    \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/Figure_14.png} }}%
-    \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/Figure_15.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/Figure_14.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/Figure_15.png} }}%
     \\
     \centering
-    \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/Figure_16.png} }}%
-    \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/Figure_17.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/Figure_16.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/Figure_17.png} }}%
     \\
     \centering
-    \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/Figure_18.png} }}%
-    \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/Figure_19.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/Figure_18.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/Figure_19.png} }}%
     \\
     \centering
-    \subfloat{{\includegraphics[width=.5\linewidth]{images/completion_outputs/Figure_20.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/Figure_20.png} }}%
 
     \caption{Face examples}%
     \label{fig:face_examples}%

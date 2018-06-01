@@ -15,7 +15,7 @@ The first step is to implement the state-of-the-art in image regeneration to gua
 During the course of our research we were forced to conclude that building a CapsNet based generator was not feasible. A fundamental aspect of CapsNet is dynamic routing which is not possible to replicate in the generator, that is, dynamic routing cannot be inverted. Hence we implemented just the discriminator in CapsNet. 
 \par\bigskip
 
-We concentrated on four networks: DCGAN, WGAN, ACGAN and InfoGAN. Our training laboratory was Colaboratory - the cloud machine learning research platform. We trained each network individually for 20,000 epochs each. For our preliminary training we used the MNIST dataset. The MNIST dataset is a large dataset of handwritten digits commonly used for image processing training tasks. Each of the networks had it's discriminator augmented with the CapsNet code. The networks with the CapsNet discriminator were then individually trained on the same dataset, for 20,000 epochs each. Overall, it took us a few days to train all the networks and gather all the data.
+We concentrated on four networks: DCGAN, WGAN, ACGAN and InfoGAN. Our training laboratory was Colaboratory - the cloud machine learning research platform. We trained each network individually for 20,000 epochs each. For our preliminary training we used the MNIST dataset \cite{mnist}. The MNIST dataset is a large dataset of handwritten digits commonly used for image processing training tasks. Each of the networks had it's discriminator augmented with the CapsNet code. The networks with the CapsNet discriminator were then individually trained on the same dataset, for 20,000 epochs each. Overall, it took us a few days to train all the networks and gather all the data.
 \par\bigskip
 
 \section{Network Architectures} % (fold)
@@ -134,7 +134,7 @@ ________________________________________________________________________________
 % section network_architectures (end)
 
 \section{Demonstration} % (fold)
-\label{sec:demonstration}
+\label{sec:imp_demonstration}
 The training of the models took place on Colaboratory, over Keras. Keras provided for a fast implementation of the code and high level abstraction. The output model was in the format of H5. This could not be directly used as part of semantic inpainting as semantic inpainting requires changing low level architectural details which Keras does not allow. Hence we converted the H5 model to TensorFlow protocol buffer, which is TensorFlow's model saving format, the code for which can be found in \ref{sub:converting_models}.
 \par\bigskip
 
