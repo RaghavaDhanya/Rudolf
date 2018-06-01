@@ -34,12 +34,13 @@
 \contentsline {figure}{\numberline {8.7}{\ignorespaces DCGAN outputs\relax }}{33}{figure.caption.26}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Classical DCGAN}}}{33}{subfigure.7.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CapsNet augmented DCGAN}}}{33}{subfigure.7.2}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces InfoGAN outputs\relax }}{33}{figure.caption.27}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Classical InfoGAN}}}{33}{subfigure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CapsNet augmented InfoGAN}}}{33}{subfigure.8.2}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces InfoGAN outputs\relax }}{34}{figure.caption.27}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Classical InfoGAN}}}{34}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CapsNet augmented InfoGAN}}}{34}{subfigure.8.2}
 \contentsline {figure}{\numberline {8.9}{\ignorespaces WGAN outputs\relax }}{34}{figure.caption.28}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Classical WGAN}}}{34}{subfigure.9.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CapsNet augmented WGAN}}}{34}{subfigure.9.2}
-\contentsline {figure}{\numberline {8.10}{\ignorespaces MNIST examples\relax }}{34}{figure.caption.29}
-\contentsline {figure}{\numberline {8.11}{\ignorespaces Face examples\relax }}{35}{figure.caption.30}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces MNIST examples\relax }}{35}{figure.caption.29}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Face examples\relax }}{36}{figure.caption.30}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Demonstration WebApp Interface\relax }}{37}{figure.caption.31}
 \addvspace {10\p@ }

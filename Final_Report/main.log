@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.16)  1 JUN 2018 18:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.5.16)  1 JUN 2018 19:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -994,7 +994,7 @@ l.20   \subsection{Autoregressive models}
                                           [1
 
 ]
-<images/vanillaGAN.png, id=460, 482.80376pt x 261.97874pt>
+<images/vanillaGAN.png, id=462, 482.80376pt x 261.97874pt>
 File: images/vanillaGAN.png Graphic file (type png)
 
 <use images/vanillaGAN.png>
@@ -1007,13 +1007,13 @@ LaTeX Font Info:    Try loading font information for U+fplmbb on input line 36.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 )
-<images/CNN.png, id=466, 1886.04625pt x 968.61874pt>
+<images/CNN.png, id=468, 1886.04625pt x 968.61874pt>
 File: images/CNN.png Graphic file (type png)
  <use images/CNN.png>
 Package pdftex.def Info: images/CNN.png used on input line 44.
 (pdftex.def)             Requested size: 452.9679pt x 232.62105pt.
 
-[3 <./images/CNN.png>] <images/caps.png, id=478, 1431.09656pt x 849.1725pt>
+[3 <./images/CNN.png>] <images/caps.png, id=480, 1431.09656pt x 849.1725pt>
 File: images/caps.png Graphic file (type png)
 
 <use images/caps.png>
@@ -1033,7 +1033,7 @@ l.105 \part*{Chapter 2\\ Literature Survey}
 
 ] (./sections/literature.tex
 Chapter 2.
-<images/dcgan.png, id=502, 746.79pt x 175.65625pt>
+<images/dcgan.png, id=504, 746.79pt x 175.65625pt>
 File: images/dcgan.png Graphic file (type png)
  <use images/dcgan.png>
 Package pdftex.def Info: images/dcgan.png used on input line 16.
@@ -1087,7 +1087,7 @@ l.118 \part*{Chapter 5\\ Proposed Architecture}
 
 ] (./sections/proposed.tex
 Chapter 5.
-<images/Generator.png, id=597, 662.475pt x 278.03876pt>
+<images/Generator.png, id=599, 662.475pt x 278.03876pt>
 File: images/Generator.png Graphic file (type png)
 
 <use images/Generator.png>
@@ -1096,7 +1096,7 @@ Package pdftex.def Info: images/Generator.png used on input line 17.
  [15
 
 ]
-<images/Discriminator.png, id=602, 826.08624pt x 188.705pt>
+<images/Discriminator.png, id=604, 826.08624pt x 188.705pt>
 File: images/Discriminator.png Graphic file (type png)
 
 <use images/Discriminator.png>
@@ -1126,7 +1126,7 @@ l.122 \part*{Chapter 6\\ Implementation}
 
 ] (./sections/implementation.tex
 Chapter 6.
-<images/methodology.png, id=617, 963.6pt x 542.025pt>
+<images/methodology.png, id=619, 963.6pt x 542.025pt>
 File: images/methodology.png Graphic file (type png)
 
 <use images/methodology.png>
@@ -1193,28 +1193,28 @@ Overfull \hbox (1.57245pt too wide) in paragraph at lines 8--9
 -fo-GAN and WGAN.
  []
 
-<images/plots/classacgan.png, id=1212, 462.528pt x 346.896pt>
+<images/plots/classacgan.png, id=1214, 462.528pt x 346.896pt>
 File: images/plots/classacgan.png Graphic file (type png)
 
 <use images/plots/classacgan.png>
 Package pdftex.def Info: images/plots/classacgan.png used on input line 14.
 (pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
 
-<images/plots/capsacgan.png, id=1213, 462.528pt x 346.896pt>
+<images/plots/capsacgan.png, id=1215, 462.528pt x 346.896pt>
 File: images/plots/capsacgan.png Graphic file (type png)
 
 <use images/plots/capsacgan.png>
 Package pdftex.def Info: images/plots/capsacgan.png used on input line 16.
 (pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
 
-<images/plots/classdcgan.png, id=1214, 462.528pt x 346.896pt>
+<images/plots/classdcgan.png, id=1216, 462.528pt x 346.896pt>
 File: images/plots/classdcgan.png Graphic file (type png)
 
 <use images/plots/classdcgan.png>
 Package pdftex.def Info: images/plots/classdcgan.png used on input line 23.
 (pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
 
-<images/plots/capsdcgan.png, id=1215, 462.528pt x 346.896pt>
+<images/plots/capsdcgan.png, id=1217, 462.528pt x 346.896pt>
 File: images/plots/capsdcgan.png Graphic file (type png)
 
 <use images/plots/capsdcgan.png>
@@ -1223,35 +1223,35 @@ Package pdftex.def Info: images/plots/capsdcgan.png used on input line 25.
  [30
 
  <./images/plots/classacgan.png> <./images/plots/capsacgan.png>]
-<images/plots/classinfogan.png, id=1224, 462.528pt x 346.896pt>
+<images/plots/classinfogan.png, id=1226, 462.528pt x 346.896pt>
 File: images/plots/classinfogan.png Graphic file (type png)
 
 <use images/plots/classinfogan.png>
 Package pdftex.def Info: images/plots/classinfogan.png used on input line 32.
 (pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
 
-<images/plots/capsinfogan.png, id=1225, 462.528pt x 346.896pt>
+<images/plots/capsinfogan.png, id=1227, 462.528pt x 346.896pt>
 File: images/plots/capsinfogan.png Graphic file (type png)
 
 <use images/plots/capsinfogan.png>
 Package pdftex.def Info: images/plots/capsinfogan.png used on input line 34.
 (pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
 
-<images/plots/classwgan.png, id=1226, 462.528pt x 346.896pt>
+<images/plots/classwgan.png, id=1228, 462.528pt x 346.896pt>
 File: images/plots/classwgan.png Graphic file (type png)
 
 <use images/plots/classwgan.png>
 Package pdftex.def Info: images/plots/classwgan.png used on input line 41.
 (pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
 
-<images/plots/capswgan.png, id=1227, 462.528pt x 346.896pt>
+<images/plots/capswgan.png, id=1229, 462.528pt x 346.896pt>
 File: images/plots/capswgan.png Graphic file (type png)
 
 <use images/plots/capswgan.png>
 Package pdftex.def Info: images/plots/capswgan.png used on input line 43.
 (pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
 
-<images/plots/classwgan-zoomed.png, id=1228, 462.528pt x 346.896pt>
+<images/plots/classwgan-zoomed.png, id=1230, 462.528pt x 346.896pt>
 File: images/plots/classwgan-zoomed.png Graphic file (type png)
 
 <use images/plots/classwgan-zoomed.png>
@@ -1259,7 +1259,7 @@ Package pdftex.def Info: images/plots/classwgan-zoomed.png used on input line 5
 2.
 (pdftex.def)             Requested size: 203.83417pt x 152.87819pt.
 
-<images/plots/capswgan-zoomed.png, id=1229, 462.528pt x 346.896pt>
+<images/plots/capswgan-zoomed.png, id=1231, 462.528pt x 346.896pt>
 File: images/plots/capswgan-zoomed.png Graphic file (type png)
 
 <use images/plots/capswgan-zoomed.png>
@@ -1269,242 +1269,249 @@ Package pdftex.def Info: images/plots/capswgan-zoomed.png used on input line 54
  [31 <./images/plots/classdcgan.png> <./images/plots/capsdcgan.png> <./images/p
 lots/classinfogan.png> <./images/plots/capsinfogan.png> <./images/plots/classwg
 an.png> <./images/plots/capswgan.png>]
-<images/generation_outputs/acgan.png, id=1246, 578.16pt x 397.485pt>
+[32 <./images/plots/classwgan-zoomed.png> <./images/plots/capswgan-zoomed.png>]
+<images/generation_outputs/acgan.png, id=1257, 578.16pt x 397.485pt>
 File: images/generation_outputs/acgan.png Graphic file (type png)
 
 <use images/generation_outputs/acgan.png>
 Package pdftex.def Info: images/generation_outputs/acgan.png used on input line
- 77.
+ 78.
 (pdftex.def)             Requested size: 221.95676pt x 152.59247pt.
 
-<images/generation_outputs/acgan_caps.png, id=1247, 578.16pt x 397.485pt>
+<images/generation_outputs/acgan_caps.png, id=1258, 578.16pt x 397.485pt>
 File: images/generation_outputs/acgan_caps.png Graphic file (type png)
 
 <use images/generation_outputs/acgan_caps.png>
 Package pdftex.def Info: images/generation_outputs/acgan_caps.png used on input
- line 78.
+ line 79.
 (pdftex.def)             Requested size: 221.95676pt x 152.59247pt.
- [32 <./images/plots/classwgan-zoomed.png> <./images/plots/capswgan-zoomed.png>
-]
-<images/generation_outputs/dcgan.png, id=1257, 578.16pt x 397.485pt>
+
+<images/generation_outputs/dcgan.png, id=1259, 578.16pt x 397.485pt>
 File: images/generation_outputs/dcgan.png Graphic file (type png)
 
 <use images/generation_outputs/dcgan.png>
 Package pdftex.def Info: images/generation_outputs/dcgan.png used on input line
- 85.
+ 86.
 (pdftex.def)             Requested size: 203.83417pt x 140.1347pt.
 
-<images/generation_outputs/dcgan_caps.png, id=1258, 578.16pt x 397.485pt>
+<images/generation_outputs/dcgan_caps.png, id=1260, 578.16pt x 397.485pt>
 File: images/generation_outputs/dcgan_caps.png Graphic file (type png)
 
 <use images/generation_outputs/dcgan_caps.png>
 Package pdftex.def Info: images/generation_outputs/dcgan_caps.png used on input
- line 87.
+ line 88.
 (pdftex.def)             Requested size: 203.83417pt x 140.1347pt.
 
-<images/generation_outputs/infogan.png, id=1259, 578.16pt x 397.485pt>
+<images/generation_outputs/infogan.png, id=1261, 578.16pt x 397.485pt>
 File: images/generation_outputs/infogan.png Graphic file (type png)
 
 <use images/generation_outputs/infogan.png>
 Package pdftex.def Info: images/generation_outputs/infogan.png used on input li
-ne 95.
+ne 96.
 (pdftex.def)             Requested size: 221.95676pt x 152.59247pt.
 
-<images/generation_outputs/infogan_caps.png, id=1260, 578.16pt x 397.485pt>
+<images/generation_outputs/infogan_caps.png, id=1262, 578.16pt x 397.485pt>
 File: images/generation_outputs/infogan_caps.png Graphic file (type png)
 
 <use images/generation_outputs/infogan_caps.png>
 Package pdftex.def Info: images/generation_outputs/infogan_caps.png used on inp
-ut line 96.
+ut line 97.
 (pdftex.def)             Requested size: 221.95676pt x 152.59247pt.
-
-<images/generation_outputs/wgan.png, id=1261, 578.16pt x 397.485pt>
+ [33 <./images/generation_outputs/acgan.png> <./images/generation_outputs/acgan
+_caps.png> <./images/generation_outputs/dcgan.png> <./images/generation_outputs
+/dcgan_caps.png>]
+<images/generation_outputs/wgan.png, id=1275, 578.16pt x 397.485pt>
 File: images/generation_outputs/wgan.png Graphic file (type png)
 
 <use images/generation_outputs/wgan.png>
 Package pdftex.def Info: images/generation_outputs/wgan.png used on input line 
-103.
+104.
 (pdftex.def)             Requested size: 190.24568pt x 130.7944pt.
 
-<images/generation_outputs/wgan_caps.png, id=1262, 578.16pt x 397.485pt>
+<images/generation_outputs/wgan_caps.png, id=1276, 578.16pt x 397.485pt>
 File: images/generation_outputs/wgan_caps.png Graphic file (type png)
 
 <use images/generation_outputs/wgan_caps.png>
 Package pdftex.def Info: images/generation_outputs/wgan_caps.png used on input 
-line 105.
+line 106.
 (pdftex.def)             Requested size: 190.24568pt x 130.7944pt.
- [33 <./images/generation_outputs/acgan.png> <./images/generation_outputs/acgan
-_caps.png> <./images/generation_outputs/dcgan.png> <./images/generation_outputs
-/dcgan_caps.png> <./images/generation_outputs/infogan.png> <./images/generation
-_outputs/infogan_caps.png>]
-<images/completion_outputs/0_1.png, id=1280, 462.528pt x 145.9854pt>
+ [34 <./images/generation_outputs/infogan.png> <./images/generation_outputs/inf
+ogan_caps.png> <./images/generation_outputs/wgan.png> <./images/generation_outp
+uts/wgan_caps.png>]
+<images/completion_outputs/0_1.png, id=1290, 462.528pt x 145.9854pt>
 File: images/completion_outputs/0_1.png Graphic file (type png)
 
 <use images/completion_outputs/0_1.png>
 Package pdftex.def Info: images/completion_outputs/0_1.png used on input line 1
-20.
+22.
 (pdftex.def)             Requested size: 221.95676pt x 70.0566pt.
 
-<images/completion_outputs/0_2.png, id=1281, 462.528pt x 146.7081pt>
+<images/completion_outputs/0_2.png, id=1291, 462.528pt x 146.7081pt>
 File: images/completion_outputs/0_2.png Graphic file (type png)
 
 <use images/completion_outputs/0_2.png>
 Package pdftex.def Info: images/completion_outputs/0_2.png used on input line 1
-21.
+23.
 (pdftex.def)             Requested size: 221.95676pt x 70.40341pt.
 
-<images/completion_outputs/3_1.png, id=1282, 462.528pt x 145.9854pt>
+<images/completion_outputs/3_1.png, id=1292, 462.528pt x 145.9854pt>
 File: images/completion_outputs/3_1.png Graphic file (type png)
 
 <use images/completion_outputs/3_1.png>
 Package pdftex.def Info: images/completion_outputs/3_1.png used on input line 1
-24.
+26.
 (pdftex.def)             Requested size: 221.95676pt x 70.0566pt.
 
-<images/completion_outputs/3_2.png, id=1283, 462.528pt x 143.8173pt>
+<images/completion_outputs/3_2.png, id=1293, 462.528pt x 143.8173pt>
 File: images/completion_outputs/3_2.png Graphic file (type png)
 
 <use images/completion_outputs/3_2.png>
 Package pdftex.def Info: images/completion_outputs/3_2.png used on input line 1
-25.
+27.
 (pdftex.def)             Requested size: 221.95676pt x 69.01614pt.
 
-<images/completion_outputs/4.png, id=1284, 462.528pt x 143.8173pt>
+<images/completion_outputs/4.png, id=1294, 462.528pt x 143.8173pt>
 File: images/completion_outputs/4.png Graphic file (type png)
 
 <use images/completion_outputs/4.png>
-Package pdftex.def Info: images/completion_outputs/4.png used on input line 128
+Package pdftex.def Info: images/completion_outputs/4.png used on input line 130
 .
 (pdftex.def)             Requested size: 221.95676pt x 69.01614pt.
 
-<images/completion_outputs/8_1.png, id=1285, 462.528pt x 145.9854pt>
+<images/completion_outputs/8_1.png, id=1295, 462.528pt x 145.9854pt>
 File: images/completion_outputs/8_1.png Graphic file (type png)
 
 <use images/completion_outputs/8_1.png>
 Package pdftex.def Info: images/completion_outputs/8_1.png used on input line 1
-29.
+31.
 (pdftex.def)             Requested size: 221.95676pt x 70.0566pt.
 
-<images/completion_outputs/9_1.png, id=1286, 462.528pt x 146.7081pt>
+<images/completion_outputs/9_1.png, id=1296, 462.528pt x 146.7081pt>
 File: images/completion_outputs/9_1.png Graphic file (type png)
 
 <use images/completion_outputs/9_1.png>
 Package pdftex.def Info: images/completion_outputs/9_1.png used on input line 1
-32.
+34.
 (pdftex.def)             Requested size: 221.95676pt x 70.40341pt.
-
-<images/completion_outputs/Figure_10.png, id=1290, 642.4pt x 184.69pt>
+ [35 <./images/completion_outputs/0_1.png> <./images/completion_outputs/0_2.png
+> <./images/completion_outputs/3_1.png> <./images/completion_outputs/3_2.png> <
+./images/completion_outputs/4.png> <./images/completion_outputs/8_1.png> <./ima
+ges/completion_outputs/9_1.png>]
+<images/completion_outputs/Figure_10.png, id=1318, 642.4pt x 184.69pt>
 File: images/completion_outputs/Figure_10.png Graphic file (type png)
 
 <use images/completion_outputs/Figure_10.png>
 Package pdftex.def Info: images/completion_outputs/Figure_10.png used on input 
-line 139.
+line 143.
 (pdftex.def)             Requested size: 221.95676pt x 63.81111pt.
 
-<images/completion_outputs/Figure_11.png, id=1291, 642.4pt x 184.69pt>
+<images/completion_outputs/Figure_11.png, id=1319, 642.4pt x 184.69pt>
 File: images/completion_outputs/Figure_11.png Graphic file (type png)
 
 <use images/completion_outputs/Figure_11.png>
 Package pdftex.def Info: images/completion_outputs/Figure_11.png used on input 
-line 140.
+line 144.
 (pdftex.def)             Requested size: 221.95676pt x 63.81111pt.
 
-<images/completion_outputs/Figure_12.png, id=1292, 642.4pt x 184.69pt>
+<images/completion_outputs/Figure_12.png, id=1320, 642.4pt x 184.69pt>
 File: images/completion_outputs/Figure_12.png Graphic file (type png)
 
 <use images/completion_outputs/Figure_12.png>
 Package pdftex.def Info: images/completion_outputs/Figure_12.png used on input 
-line 143.
+line 147.
 (pdftex.def)             Requested size: 221.95676pt x 63.81111pt.
 
-<images/completion_outputs/Figure_13.png, id=1293, 642.4pt x 185.69376pt>
+<images/completion_outputs/Figure_13.png, id=1321, 642.4pt x 185.69376pt>
 File: images/completion_outputs/Figure_13.png Graphic file (type png)
 
 <use images/completion_outputs/Figure_13.png>
 Package pdftex.def Info: images/completion_outputs/Figure_13.png used on input 
-line 144.
+line 148.
 (pdftex.def)             Requested size: 221.95676pt x 64.15791pt.
 
-<images/completion_outputs/Figure_14.png, id=1294, 642.4pt x 184.69pt>
+<images/completion_outputs/Figure_14.png, id=1322, 642.4pt x 184.69pt>
 File: images/completion_outputs/Figure_14.png Graphic file (type png)
 
 <use images/completion_outputs/Figure_14.png>
 Package pdftex.def Info: images/completion_outputs/Figure_14.png used on input 
-line 147.
+line 151.
 (pdftex.def)             Requested size: 221.95676pt x 63.81111pt.
 
-<images/completion_outputs/Figure_15.png, id=1295, 642.4pt x 184.69pt>
+<images/completion_outputs/Figure_15.png, id=1323, 642.4pt x 184.69pt>
 File: images/completion_outputs/Figure_15.png Graphic file (type png)
 
 <use images/completion_outputs/Figure_15.png>
 Package pdftex.def Info: images/completion_outputs/Figure_15.png used on input 
-line 148.
+line 152.
 (pdftex.def)             Requested size: 221.95676pt x 63.81111pt.
 
-<images/completion_outputs/Figure_16.png, id=1296, 642.4pt x 184.69pt>
+<images/completion_outputs/Figure_16.png, id=1324, 642.4pt x 184.69pt>
 File: images/completion_outputs/Figure_16.png Graphic file (type png)
 
 <use images/completion_outputs/Figure_16.png>
 Package pdftex.def Info: images/completion_outputs/Figure_16.png used on input 
-line 151.
+line 155.
 (pdftex.def)             Requested size: 221.95676pt x 63.81111pt.
 
-<images/completion_outputs/Figure_17.png, id=1297, 642.4pt x 184.69pt>
+<images/completion_outputs/Figure_17.png, id=1325, 642.4pt x 184.69pt>
 File: images/completion_outputs/Figure_17.png Graphic file (type png)
 
 <use images/completion_outputs/Figure_17.png>
 Package pdftex.def Info: images/completion_outputs/Figure_17.png used on input 
-line 152.
+line 156.
 (pdftex.def)             Requested size: 221.95676pt x 63.81111pt.
 
-<images/completion_outputs/Figure_18.png, id=1298, 642.4pt x 184.69pt>
+<images/completion_outputs/Figure_18.png, id=1326, 642.4pt x 184.69pt>
 File: images/completion_outputs/Figure_18.png Graphic file (type png)
 
 <use images/completion_outputs/Figure_18.png>
 Package pdftex.def Info: images/completion_outputs/Figure_18.png used on input 
-line 155.
+line 159.
 (pdftex.def)             Requested size: 221.95676pt x 63.81111pt.
 
-<images/completion_outputs/Figure_19.png, id=1299, 642.4pt x 184.69pt>
+<images/completion_outputs/Figure_19.png, id=1327, 642.4pt x 184.69pt>
 File: images/completion_outputs/Figure_19.png Graphic file (type png)
 
 <use images/completion_outputs/Figure_19.png>
 Package pdftex.def Info: images/completion_outputs/Figure_19.png used on input 
-line 156.
+line 160.
 (pdftex.def)             Requested size: 221.95676pt x 63.81111pt.
 
-<images/completion_outputs/Figure_20.png, id=1300, 642.4pt x 184.69pt>
+<images/completion_outputs/Figure_20.png, id=1328, 642.4pt x 184.69pt>
 File: images/completion_outputs/Figure_20.png Graphic file (type png)
 
 <use images/completion_outputs/Figure_20.png>
 Package pdftex.def Info: images/completion_outputs/Figure_20.png used on input 
-line 159.
+line 163.
 (pdftex.def)             Requested size: 221.95676pt x 63.81111pt.
- [34 <./images/generation_outputs/wgan.png> <./images/generation_outputs/wgan_c
-aps.png> <./images/completion_outputs/0_1.png> <./images/completion_outputs/0_2
-.png> <./images/completion_outputs/3_1.png> <./images/completion_outputs/3_2.pn
-g> <./images/completion_outputs/4.png> <./images/completion_outputs/8_1.png> <.
-/images/completion_outputs/9_1.png>]) [35 <./images/completion_outputs/Figure_1
-0.png> <./images/completion_outputs/Figure_11.png> <./images/completion_outputs
-/Figure_12.png> <./images/completion_outputs/Figure_13.png> <./images/completio
-n_outputs/Figure_14.png> <./images/completion_outputs/Figure_15.png> <./images/
-completion_outputs/Figure_16.png> <./images/completion_outputs/Figure_17.png> <
-./images/completion_outputs/Figure_18.png> <./images/completion_outputs/Figure_
-19.png> <./images/completion_outputs/Figure_20.png>]
+ [36 <./images/completion_outputs/Figure_10.png> <./images/completion_outputs/F
+igure_11.png> <./images/completion_outputs/Figure_12.png> <./images/completion_
+outputs/Figure_13.png> <./images/completion_outputs/Figure_14.png> <./images/co
+mpletion_outputs/Figure_15.png> <./images/completion_outputs/Figure_16.png> <./
+images/completion_outputs/Figure_17.png> <./images/completion_outputs/Figure_18
+.png> <./images/completion_outputs/Figure_19.png> <./images/completion_outputs/
+Figure_20.png>]
+<images/DemoFrontend.png, id=1357, 1064.97874pt x 730.73pt>
+File: images/DemoFrontend.png Graphic file (type png)
+
+<use images/DemoFrontend.png>
+Package pdftex.def Info: images/DemoFrontend.png used on input line 179.
+(pdftex.def)             Requested size: 452.9679pt x 310.79587pt.
+) [37 <./images/DemoFrontend.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 134.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.35}) has
+pdfTeX warning (ext4): destination with the same identifier (name{page.37}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.134 \part*{Chapter 9\\ Conclusion}
-                                     [35
+                                     [37
 
 ] (./sections/conclusion.tex
 Chapter 9.
-) [36
+) [38
 
 ] (./main.bbl
 Underfull \hbox (badness 1043) in paragraph at lines 12--18
@@ -1512,25 +1519,25 @@ Underfull \hbox (badness 1043) in paragraph at lines 12--18
 u-moulin, and
  []
 
-[37
+[39
 
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
- [38]
+ [40]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1553B7A790CAE062118E3F3FA364DF0C;4714.
+(rerunfilecheck)             Checksum: 3732464C61C86FC55BC9CE0C47CFE03D;4714.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
  ) 
 Here is how much of TeX's memory you used:
- 12664 strings out of 493029
- 182806 string characters out of 6136234
- 322371 words of memory out of 5000000
- 15137 multiletter control sequences out of 15000+600000
+ 12673 strings out of 493029
+ 182974 string characters out of 6136234
+ 322436 words of memory out of 5000000
+ 15142 multiletter control sequences out of 15000+600000
  96886 words of font info for 204 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,10n,49p,1440b,1879s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1545,10 +1552,10 @@ ri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (56 pages, 2336859 bytes).
+Output written on main.pdf (58 pages, 2542325 bytes).
 PDF statistics:
- 1561 PDF objects out of 1728 (max. 8388607)
- 1388 compressed objects within 14 object streams
- 742 named destinations out of 1000 (max. 500000)
- 818 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1574 PDF objects out of 1728 (max. 8388607)
+ 1397 compressed objects within 14 object streams
+ 745 named destinations out of 1000 (max. 500000)
+ 823 words of extra memory for PDF output out of 10000 (max. 10000000)
 
