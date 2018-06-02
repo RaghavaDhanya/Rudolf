@@ -75,17 +75,18 @@ WGAN happens to be the best and state-of-the-art. Consequently, the variance in 
 At the end of every epoch we saved the outputs of the generator. Here we show the outputs of generator of four networks after 20,000 epochs for comparison.
 \begin{figure}[H]
     \centering
-    \subfloat[Classical ACGAN]{{\includegraphics[width=.49\linewidth]{images/generation_outputs/acgan.png} }}%
-    \subfloat[CapsNet augmented ACGAN]{{\includegraphics[width=.49\linewidth]{images/generation_outputs/acgan_caps.png} }}%
+    \subfloat[Classical ACGAN]{{\includegraphics[width=.46\linewidth]{images/generation_outputs/acgan.png} }}%
+    \qquad
+    \subfloat[CapsNet augmented ACGAN]{{\includegraphics[width=.46\linewidth]{images/generation_outputs/acgan_caps.png} }}%
     \caption{ACGAN outputs}%
     \label{fig:acgan_gen}%
 \end{figure}
 As expected from the metrics the ACGAN and CapsACGAN produce very similar outputs.
 \begin{figure}[H]
     \centering
-    \subfloat[Classical DCGAN]{{\includegraphics[width=.45\linewidth]{images/generation_outputs/dcgan.png} }}%
+    \subfloat[Classical DCGAN]{{\includegraphics[width=.46\linewidth]{images/generation_outputs/dcgan.png} }}%
     \qquad
-    \subfloat[CapsNet augmented DCGAN]{{\includegraphics[width=.45\linewidth]{images/generation_outputs/dcgan_caps.png} }}%
+    \subfloat[CapsNet augmented DCGAN]{{\includegraphics[width=.46\linewidth]{images/generation_outputs/dcgan_caps.png} }}%
     \caption{DCGAN outputs}%
     \label{fig:dcgan_gen}%
 \end{figure}
@@ -93,17 +94,18 @@ The outputs of DCGAN and CapsDCGAN are almost indistinguishable but a closer loo
 
 \begin{figure}[H]
     \centering
-    \subfloat[Classical InfoGAN]{{\includegraphics[width=.49\linewidth]{images/generation_outputs/infogan.png} }}%
-    \subfloat[CapsNet augmented InfoGAN]{{\includegraphics[width=.49\linewidth]{images/generation_outputs/infogan_caps.png} }}%
+    \subfloat[Classical InfoGAN]{{\includegraphics[width=.46\linewidth]{images/generation_outputs/infogan.png} }}%
+    \qquad
+    \subfloat[CapsNet augmented InfoGAN]{{\includegraphics[width=.46\linewidth]{images/generation_outputs/infogan_caps.png} }}%
     \caption{InfoGAN outputs}%
     \label{fig:infogan_gen}%
 \end{figure}
 Even though the CapsInfoGAN output looks structurally better and has learned faster but it is more noisier than that of the InfoGAN.
 \begin{figure}[H]
     \centering
-    \subfloat[Classical WGAN]{{\includegraphics[width=.42\linewidth]{images/generation_outputs/wgan.png} }}%
+    \subfloat[Classical WGAN]{{\includegraphics[width=.46\linewidth]{images/generation_outputs/wgan.png} }}%
     \qquad
-    \subfloat[CapsNet augmented WGAN]{{\includegraphics[width=.42\linewidth]{images/generation_outputs/wgan_caps.png} }}%
+    \subfloat[CapsNet augmented WGAN]{{\includegraphics[width=.46\linewidth]{images/generation_outputs/wgan_caps.png} }}%
     \caption{WGAN outputs}%
     \label{fig:wgan_gen}%
 \end{figure}
@@ -129,6 +131,18 @@ Initially, for demonstration of semantic in-painting, we used the MNIST model of
     \centering
     \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/4.png} }}%
     \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/8_1.png} }}%
+    \\
+    \centering
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/6.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/7.png} }}%
+    \\
+    \centering
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/5_2.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/5_6.png} }}%
+    \\
+    \centering
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/1.png} }}%
+    \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/2.png} }}%
     \\
     \centering
     \subfloat{{\includegraphics[width=.49\linewidth]{images/completion_outputs/9_1.png} }}%

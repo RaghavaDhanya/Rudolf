@@ -45,8 +45,8 @@
 \contentsline {part}{Chapter 6\\ Implementation}{17}{part*.16}
 \contentsline {chapter}{\numberline {6}Implementation}{18}{chapter.6}
 \contentsline {section}{\numberline {6.1}Network Architectures}{19}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Generator}{19}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Discriminator}{20}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.1}Discriminator}{19}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Generator}{20}{subsection.6.1.2}
 \contentsline {section}{\numberline {6.2}Demonstration}{20}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Contextual Loss}{21}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Perceptual Loss}{21}{subsection.6.2.2}

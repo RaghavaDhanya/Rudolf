@@ -7,7 +7,7 @@ The first step is to implement the state-of-the-art in image regeneration to gua
 \par\bigskip
 
 \begin{figure}[H]
-\centering\includegraphics[width=1\textwidth]{images/methodology.png}
+\centering\includegraphics[width=1\textwidth]{images/CapsDCGAN.png}
 \caption{CapsDCGAN Architecture}
 \label{fig:capsgan}
 \end{figure}
@@ -20,55 +20,7 @@ We concentrated on four networks: DCGAN, WGAN, ACGAN and InfoGAN. Our training l
 
 \section{Network Architectures} % (fold)
 \label{sec:network_architectures}
-The following are the network architectures of the generator and the discriminator.
-
-\subsection{Generator} % (fold)
-\label{sub:generator}
-\begin{lstlisting}[basicstyle=\scriptsize,language=Python]
-_________________________________________________________________
-Layer (type)                 Output Shape              Param #   
-=================================================================
-dense_5 (Dense)              (None, 8192)              827392    
-_________________________________________________________________
-reshape_1 (Reshape)          (None, 8, 8, 128)         0         
-_________________________________________________________________
-batch_normalization_3 (Batch (None, 8, 8, 128)         512       
-_________________________________________________________________
-up_sampling2d_1 (UpSampling2 (None, 16, 16, 128)       0         
-_________________________________________________________________
-conv2d_1 (Conv2D)            (None, 16, 16, 128)       147584    
-_________________________________________________________________
-activation_1 (Activation)    (None, 16, 16, 128)       0         
-_________________________________________________________________
-batch_normalization_4 (Batch (None, 16, 16, 128)       512       
-_________________________________________________________________
-up_sampling2d_2 (UpSampling2 (None, 32, 32, 128)       0         
-_________________________________________________________________
-conv2d_2 (Conv2D)            (None, 32, 32, 64)        73792     
-_________________________________________________________________
-activation_2 (Activation)    (None, 32, 32, 64)        0         
-_________________________________________________________________
-batch_normalization_5 (Batch (None, 32, 32, 64)        256       
-_________________________________________________________________
-up_sampling2d_3 (UpSampling2 (None, 64, 64, 64)        0         
-_________________________________________________________________
-conv2d_3 (Conv2D)            (None, 64, 64, 32)        18464     
-_________________________________________________________________
-activation_3 (Activation)    (None, 64, 64, 32)        0         
-_________________________________________________________________
-batch_normalization_6 (Batch (None, 64, 64, 32)        128       
-_________________________________________________________________
-conv2d_4 (Conv2D)            (None, 64, 64, 3)         867       
-_________________________________________________________________
-activation_4 (Activation)    (None, 64, 64, 3)         0         
-=================================================================
-Total params: 1,069,507
-Trainable params: 1,068,803
-Non-trainable params: 704
-_________________________________________________________________
-\end{lstlisting}
-% subsection generator (end)
-\newpage
+The following are the network architecture summary of the generator and the discriminator. None here represents the batch size which is decided at run time.
 \subsection{Discriminator} % (fold)
 \label{sub:discriminator}
 \begin{lstlisting}[basicstyle=\scriptsize,language=Python]
@@ -130,6 +82,54 @@ Non-trainable params: 528
 ____________________________________________________________________________________________
 \end{lstlisting}
 % subsection discriminator (end)
+\newpage
+\subsection{Generator} % (fold)
+\label{sub:generator}
+\begin{lstlisting}[basicstyle=\scriptsize,language=Python]
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense_5 (Dense)              (None, 8192)              827392    
+_________________________________________________________________
+reshape_1 (Reshape)          (None, 8, 8, 128)         0         
+_________________________________________________________________
+batch_normalization_3 (Batch (None, 8, 8, 128)         512       
+_________________________________________________________________
+up_sampling2d_1 (UpSampling2 (None, 16, 16, 128)       0         
+_________________________________________________________________
+conv2d_1 (Conv2D)            (None, 16, 16, 128)       147584    
+_________________________________________________________________
+activation_1 (Activation)    (None, 16, 16, 128)       0         
+_________________________________________________________________
+batch_normalization_4 (Batch (None, 16, 16, 128)       512       
+_________________________________________________________________
+up_sampling2d_2 (UpSampling2 (None, 32, 32, 128)       0         
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 32, 32, 64)        73792     
+_________________________________________________________________
+activation_2 (Activation)    (None, 32, 32, 64)        0         
+_________________________________________________________________
+batch_normalization_5 (Batch (None, 32, 32, 64)        256       
+_________________________________________________________________
+up_sampling2d_3 (UpSampling2 (None, 64, 64, 64)        0         
+_________________________________________________________________
+conv2d_3 (Conv2D)            (None, 64, 64, 32)        18464     
+_________________________________________________________________
+activation_3 (Activation)    (None, 64, 64, 32)        0         
+_________________________________________________________________
+batch_normalization_6 (Batch (None, 64, 64, 32)        128       
+_________________________________________________________________
+conv2d_4 (Conv2D)            (None, 64, 64, 3)         867       
+_________________________________________________________________
+activation_4 (Activation)    (None, 64, 64, 3)         0         
+=================================================================
+Total params: 1,069,507
+Trainable params: 1,068,803
+Non-trainable params: 704
+_________________________________________________________________
+\end{lstlisting}
+% subsection generator (end)
+\par\bigskip
 
 % section network_architectures (end)
 
@@ -158,36 +158,44 @@ Now all that is needed is to find a $G(\hat z)$ that does a good enough job of c
 \subsection{Contextual Loss} % (fold)
 \label{sub:contextual_loss}
 To keep the same context as the input image, make sure the known pixel locations in the input image y are similar to the pixels in $G(z)$. We need to penalize $G(z)$ for not creating a similar image for the pixels that we know about. Formally, we do this by element-wise subtracting the pixels in $y$ from $G(z)$ and looking at how much they differ:
+\bigskip
 \begin{equation} \label{eqn:contextual_loss}
 \bm{L}\textsubscript{contextual}(\bm{z}) = || \bm{M} \odot\  \bm{G(m)} + (1 - \bm{M}) \odot \bm{G} (\hat z) || \textsubscript{1}
 \end{equation}
-where $||x|| \textsubscript{1}=\sum \textsubscript{i} |x \textsubscript{i}|$ is the $l \textsubscript{1}$ norm of some vector $x$.
+\bigskip
+
+\noindent where $||x|| \textsubscript{1}=\sum \textsubscript{i} |x \textsubscript{i}|$ is the $l \textsubscript{1}$ norm of some vector $x$.
 
 % subsection contextual_loss (end)
 
 \subsection{Perceptual Loss} % (fold)
 \label{sub:perceptual_loss}
 To recover an image that looks real, let’s make sure the discriminator is properly convinced that the image looks real. We’ll do this with the same criterion used in training the network:
+\bigskip
 \begin{equation} \label{eqn:perceptual_loss}
 \bm{L}\textsubscript{perceptual}(\bm{z}) = \bm{log} (1 - \bm{D}(\bm{G}(\bm{z})))
 \end{equation}
+
 % subsection perceptual_loss (end)
 
 \subsection{Total Loss} % (fold)
 \label{sub:total_loss}
 We now find $\hat z$ with a combination of the contextual and perceptual losses:
+\bigskip
 \begin{equation} \label{eqn:total_loss}
 \bm{L}(\bm{z}) = \bm{L}\textsubscript{contextual}(\bm{z}) + \lambda \bm{L}\textsubscript{perceptual}(\bm{z})
 \end{equation}
 \begin{equation} \label{eqn:minimization}
 \hat z = arg \min_z \bm{L} (\bm{z})
 \end{equation}
+\bigskip
 
 where $\lambda$ is a hyper-parameter that controls how important the contextual loss is relative to the perceptual loss. Then, as before, the reconstructed image fills in the missing values of $\bm{y}$ with $\bm{G}(\bm{z})$:
 \begin{equation} \label{eqn:reconstructed_image_final}
 \bm{x} \textsubscript{reconstructed} = \bm{M} \odot\  \bm{y} + (1 - \bm{M}) \odot \bm{G} (\hat z)
 \end{equation}
 % subsection total_loss (end)
+\par\bigskip
 
 \subsection{Projected Gradient Descent} % (fold)
 \label{sub:projected_gradient_descent}
@@ -200,6 +208,7 @@ x_{k+1} = x_k - t_k \nabla f(x_k)
 \end{equation}
 
 On the other hand, projected gradient descent minimizes a function subject to a constraint. At each step we move in the direction of the negative gradient, and then "project" onto the feasible set.
+
 
 \begin{equation} \label{eqn:projected_gradient_descent}
 \text{Problem 2:} \min_x f(x) \text{ subject to } x \in C

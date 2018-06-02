@@ -45,8 +45,8 @@
 \BOOKMARK [-1][-]{part*.16}{Chapter 6 Implementation}{}% 45
 \BOOKMARK [0][-]{chapter.6}{Implementation}{part*.16}% 46
 \BOOKMARK [1][-]{section.6.1}{Network Architectures}{chapter.6}% 47
-\BOOKMARK [2][-]{subsection.6.1.1}{Generator}{section.6.1}% 48
-\BOOKMARK [2][-]{subsection.6.1.2}{Discriminator}{section.6.1}% 49
+\BOOKMARK [2][-]{subsection.6.1.1}{Discriminator}{section.6.1}% 48
+\BOOKMARK [2][-]{subsection.6.1.2}{Generator}{section.6.1}% 49
 \BOOKMARK [1][-]{section.6.2}{Demonstration}{chapter.6}% 50
 \BOOKMARK [2][-]{subsection.6.2.1}{Contextual Loss}{section.6.2}% 51
 \BOOKMARK [2][-]{subsection.6.2.2}{Perceptual Loss}{section.6.2}% 52
