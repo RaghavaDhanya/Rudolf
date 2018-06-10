@@ -1,58 +1,195 @@
-@ARTICLE{bowman:reasoning,
-	AUTHOR = "Mic Bowman and Saumya K. Debray and Larry L. Peterson",
-	TITLE = "Reasoning About Naming Systems",
-	JOURNAL = "ACM Trans. Program. Lang. Syst.",
-	VOLUME = {15},
-	NUMBER = {5},
-	PAGES = {795-825},
-	MONTH = "November",
-	YEAR = {1993}	}
+@incollection{gan,
+title = {Generative Adversarial Nets},
+author = {Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
+booktitle = {Advances in Neural Information Processing Systems 27},
+editor = {Z. Ghahramani and M. Welling and C. Cortes and N. D. Lawrence and K. Q. Weinberger},
+pages = {2672--2680},
+year = {2014},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf}
+}
+@incollection{imagenet,
+title = {ImageNet Classification with Deep Convolutional Neural Networks},
+author = {Alex Krizhevsky and Sutskever, Ilya and Hinton, Geoffrey E},
+booktitle = {Advances in Neural Information Processing Systems 25},
+editor = {F. Pereira and C. J. C. Burges and L. Bottou and K. Q. Weinberger},
+pages = {1097--1105},
+year = {2012},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf}
+}
+@article{dcgan,
+  author    = {Alec Radford and
+               Luke Metz and
+               Soumith Chintala},
+  title     = {Unsupervised Representation Learning with Deep Convolutional Generative
+               Adversarial Networks},
+  journal   = {CoRR},
+  volume    = {abs/1511.06434},
+  year      = {2015},
+  url       = {http://arxiv.org/abs/1511.06434},
+  archivePrefix = {arXiv},
+  eprint    = {1511.06434},
+  timestamp = {Wed, 07 Jun 2017 14:40:30 +0200},
+  biburl    = {http://dblp.org/rec/bib/journals/corr/RadfordMC15},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+@incollection{infogan,
+title = {InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets},
+author = {Chen, Xi and Chen, Xi and Duan, Yan and Houthooft, Rein and Schulman, John and Sutskever, Ilya and Abbeel, Pieter},
+booktitle = {Advances in Neural Information Processing Systems 29},
+editor = {D. D. Lee and M. Sugiyama and U. V. Luxburg and I. Guyon and R. Garnett},
+pages = {2172--2180},
+year = {2016},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/6399-infogan-interpretable-representation-learning-by-information-maximizing-generative-adversarial-nets.pdf}
+}
+@incollection{improvedgan,
+title = {Improved Techniques for Training GANs},
+author = {Salimans, Tim and Goodfellow, Ian and Zaremba, Wojciech and Cheung, Vicki and Radford, Alec and Chen, Xi and Chen, Xi},
+booktitle = {Advances in Neural Information Processing Systems 29},
+editor = {D. D. Lee and M. Sugiyama and U. V. Luxburg and I. Guyon and R. Garnett},
+pages = {2234--2242},
+year = {2016},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/6125-improved-techniques-for-training-gans.pdf}
+}
 
-@ARTICLE{braams:babel,
-	AUTHOR = "Johannes Braams",
-	TITLE = "Babel, a Multilingual Style-Option System for Use with LaTeX's Standard Document Styles",
-	JOURNAL = {TUGboat},
-	VOLUME = {12},
-	NUMBER = {2},
-	PAGES = {291-301},
-	MONTH = "June",
-	YEAR = {1991}	}
-
-@INPROCEEDINGS{clark:pct,
-	AUTHOR = "Malcolm Clark",
-	TITLE = "Post Congress Tristesse",
-	BOOKTITLE = "TeX90 Conference Proceedings",
-	PAGES = "84-89",
-	ORGANIZATION = "TeX Users Group",
-	MONTH = "March", 
-	YEAR = {1991}	}
-
-@ARTICLE{herlihy:methodology,
-	AUTHOR = "Maurice Herlihy",
-	TITLE = "A Methodology for Implementing Highly Concurrent
-	Data Objects",
-	JOURNAL = {ACM Trans. Program. Lang. Syst.},
-	VOLUME = {15},
-	NUMBER = {5},
-	PAGES = {745-770},
-	MONTH = "November",
-	YEAR = {1993}	}
-
-@BOOK{Lamport:LaTeX,
-	AUTHOR = "Leslie Lamport",
-	TITLE = "LaTeX User's Guide and Document Reference Manual",
-	PUBLISHER = "Addison-Wesley Publishing Company",
-	ADDRESS = "Reading, Massachusetts",
-	YEAR = "1986"	}
-
-@BOOK{salas:calculus,
-	AUTHOR = "S.L. Salas and Einar Hille",
-	TITLE = "Calculus: One and Several Variable",
-	PUBLISHER = "John Wiley and Sons",
-	ADDRESS = "New York",
-	YEAR = "1978"	}
+@InProceedings{wgan,
+  title = 	 {{W}asserstein Generative Adversarial Networks},
+  author = 	 {Martin Arjovsky and Soumith Chintala and L{\'e}on Bottou},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {214--223},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/arjovsky17a/arjovsky17a.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/arjovsky17a.html},
+  abstract = 	 {We introduce a new algorithm named WGAN, an alternative to traditional GAN training. In this new model, we show that we can improve the stability of learning, get rid of problems like mode collapse, and provide meaningful learning curves useful for debugging and hyperparameter searches. Furthermore, we show that the corresponding optimization problem is sound, and provide extensive theoretical work highlighting the deep connections to different distances between distributions.}
+}
+@incollection{improvedwgan,
+title = {Improved Training of Wasserstein GANs},
+author = {Gulrajani, Ishaan and Ahmed, Faruk and Arjovsky, Martin and Dumoulin, Vincent and Courville, Aaron C},
+booktitle = {Advances in Neural Information Processing Systems 30},
+editor = {I. Guyon and U. V. Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
+pages = {5767--5777},
+year = {2017},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/7159-improved-training-of-wasserstein-gans.pdf}
+}
 
 
+@article{deepresidual,
+  author    = {Kaiming He and
+               Xiangyu Zhang and
+               Shaoqing Ren and
+               Jian Sun},
+  title     = {Deep Residual Learning for Image Recognition},
+  journal   = {CoRR},
+  volume    = {abs/1512.03385},
+  year      = {2015},
+  url       = {http://arxiv.org/abs/1512.03385},
+  archivePrefix = {arXiv},
+  eprint    = {1512.03385},
+  timestamp = {Wed, 07 Jun 2017 14:41:17 +0200},
+  biburl    = {http://dblp.org/rec/bib/journals/corr/HeZRS15},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
 
+@article{congan,
+  author    = {Mehdi Mirza and
+               Simon Osindero},
+  title     = {Conditional Generative Adversarial Nets},
+  journal   = {CoRR},
+  volume    = {abs/1411.1784},
+  year      = {2014},
+  url       = {http://arxiv.org/abs/1411.1784},
+  archivePrefix = {arXiv},
+  eprint    = {1411.1784},
+  timestamp = {Wed, 07 Jun 2017 14:40:37 +0200},
+  biburl    = {http://dblp.org/rec/bib/journals/corr/MirzaO14},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
 
+@incollection{vardivmin,
+title = {f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization},
+author = {Nowozin, Sebastian and Cseke, Botond and Tomioka, Ryota},
+booktitle = {Advances in Neural Information Processing Systems 29},
+editor = {D. D. Lee and M. Sugiyama and U. V. Luxburg and I. Guyon and R. Garnett},
+pages = {271--279},
+year = {2016},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/6066-f-gan-training-generative-neural-samplers-using-variational-divergence-minimization.pdf}
+}
 
+@incollection{copgan,
+title = {Coupled Generative Adversarial Networks},
+author = {Liu, Ming-Yu and Tuzel, Oncel},
+booktitle = {Advances in Neural Information Processing Systems 29},
+editor = {D. D. Lee and M. Sugiyama and U. V. Luxburg and I. Guyon and R. Garnett},
+pages = {469--477},
+year = {2016},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/6544-coupled-generative-adversarial-networks.pdf}
+}
+
+@incollection{capsnet,
+title = {Dynamic Routing Between Capsules},
+author = {Sabour, Sara and Frosst, Nicholas and Hinton, Geoffrey E},
+booktitle = {Advances in Neural Information Processing Systems 30},
+editor = {I. Guyon and U. V. Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
+pages = {3856--3866},
+year = {2017},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/6975-dynamic-routing-between-capsules.pdf}
+}
+@article{acgan,
+  title={Conditional image synthesis with auxiliary classifier gans},
+  author={Odena, Augustus and Olah, Christopher and Shlens, Jonathon},
+  journal={arXiv preprint arXiv:1610.09585},
+  year={2016}
+}
+
+@article{inpainting,
+  author    = {Raymond A. Yeh and
+               Chen Chen and
+               Teck{-}Yian Lim and
+               Mark Hasegawa{-}Johnson and
+               Minh N. Do},
+  title     = {Semantic Image Inpainting with Perceptual and Contextual Losses},
+  journal   = {CoRR},
+  volume    = {abs/1607.07539},
+  year      = {2016},
+  url       = {http://arxiv.org/abs/1607.07539},
+  archivePrefix = {arXiv},
+  eprint    = {1607.07539},
+  timestamp = {Tue, 14 Nov 2017 09:47:40 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/YehCLHD16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@techreport{lfw,
+  title={Labeled faces in the wild: A database for studying face recognition in unconstrained environments},
+  author={Huang, Gary B and Ramesh, Manu and Berg, Tamara and Learned-Miller, Erik},
+  year={2007},
+  institution={Technical Report 07-49, University of Massachusetts, Amherst}
+}
+
+@inproceedings{celeba,
+ author = {Ziwei Liu and Ping Luo and Xiaogang Wang and Xiaoou Tang},
+ title = {Deep Learning Face Attributes in the Wild},
+ booktitle = {Proceedings of International Conference on Computer Vision (ICCV)},
+ month = {December},
+ year = {2015} 
+}
+
+@article{mnist,
+  title={The MNIST database of handwritten digits},
+  author={LeCun, Yann},
+  journal={http://yann. lecun. com/exdb/mnist/},
+  year={1998}
+}

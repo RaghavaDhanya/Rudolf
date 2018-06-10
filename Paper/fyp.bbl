@@ -1,0 +1,85 @@
+\begin{thebibliography}{10}
+
+\bibitem{wgan}
+M.~Arjovsky, S.~Chintala, and L.~Bottou.
+\newblock {W}asserstein generative adversarial networks.
+\newblock In D.~Precup and Y.~W. Teh, editors, {\em Proceedings of the 34th
+  International Conference on Machine Learning}, volume~70 of {\em Proceedings
+  of Machine Learning Research}, pages 214--223, International Convention
+  Centre, Sydney, Australia, 06--11 Aug 2017. PMLR.
+
+\bibitem{infogan}
+X.~Chen, X.~Chen, Y.~Duan, R.~Houthooft, J.~Schulman, I.~Sutskever, and
+  P.~Abbeel.
+\newblock Infogan: Interpretable representation learning by information
+  maximizing generative adversarial nets.
+\newblock In D.~D. Lee, M.~Sugiyama, U.~V. Luxburg, I.~Guyon, and R.~Garnett,
+  editors, {\em Advances in Neural Information Processing Systems 29}, pages
+  2172--2180. Curran Associates, Inc., 2016.
+
+\bibitem{improvedwgan}
+I.~Gulrajani, F.~Ahmed, M.~Arjovsky, V.~Dumoulin, and A.~C. Courville.
+\newblock Improved training of wasserstein gans.
+\newblock In I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach, R.~Fergus,
+  S.~Vishwanathan, and R.~Garnett, editors, {\em Advances in Neural Information
+  Processing Systems 30}, pages 5767--5777. Curran Associates, Inc., 2017.
+
+\bibitem{deepresidual}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun.
+\newblock Deep residual learning for image recognition.
+\newblock {\em CoRR}, abs/1512.03385, 2015.
+
+\bibitem{imagenet}
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In F.~Pereira, C.~J.~C. Burges, L.~Bottou, and K.~Q. Weinberger,
+  editors, {\em Advances in Neural Information Processing Systems 25}, pages
+  1097--1105. Curran Associates, Inc., 2012.
+
+\bibitem{copgan}
+M.-Y. Liu and O.~Tuzel.
+\newblock Coupled generative adversarial networks.
+\newblock In D.~D. Lee, M.~Sugiyama, U.~V. Luxburg, I.~Guyon, and R.~Garnett,
+  editors, {\em Advances in Neural Information Processing Systems 29}, pages
+  469--477. Curran Associates, Inc., 2016.
+
+\bibitem{congan}
+M.~Mirza and S.~Osindero.
+\newblock Conditional generative adversarial nets.
+\newblock {\em CoRR}, abs/1411.1784, 2014.
+
+\bibitem{vardivmin}
+S.~Nowozin, B.~Cseke, and R.~Tomioka.
+\newblock f-gan: Training generative neural samplers using variational
+  divergence minimization.
+\newblock In D.~D. Lee, M.~Sugiyama, U.~V. Luxburg, I.~Guyon, and R.~Garnett,
+  editors, {\em Advances in Neural Information Processing Systems 29}, pages
+  271--279. Curran Associates, Inc., 2016.
+
+\bibitem{acgan}
+A.~Odena, C.~Olah, and J.~Shlens.
+\newblock Conditional image synthesis with auxiliary classifier gans.
+\newblock {\em arXiv preprint arXiv:1610.09585}, 2016.
+
+\bibitem{dcgan}
+A.~Radford, L.~Metz, and S.~Chintala.
+\newblock Unsupervised representation learning with deep convolutional
+  generative adversarial networks.
+\newblock {\em CoRR}, abs/1511.06434, 2015.
+
+\bibitem{capsnet}
+S.~Sabour, N.~Frosst, and G.~E. Hinton.
+\newblock Dynamic routing between capsules.
+\newblock In I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach, R.~Fergus,
+  S.~Vishwanathan, and R.~Garnett, editors, {\em Advances in Neural Information
+  Processing Systems 30}, pages 3856--3866. Curran Associates, Inc., 2017.
+
+\bibitem{improvedgan}
+T.~Salimans, I.~Goodfellow, W.~Zaremba, V.~Cheung, A.~Radford, X.~Chen, and
+  X.~Chen.
+\newblock Improved techniques for training gans.
+\newblock In D.~D. Lee, M.~Sugiyama, U.~V. Luxburg, I.~Guyon, and R.~Garnett,
+  editors, {\em Advances in Neural Information Processing Systems 29}, pages
+  2234--2242. Curran Associates, Inc., 2016.
+
+\end{thebibliography}
